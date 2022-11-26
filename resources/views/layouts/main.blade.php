@@ -9,9 +9,9 @@
     <meta name="description" content="">
     <meta name="keywords" content="">
 
-    <title>Mindtox - Psychologist, Psychology, Therapy &amp; Counseling HTML5 Template</title>
+    <title>CUSA - COMPREHENSIVE SYMPOSIUM ON ULTRASOUND FOR ANAESTHESIOLOGIST</title>
 
-    <link rel="icon" type="image/x-icon" href="favicons/logo-favicon.png">
+    <link rel="icon" type="image/x-icon" href="{{asset('web/images/logo-favicon.png')}}">
 
     <link rel="stylesheet" href="{{asset('web/css/css-bootstrap.min.css')}}">
     <link rel="stylesheet" href="{{asset('web/css/css-all-fontawesome.min.css')}}">
@@ -36,28 +36,10 @@
     <header class="header">
 
         <div class="header-top">
-            <div class="container">
+            
                 <div class="header-top-wrapper">
-                    <div class="header-top-left">
-                        <div class="header-top-contact">
-                            <ul>
-                                <li><a href="#"><i class="far fa-map-marker-alt"></i>Conference information
-                                        displayed here</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="header-top-right">
-                        <div class="header-top-social">
-                            <p style="color:white;">Countdown timer</p>
-                            <!--<a href="#"><i class="fab fa-facebook-f"></i></a>-->
-                            <!--<a href="#"><i class="fab fa-twitter"></i></a>-->
-                            <!--<a href="#"><i class="fab fa-instagram"></i></a>-->
-                            <!--<a href="#"><i class="fab fa-linkedin-in"></i></a>-->
-                            <!--<a href="#"><i class="fab fa-whatsapp"></i></a>-->
-                        </div>
-                    </div>
+                    <img src="{{asset('web/images/aiimscusa_main.png')}}" />
                 </div>
-            </div>
         </div>
         <div class="main-navigation">
             <nav class="navbar navbar-expand-lg">
@@ -75,10 +57,10 @@
                     <div class="collapse navbar-collapse" id="main_nav">
                         <ul class="navbar-nav">
                             <li class="nav-item"><a class="nav-link active" href="/"> Home </a></li>
-                            <li class="nav-item"><a class="nav-link" target="_blank" href="{{asset('web/pdf/Program.pdf')}}"> Scientific Program </a></li>
-                            <li class="nav-item"><a class="nav-link" href="{{route('gallery')}}"> Gallery </a></li>
-
-                            <li class="nav-item dropdown">
+                            <li class="nav-item"><a class="nav-link" href="{{route('about-us')}}">Abstract</a></li>
+                            <li class="nav-item"><a class="nav-link" href="{{route('organiser')}}"> Organisers </a></li>
+                             <li class="nav-item"><a class="nav-link" href="{{route('commitee')}}"> Committee </a></li>
+                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle " href="#"
                                     data-bs-toggle="dropdown">Faculty</a>
                                 <ul class="dropdown-menu fade-up">
@@ -86,13 +68,18 @@
                                     <li><a class="dropdown-item" href="{{route('national_faculty')}}">National Faculty</a></li>
                                 </ul>
                             </li>
-                            <li class="nav-item"><a class="nav-link" href="{{route('commitee')}}"> Committee </a></li>
-                       
-                            <li class="nav-item"><a class="nav-link" href="{{route('organiser')}}"> Organizers </a></li>
+                            <li class="nav-item"><a class="nav-link" target="_blank" href="{{asset('web/pdf/Program.pdf')}}"> Scientific Program </a></li>
+                            
 
-                            <li class="nav-item"><a class="nav-link"  href="{{route('contact')}}">Contact</a></li>
-                            <li class="nav-item"><a class="nav-link" href="{{route('about-us')}}">About us</a></li>
+                            
+                           
+                       
+                            
+
+                            <!--li class="nav-item"><a class="nav-link"  href="{{route('contact')}}">Contact</a></li-->
+                            
                             <li class="nav-item"><a class="nav-link" href="{{route('download')}}">Download</a></li>
+                            <li class="nav-item"><a class="nav-link" href="{{route('gallery')}}"> Gallery </a></li>
 
                         </ul>
                         <div class="header-nav-right">
@@ -100,7 +87,7 @@
                                 <a href="#" class="search-box-outer"><i class="far fa-search"></i></a>
                             </div> --}}
                             <div class="header-btn">
-                                <a href="#" class="theme-btn">Registration<i class="far fa-arrow-right"></i></a>
+                                <a href="https://docs.google.com/forms/d/e/1FAIpQLSecmHa4UtvlI_YJDZ6mDGk47g2-wnSQtSE-OHdL9PQq-1g0CA/viewform?usp=sf_link" class="theme-btn">Registration<i class="far fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
