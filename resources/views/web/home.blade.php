@@ -3,6 +3,7 @@
 <div class="hero-section hero-slider owl-carousel owl-theme">
     <div class="hero-single" style="background-image: url({{asset('web/assets/img/slider/slider-1.jpg')}})">
         <div class="container">
+            
             <div class="row align-items-center">
                 <div class="col-md-7 col-lg-7">
                     <div class="hero-content">
@@ -22,7 +23,7 @@
                             data-wow-delay="1s">
                             <a href="contact.html" class="theme-btn">Contact Us<i
                                     class="far fa-arrow-right"></i></a>
-                            <a href="about.html" class="theme-btn theme-btn2">About Us<i
+                            <a href="{{route('about-us')}}" class="theme-btn theme-btn2">About Us<i
                                     class="far fa-arrow-right"></i></a>
                         </div>
                     </div>
@@ -51,7 +52,7 @@
                             data-wow-delay="1s">
                             <a href="contact.html" class="theme-btn">Contact Us<i
                                     class="far fa-arrow-right"></i></a>
-                            <a href="about.html" class="theme-btn theme-btn2">About Us<i
+                            <a href="{{route('about-us')}}" class="theme-btn theme-btn2">About Us<i
                                     class="far fa-arrow-right"></i></a>
                         </div>
                     </div>
@@ -80,7 +81,7 @@
                             data-wow-delay="1s">
                             <a href="contact.html" class="theme-btn">Contact Us<i
                                     class="far fa-arrow-right"></i></a>
-                            <a href="about.html" class="theme-btn theme-btn2">About Us<i
+                            <a href="{{route('about-us')}}" class="theme-btn theme-btn2">About Us<i
                                     class="far fa-arrow-right"></i></a>
                         </div>
                     </div>
@@ -149,6 +150,120 @@
 </div>
 
 
+<div class="testimonial-area bg py-120">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 mx-auto">
+                <div class="site-heading text-center">
+                    <span class="site-title-tagline">Testimonials</span>
+                    <h2 class="site-title">What Client <span>Say's</span></h2>
+                </div>
+            </div>
+        </div>
+        <div class="testimonial-slider owl-carousel owl-theme">
+            <div class="testimonial-single">
+                <div class="testimonial-quote">
+                    <span class="testimonial-quote-icon"><i class="fal fa-quote-left"></i></span>
+                    <p>
+                        There are many variations of passages available but the majority have suffered
+                        alteration in some form by injected.
+                    </p>
+                </div>
+                <div class="testimonial-content">
+                    <div class="testimonial-author-img">
+                        <img src="{{asset('web/images/testimonial-01.jpg')}}" alt="">
+                    </div>
+                    <div class="testimonial-author-info">
+                        <h4>Sylvia H Green</h4>
+                        <p>Founder &amp; CEO</p>
+                        <div class="testimonial-rate">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-single">
+                <div class="testimonial-quote">
+                    <span class="testimonial-quote-icon"><i class="fal fa-quote-left"></i></span>
+                    <p>
+                        There are many variations of passages available but the majority have suffered
+                        alteration in some form by injected.
+                    </p>
+                </div>
+                <div class="testimonial-content">
+                    <div class="testimonial-author-img">
+                        <img src="{{asset('web/images/testimonial-02.jpg')}}"  alt="">
+                    </div>
+                    <div class="testimonial-author-info">
+                        <h4>Gordon D Novak</h4>
+                        <p>Founder &amp; CEO</p>
+                        <div class="testimonial-rate">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-single">
+                <div class="testimonial-quote">
+                    <span class="testimonial-quote-icon"><i class="fal fa-quote-left"></i></span>
+                    <p>
+                        There are many variations of passages available but the majority have suffered
+                        alteration in some form by injected.
+                    </p>
+                </div>
+                <div class="testimonial-content">
+                    <div class="testimonial-author-img">
+                        <img src="{{asset('web/images/testimonial-03.jpg')}}"alt="">
+                    </div>
+                    <div class="testimonial-author-info">
+                        <h4>Reid E Butt</h4>
+                        <p>Founder &amp; CEO</p>
+                        <div class="testimonial-rate">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-single">
+                <div class="testimonial-quote">
+                    <span class="testimonial-quote-icon"><i class="fal fa-quote-left"></i></span>
+                    <p>
+                        There are many variations of passages available but the majority have suffered
+                        alteration in some form by injected.
+                    </p>
+                </div>
+                <div class="testimonial-content">
+                    <div class="testimonial-author-img">
+                        <img src="{{asset('web/images/testimonial-04.jpg')}}" alt="">
+                    </div>
+                    <div class="testimonial-author-info">
+                        <h4>Parker Jimenez</h4>
+                        <p>Founder &amp; CEO</p>
+                        <div class="testimonial-rate">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <div class="about-area pb-120">
     <div class="container">
         <div class="row align-items-center">
@@ -198,7 +313,7 @@
                             </li>
                         </ul>
                     </div>
-                    <a href="about.html" class="theme-btn mt-4">Discover More <i
+                    <a href="{{route('about-us')}}" class="theme-btn mt-4">Discover More <i
                             class="far fa-arrow-right"></i></a>
                 </div>
             </div>
@@ -676,7 +791,7 @@
 </div>
 
 
-<div class="team-area py-120">
+{{-- <div class="team-area py-120">
     <div class="container">
         <div class="row">
             <div class="col-lg-6 mx-auto">
@@ -761,7 +876,7 @@
             </div>
         </div>
     </div>
-</div>
+</div> --}}
 
 
 <div class="choose-area bg py-120">
@@ -769,7 +884,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6">
                 <div class="choose-img">
-                    <img src="images/choose-01.png" alt="">
+                    <img src="{{asset('web/images/choose-01.png')}}" alt="">
                 </div>
             </div>
             <div class="col-lg-6">
@@ -928,120 +1043,6 @@
 </div>
 
 
-<div class="testimonial-area bg py-120">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6 mx-auto">
-                <div class="site-heading text-center">
-                    <span class="site-title-tagline">Testimonials</span>
-                    <h2 class="site-title">What Client <span>Say's</span></h2>
-                </div>
-            </div>
-        </div>
-        <div class="testimonial-slider owl-carousel owl-theme">
-            <div class="testimonial-single">
-                <div class="testimonial-quote">
-                    <span class="testimonial-quote-icon"><i class="fal fa-quote-left"></i></span>
-                    <p>
-                        There are many variations of passages available but the majority have suffered
-                        alteration in some form by injected.
-                    </p>
-                </div>
-                <div class="testimonial-content">
-                    <div class="testimonial-author-img">
-                        <img src="images/testimonial-01.jpg" alt="">
-                    </div>
-                    <div class="testimonial-author-info">
-                        <h4>Sylvia H Green</h4>
-                        <p>Founder &amp; CEO</p>
-                        <div class="testimonial-rate">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="testimonial-single">
-                <div class="testimonial-quote">
-                    <span class="testimonial-quote-icon"><i class="fal fa-quote-left"></i></span>
-                    <p>
-                        There are many variations of passages available but the majority have suffered
-                        alteration in some form by injected.
-                    </p>
-                </div>
-                <div class="testimonial-content">
-                    <div class="testimonial-author-img">
-                        <img src="images/testimonial-02.jpg" alt="">
-                    </div>
-                    <div class="testimonial-author-info">
-                        <h4>Gordon D Novak</h4>
-                        <p>Founder &amp; CEO</p>
-                        <div class="testimonial-rate">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="testimonial-single">
-                <div class="testimonial-quote">
-                    <span class="testimonial-quote-icon"><i class="fal fa-quote-left"></i></span>
-                    <p>
-                        There are many variations of passages available but the majority have suffered
-                        alteration in some form by injected.
-                    </p>
-                </div>
-                <div class="testimonial-content">
-                    <div class="testimonial-author-img">
-                        <img src="images/testimonial-03.jpg" alt="">
-                    </div>
-                    <div class="testimonial-author-info">
-                        <h4>Reid E Butt</h4>
-                        <p>Founder &amp; CEO</p>
-                        <div class="testimonial-rate">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="testimonial-single">
-                <div class="testimonial-quote">
-                    <span class="testimonial-quote-icon"><i class="fal fa-quote-left"></i></span>
-                    <p>
-                        There are many variations of passages available but the majority have suffered
-                        alteration in some form by injected.
-                    </p>
-                </div>
-                <div class="testimonial-content">
-                    <div class="testimonial-author-img">
-                        <img src="images/testimonial-04.jpg" alt="">
-                    </div>
-                    <div class="testimonial-author-info">
-                        <h4>Parker Jimenez</h4>
-                        <p>Founder &amp; CEO</p>
-                        <div class="testimonial-rate">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 
 
 <div class="blog-area pt-120">
@@ -1055,10 +1056,11 @@
             </div>
         </div>
         <div class="row">
+          
             <div class="col-md-6 col-lg-4">
                 <div class="blog-item">
                     <div class="blog-item-img">
-                        <img src="images/blog-01.jpg" alt="Thumb">
+                        <img src="{{asset('web/images/blog-02.jpg')}}" alt="Thumb">
                     </div>
                     <div class="blog-item-info">
                         <h4 class="blog-title">
@@ -1080,29 +1082,7 @@
             <div class="col-md-6 col-lg-4">
                 <div class="blog-item">
                     <div class="blog-item-img">
-                        <img src="images/blog-02.jpg" alt="Thumb">
-                    </div>
-                    <div class="blog-item-info">
-                        <h4 class="blog-title">
-                            <a href="#">There are many variates of passages alteration</a>
-                        </h4>
-                        <div class="blog-item-meta">
-                            <ul>
-                                <li><a href="#"><i class="far fa-user-circle"></i> By Alicia Davis</a>
-                                </li>
-                                <li><a href="#"><i class="far fa-calendar-alt"></i> April 17, 2022</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <p>At vero eos et accusamus et iusto odio ducimus qui blanditiis deleniti atque </p>
-                        <a class="blog-btn" href="#">Read More <i class="far fa-arrow-right"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4">
-                <div class="blog-item">
-                    <div class="blog-item-img">
-                        <img src="images/blog-03.jpg" alt="Thumb">
+                        <img src="{{asset('web/images/blog-03.jpg')}}" alt="Thumb">
                     </div>
                     <div class="blog-item-info">
                         <h4 class="blog-title">

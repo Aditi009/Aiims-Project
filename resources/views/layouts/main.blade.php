@@ -10,7 +10,29 @@
     <meta name="keywords" content="">
 
     <title>CUSA - COMPREHENSIVE SYMPOSIUM ON ULTRASOUND FOR ANAESTHESIOLOGIST</title>
+<style>
+    li span {
+  display: block;
+}
+.count{
+    display: flex
+}
+.count li{
+ 
+    text-align: center;
+    padding: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    color: red;
+    font-weight: 500;
+}
+.colon{
+    margin-top: 5px;
+    color: red;
+    font-weight: 900;
 
+}
+</style>
     <link rel="icon" type="image/x-icon" href="{{asset('web/images/logo-favicon.png')}}">
 
     <link rel="stylesheet" href="{{asset('web/css/css-bootstrap.min.css')}}">
@@ -57,10 +79,10 @@
                     <div class="collapse navbar-collapse" id="main_nav">
                         <ul class="navbar-nav">
                             <li class="nav-item"><a class="nav-link active" href="/"> Home </a></li>
+                            <li class="nav-item"><a class="nav-link" target="_blank" href="{{asset('web/pdf/Program.pdf')}}"> Scientific Program </a></li>
+
                             <li class="nav-item"><a class="nav-link" href="{{route('about-us')}}">Abstract</a></li>
-                            <li class="nav-item"><a class="nav-link" href="{{route('organiser')}}"> Organisers </a></li>
-                             <li class="nav-item"><a class="nav-link" href="{{route('commitee')}}"> Committee </a></li>
-                             <li class="nav-item dropdown">
+                            <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle " href="#"
                                     data-bs-toggle="dropdown">Faculty</a>
                                 <ul class="dropdown-menu fade-up">
@@ -68,7 +90,9 @@
                                     <li><a class="dropdown-item" href="{{route('national_faculty')}}">National Faculty</a></li>
                                 </ul>
                             </li>
-                            <li class="nav-item"><a class="nav-link" target="_blank" href="{{asset('web/pdf/Program.pdf')}}"> Scientific Program </a></li>
+                            <li class="nav-item"><a class="nav-link" href="{{route('organiser')}}"> Organisers </a></li>
+                             <li class="nav-item"><a class="nav-link" href="{{route('commitee')}}"> Committee </a></li>
+                           
                             
 
                             
@@ -76,26 +100,83 @@
                        
                             
 
-                            <!--li class="nav-item"><a class="nav-link"  href="{{route('contact')}}">Contact</a></li-->
                             
                             <li class="nav-item"><a class="nav-link" href="{{route('download')}}">Download</a></li>
                             <li class="nav-item"><a class="nav-link" href="{{route('gallery')}}"> Gallery </a></li>
+                            <li class="nav-item"><a class="nav-link"  href="{{route('contact')}}">Contact Us</a></li>
+
 
                         </ul>
                         <div class="header-nav-right">
                             {{-- <div class="header-nav-search">
                                 <a href="#" class="search-box-outer"><i class="far fa-search"></i></a>
                             </div> --}}
-                            <div class="header-btn">
+                            <div class="header-btn d-flex">
                                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSecmHa4UtvlI_YJDZ6mDGk47g2-wnSQtSE-OHdL9PQq-1g0CA/viewform?usp=sf_link" class="theme-btn">Registration<i class="far fa-arrow-right"></i></a>
+                               
+
                             </div>
+                          
+                            <div class="">
+                                <ul class="count">
+                                    <li><span id="days"></span>days</li><span class="colon">:</span>
+                                    <li><span id="hours"></span>Hours</li><span class="colon">:</span>
+                                    <li><span id="minutes"></span>Minutes</li><span class="colon">:</span>
+                                    <li><span id="seconds"></span>Seconds</li>
+                                  </ul>
+                            </div>
+                               
                         </div>
                     </div>
                 </div>
             </nav>
         </div>
     </header>
+<script>
+    (function () {
+  const second = 1000,
+        minute = second * 60,
+        hour = minute * 60,
+        day = hour * 24;
 
+  //I'm adding this section so I don't have to keep updating this pen every year :-)
+  //remove this if you don't need it
+  let today = new Date(),
+      dd = String(today.getDate()).padStart(2, "0"),
+      mm = String(today.getMonth() + 1).padStart(2, "0"),
+      yyyy = today.getFullYear(),
+      nextYear = yyyy + 1,
+      dayMonth = "09/30/",
+      birthday = dayMonth + yyyy;
+  
+  today = mm + "/" + dd + "/" + yyyy;
+  if (today > birthday) {
+    birthday = dayMonth + nextYear;
+  }
+  //end
+  
+  const countDown = new Date(birthday).getTime(),
+      x = setInterval(function() {    
+
+        const now = new Date().getTime(),
+              distance = countDown - now;
+
+        document.getElementById("days").innerText = Math.floor(distance / (day)),
+          document.getElementById("hours").innerText = Math.floor((distance % (day)) / (hour)),
+          document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute)),
+          document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
+
+        //do something later when date is reached
+        if (distance < 0) {
+          document.getElementById("headline").innerText = "It's my birthday!";
+          document.getElementById("countdown").style.display = "none";
+          document.getElementById("content").style.display = "block";
+          clearInterval(x);
+        }
+        //seconds
+      }, 0)
+  }());
+</script>
 
     <div class="search-popup">
         <button class="close-search"><span class="far fa-times"></span></button>
@@ -115,30 +196,32 @@
         <div class="footer-widget">
             <div class="container pt-60 pb-50">
                 <div class="row footer-widget-wrapper">
-                    <div class="col-md-6 col-lg-4">
+                    <div class="col-md-6 col-lg-6">
                         <div class="footer-widget-box about-us">
                             <a href="#" class="footer-logo">
-                                <img src="{{asset('web/images/logo-logo-light.png')}}" alt="">
+                                <img src="{{asset('web/images/logo-logo.png')}}" alt="">
                             </a>
                             <p class="mb-20">
                                 We are many variations of passages available but the majority have suffered alteration
                                 in some form by injected humour.
                             </p>
                             <ul class="footer-contact">
-                                <li><i class="far fa-map-marker-alt"></i>25/B Milford Road, New York</li>
-                                <li><a href="tel:+21236547898"><i class="far fa-phone"></i>+2 123 654 7898</a></li>
+                                <li><i class="far fa-map-marker-alt"></i> Conference Secretariat Room No: 5014 A,
+                                    5th floor, Teaching Block, AIIMS, New Delhi</li>
+                                <li><a href="tel:+21236547898"><i class="far fa-phone"></i>91-9810 104 383, +91-9899 323 110,
+                                    +91-7042 129 428
+                                    </a></li>
                                 <li><a href="/cdn-cgi/l/email-protection#4920272f26092c31282439252c672a2624"><i
-                                            class="far fa-envelope"></i><span class="__cf_email__"
-                                            data-cfemail="e0898e868fa08598818d908c85ce838f8d">[email&nbsp;protected]</span></a>
+                                            class="far fa-envelope"></i> aiimscusa@gmail.com</a>
                                 </li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-2">
+                    <div class="col-md-6 col-lg-3">
                         <div class="footer-widget-box list">
                             <h4 class="footer-widget-title">Quick Links</h4>
                             <ul class="footer-list">
-                                <li><a href="#"><i class="fas fa-caret-right"></i> About Us</a></li>
+                                <li><a href="{{route('about-us')}}"><i class="fas fa-caret-right"></i> About Us</a></li>
                                 <li><a href="#"><i class="fas fa-caret-right"></i> Our Psychiatrist</a></li>
                                 <li><a href="#"><i class="fas fa-caret-right"></i> Terms Of Service</a></li>
                                 <li><a href="#"><i class="fas fa-caret-right"></i> Privacy policy</a></li>
@@ -147,7 +230,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-2">
+                    <div class="col-md-6 col-lg-3">
                         <div class="footer-widget-box list">
                             <h4 class="footer-widget-title">Support</h4>
                             <ul class="footer-list">
@@ -160,7 +243,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4">
+                    {{-- <div class="col-md-6 col-lg-4">
                         <div class="footer-widget-box list">
                             <h4 class="footer-widget-title">Opening Hour</h4>
                             <div class="footer-opening">
@@ -175,7 +258,7 @@
                                 </ul>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
             <div class="footer-bottom">

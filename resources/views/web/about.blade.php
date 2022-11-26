@@ -82,7 +82,7 @@
 
                             </p>
                           
-                            <a href="about.html" class="theme-btn mt-4">Discover More <i
+                            <a href="{{route('about-us')}}" class="theme-btn mt-4">Discover More <i
                                     class="far fa-arrow-right"></i></a>
                         </div>
                     </div>
