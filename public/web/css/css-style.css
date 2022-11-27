@@ -596,9 +596,10 @@ container
 
 @media (min-width: 1200px) {
   .container, .container-sm, .container-md, .container-lg, .container-xl {
-    max-width: 1750px;
+    max-width: auto;
   }
 }
+
 
 
 
@@ -3216,6 +3217,19 @@ body.rtl-mode .price-wrapper {
     margin-left: 3rem;
     margin-right: 0;
   }
+
+
+}
+
+
+@media only screen and (max-width: 600px) {
+  .header-top-wrapper img{
+    margin-top: 78px !important;
+  }
+
+  .header-top {
+    display: block;
+}
 }
 
 /* ===================

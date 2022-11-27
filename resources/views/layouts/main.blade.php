@@ -32,6 +32,31 @@
     font-weight: 900;
 
 }
+/* * Hide from both screenreaders and browsers: h5bp.com/u */
+.hidden {
+	display: none !important;
+	visibility: hidden;
+}
+
+.dropdown-toggle::after {
+    display: inline-block;
+    margin-left: 5px;
+    vertical-align: 1.5px;
+    font-family: 'Font Awesome 5 Pro';
+    content: "" !important;
+    font-weight: 600;
+    border: none;
+    font-size: 11px;
+}
+
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
 </style>
     <link rel="icon" type="image/x-icon" href="{{asset('web/images/logo-favicon.png')}}">
 
@@ -66,9 +91,9 @@
         <div class="main-navigation">
             <nav class="navbar navbar-expand-lg">
                 <div class="container">
-                    <a class="navbar-brand" href="index.html">
+                    {{-- <a class="navbar-brand" href="index.html">
                         <img src="{{asset('web/images/logo-logo.png')}}" alt="logo">
-                    </a>
+                    </a> --}}
                     <div class="mobile-menu-right">
                         <a href="#" class="mobile-search-btn search-box-outer"><i class="far fa-search"></i></a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -112,12 +137,13 @@
                                 <a href="#" class="search-box-outer"><i class="far fa-search"></i></a>
                             </div> --}}
                             <div class="header-btn d-flex">
-                                <a href="https://docs.google.com/forms/d/e/1FAIpQLSecmHa4UtvlI_YJDZ6mDGk47g2-wnSQtSE-OHdL9PQq-1g0CA/viewform?usp=sf_link" class="theme-btn">Registration<i class="far fa-arrow-right"></i></a>
+                                <a href="https://docs.google.com/forms/d/e/1FAIpQLSecmHa4UtvlI_YJDZ6mDGk47g2-wnSQtSE-OHdL9PQq-1g0CA/viewform" class="theme-btn">Registration<i class="far fa-arrow-right"></i></a>
                                
 
                             </div>
                           
-                            <div class="">
+
+                            {{-- <div class="">
                                 <ul class="count">
                                     <li><span id="days"></span>days</li><span class="colon">:</span>
                                     <li><span id="hours"></span>Hours</li><span class="colon">:</span>
@@ -125,58 +151,14 @@
                                     <li><span id="seconds"></span>Seconds</li>
                                   </ul>
                             </div>
-                               
+                                --}}
                         </div>
                     </div>
                 </div>
             </nav>
         </div>
     </header>
-<script>
-    (function () {
-  const second = 1000,
-        minute = second * 60,
-        hour = minute * 60,
-        day = hour * 24;
 
-  //I'm adding this section so I don't have to keep updating this pen every year :-)
-  //remove this if you don't need it
-  let today = new Date(),
-      dd = String(today.getDate()).padStart(2, "0"),
-      mm = String(today.getMonth() + 1).padStart(2, "0"),
-      yyyy = today.getFullYear(),
-      nextYear = yyyy + 1,
-      dayMonth = "09/30/",
-      birthday = dayMonth + yyyy;
-  
-  today = mm + "/" + dd + "/" + yyyy;
-  if (today > birthday) {
-    birthday = dayMonth + nextYear;
-  }
-  //end
-  
-  const countDown = new Date(birthday).getTime(),
-      x = setInterval(function() {    
-
-        const now = new Date().getTime(),
-              distance = countDown - now;
-
-        document.getElementById("days").innerText = Math.floor(distance / (day)),
-          document.getElementById("hours").innerText = Math.floor((distance % (day)) / (hour)),
-          document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute)),
-          document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
-
-        //do something later when date is reached
-        if (distance < 0) {
-          document.getElementById("headline").innerText = "It's my birthday!";
-          document.getElementById("countdown").style.display = "none";
-          document.getElementById("content").style.display = "block";
-          clearInterval(x);
-        }
-        //seconds
-      }, 0)
-  }());
-</script>
 
     <div class="search-popup">
         <button class="close-search"><span class="far fa-times"></span></button>
@@ -221,25 +203,25 @@
                         <div class="footer-widget-box list">
                             <h4 class="footer-widget-title">Quick Links</h4>
                             <ul class="footer-list">
-                                <li><a href="{{route('about-us')}}"><i class="fas fa-caret-right"></i> About Us</a></li>
-                                <li><a href="#"><i class="fas fa-caret-right"></i> Our Psychiatrist</a></li>
-                                <li><a href="#"><i class="fas fa-caret-right"></i> Terms Of Service</a></li>
-                                <li><a href="#"><i class="fas fa-caret-right"></i> Privacy policy</a></li>
-                                <li><a href="#"><i class="fas fa-caret-right"></i> Our Services</a></li>
-                                <li><a href="#"><i class="fas fa-caret-right"></i> Latest Blog</a></li>
+                                <li><a href="{{route('about-us')}}"><i class="fas fa-caret-right"></i> Abstract</a></li>
+                                <li><a target="_blank" href="{{asset('web/pdf/Program.pdf')}}"><i class="fas fa-caret-right"></i>  Scientific Program </a></li>
+                                <li><a href="{{route('organiser')}}"><i class="fas fa-caret-right"></i> Organisers</a></li>
+                                <li><a href="{{route('commitee')}}"><i class="fas fa-caret-right"></i> Committee</a></li>
+                                <li><a href="{{route('download')}}"><i class="fas fa-caret-right"></i> Downloads</a></li>
+                                <li><a href="https://www.delhimetrorail.com/" target="_blank"><i class="fas fa-caret-right"></i>Delhi Metro</a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-3">
                         <div class="footer-widget-box list">
-                            <h4 class="footer-widget-title">Support</h4>
+                            <h4 class="footer-widget-title">Sponsorsd</h4>
                             <ul class="footer-list">
-                                <li><a href="#"><i class="fas fa-caret-right"></i> Online Support</a></li>
+                                {{-- <li><a href="#"><i class="fas fa-caret-right"></i> Online Support</a></li>
                                 <li><a href="#"><i class="fas fa-caret-right"></i> FAQ's</a></li>
                                 <li><a href="#"><i class="fas fa-caret-right"></i> Free Consultancy</a></li>
                                 <li><a href="#"><i class="fas fa-caret-right"></i> 24/7 Service</a></li>
                                 <li><a href="#"><i class="fas fa-caret-right"></i> Make Call</a></li>
-                                <li><a href="#"><i class="fas fa-caret-right"></i> Contact Support</a></li>
+                                <li><a href="#"><i class="fas fa-caret-right"></i> Contact Support</a></li> --}}
                             </ul>
                         </div>
                     </div>
@@ -261,48 +243,21 @@
                     </div> --}}
                 </div>
             </div>
-            <div class="footer-bottom">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-md-6">
-                            <ul class="footer-social">
-                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="footer-newsletter">
-                                <div class="subscribe-form">
-                                    <form action="#">
-                                        <input type="email" class="form-control" placeholder="Your Email">
-                                        <button class="theme-btn" type="submit">
-                                            <span class="far fa-paper-plane"></span> Subscribe
-                                        </button>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+           
         </div>
         <div class="copyright">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 align-self-center">
                         <p class="copyright-text">
-                            &copy; Copyright <span id="date"></span> <a href="#"> MINDTOX </a> All Rights
+                            &copy; Copyright <span id="date"></span> <a href="#"> CUSA </a> All Rights
                             Reserved.
                         </p>
                     </div>
                     <div class="col-lg-6 align-self-center">
                         <ul class="footer-menu">
-                            <li><a href="#">Support</a></li>
-                            <li><a href="#">Terms Of Services</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
+                            <li style="display: flex"><span> Designed By </span> <a  target="_blank" style="margin-left: 10px;color:#08ffc7" href="https://swiftcoder.in">ADISOFT</a></li>
+                           
                         </ul>
                     </div>
                 </div>
