@@ -49,8 +49,411 @@
     font-size: 11px;
 }
 
+#toast-container > .toast-info {
+    background-image: none;
+    background-color: #0d36ee;
+    color: white;
+}
 
 
+
+@keyframes animate-top {
+  0% {
+   background: #3e3e3e; /* Old browsers */
+background: -moz-linear-gradient(top,  #3e3e3e 0%, #2b2b2b 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3e3e3e), color-stop(100%,#2b2b2b)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #3e3e3e 0%,#2b2b2b 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #3e3e3e 0%,#2b2b2b 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #3e3e3e 0%,#2b2b2b 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #3e3e3e 0%,#2b2b2b 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3e3e3e', endColorstr='#2b2b2b',GradientType=0 );
+  }
+  
+  100% {
+    color: #474747;
+    
+    transform: 
+      translateX(0px) 
+      translateY(0.35em) 
+      translateZ(5px) 
+      rotateX(-90deg)
+      rotateY(0deg)
+      rotateZ(0deg);
+  }
+}
+
+@keyframes animate-bottom {
+  0% {
+    color: #474747;
+    opacity: 1;
+  }
+  
+  100% {
+    transform: 
+      translateX(0) 
+      translateY(0) 
+      translateZ(0) 
+      rotateX(0deg) 
+      rotateY(0deg)
+      rotateZ(0deg);
+    
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes animate-top {
+  0% {
+   background: #3e3e3e; /* Old browsers */
+background: -moz-linear-gradient(top,  #3e3e3e 0%, #2b2b2b 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3e3e3e), color-stop(100%,#2b2b2b)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #3e3e3e 0%,#2b2b2b 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #3e3e3e 0%,#2b2b2b 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #3e3e3e 0%,#2b2b2b 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #3e3e3e 0%,#2b2b2b 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3e3e3e', endColorstr='#2b2b2b',GradientType=0 );
+  }
+  
+  100% {
+    color: #474747;
+    
+    -webkit-transform: 
+      translateX(0px) 
+      translateY(0.35em) 
+      translateZ(5px) 
+      rotateX(-90deg)
+      rotateY(0deg)
+      rotateZ(0deg);
+  }
+}
+
+@-webkit-keyframes animate-bottom {
+  0% {
+    color: #474747;
+    opacity: 1;
+  }
+  
+  100% {
+    -webkit-transform: 
+      translateX(0) 
+      translateY(0) 
+      translateZ(0) 
+      rotateX(0deg) 
+      rotateY(0deg)
+      rotateZ(0deg);
+    
+    opacity: 1;
+  }
+}
+
+.number {
+  position: relative;
+  float: left;
+  margin-right: 5px;
+  
+  font-size: 5em;
+  
+  width: 1em;
+  height: 1.5em;
+}
+
+.number span {
+  position: absolute;
+  display: block;
+  font-weight: bold;
+  text-align: center;
+  
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  
+  color: white;
+  
+  width: 1em;
+  height: 1.5em;
+  perspective: 7.14em;
+  
+}
+
+.number span:before {
+  display: block;
+  height: 0.75em;
+  overflow: hidden;
+  
+  line-height: 1.52em;
+  
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  
+  border-radius: 20% 20% 0 0;
+  
+  background: #3e3e3e; /* Old browsers */
+background: -moz-linear-gradient(top,  #3e3e3e 0%, #2b2b2b 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3e3e3e), color-stop(100%,#2b2b2b)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #3e3e3e 0%,#2b2b2b 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #3e3e3e 0%,#2b2b2b 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #3e3e3e 0%,#2b2b2b 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #3e3e3e 0%,#2b2b2b 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3e3e3e', endColorstr='#2b2b2b',GradientType=0 ); /* IE6-9 */
+}
+
+.number span:after {
+  display: block;
+  height: 0.75em;
+  overflow: hidden;
+  line-height: 0;
+  
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
+  
+  border-radius: 0 0 20% 20%;
+  
+  transition: color 100ms, background-color 100ms;
+  
+  background: #252525; /* Old browsers */
+background: -moz-linear-gradient(top,  #252525 0%, #070707 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#252525), color-stop(100%,#070707)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #252525 0%,#070707 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #252525 0%,#070707 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #252525 0%,#070707 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #252525 0%,#070707 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#252525', endColorstr='#070707',GradientType=0 ); /* IE6-9 */
+}
+
+
+.flip .primary:before {
+  animation: animate-top 250ms;
+  -moz-animation-fill-mode: forwards;
+  
+  -webkit-animation: animate-top 250ms;
+  -webkit-animation-fill-mode: forwards;
+  
+  
+  background: #000000; /* Old browsers */
+background: -moz-linear-gradient(top,  #000000 0%, #303030 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#000000), color-stop(100%,#303030)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #000000 0%,#303030 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #000000 0%,#303030 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #000000 0%,#303030 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #000000 0%,#303030 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#303030',GradientType=0 ); /* IE6-9 */
+
+}
+
+.flip .primary:after {
+  animation: animate-bottom 250ms;
+  -moz-animation-fill-mode: forwards;
+  animation-delay: 250ms;
+  
+  -webkit-animation: animate-bottom 250ms;
+  -webkit-animation-fill-mode: forwards;
+  -webkit-animation-delay: 250ms;
+}
+
+.primary:after {
+  opacity: 0;
+  
+  transform: 
+    translateX(0) 
+    translateY(-0.28em) 
+    translateZ(0.35em) 
+    rotateX(91deg) 
+    rotateY(0deg) 
+    rotateZ(0deg);
+  
+  -webkit-transform: 
+    translateX(0) 
+    translateY(-0.28em) 
+    translateZ(0.35em) 
+    rotateX(91deg) 
+    rotateY(0deg) 
+    rotateZ(0deg);
+}
+
+.primary {
+  z-index: 2;
+}
+
+.secondary {
+  z-index: 1;
+}
+
+/* Number 0 */
+
+[data-number="0"] span.primary:before {
+  content: "0";
+}
+
+[data-number="0"] span.secondary:after {
+  content: "0";
+}
+
+[data-number="0"] span.secondary:before {
+  content: attr(title);
+}
+
+[data-number="0"] span.primary:after {
+  content: attr(title);
+}
+
+/* Number 9 */
+
+[data-number="9"] span.primary:before {
+  content: "9";
+}
+
+[data-number="9"] span.secondary:after {
+  content: "9";
+}
+
+[data-number="9"] span.secondary:before {
+  content: attr(title);
+}
+
+[data-number="9"] span.primary:after {
+  content: attr(title);
+}
+
+/* Number 8 */
+
+[data-number="8"] span.primary:before {
+  content: "8";
+}
+
+[data-number="8"] span.secondary:after {
+  content: "8";
+}
+
+[data-number="8"] span.secondary:before {
+  content: attr(title);
+}
+
+[data-number="8"] span.primary:after {
+  content: attr(title);
+}
+
+/* Number 7 */
+
+[data-number="7"] span.primary:before {
+  content: "7";
+}
+
+[data-number="7"] span.secondary:after {
+  content: "7";
+}
+
+[data-number="7"] span.secondary:before {
+  content: attr(title);
+}
+
+[data-number="7"] span.primary:after {
+  content: attr(title);
+}
+
+/* Number 6 */
+
+[data-number="6"] span.primary:before {
+  content: "6";
+}
+
+[data-number="6"] span.secondary:after {
+  content: "6";
+}
+
+[data-number="6"] span.secondary:before {
+  content: attr(title);
+}
+
+[data-number="6"] span.primary:after {
+  content: attr(title);
+}
+
+/* Number 5 */
+
+[data-number="5"] span.primary:before {
+  content: attr(title);
+}
+
+[data-number="5"] span.secondary:after {
+  content: attr(title);
+}
+
+[data-number="5"] span.secondary:before {
+  content: attr(title);
+}
+
+[data-number="5"] span.primary:after {
+  content: attr(title);
+}
+
+/* Number 4 */
+
+[data-number="4"] span.primary:before {
+  content: "4";
+}
+
+[data-number="4"] span.secondary:after {
+  content: "4";
+}
+
+[data-number="4"] span.secondary:before {
+  content: attr(title);
+}
+
+[data-number="4"] span.primary:after {
+  content: attr(title);
+}
+
+/* Number 3 */
+
+[data-number="3"] span.primary:before {
+  content: attr(title);
+}
+
+[data-number="3"] span.secondary:after {
+  content: attr(title);
+}
+
+[data-number="3"] span.secondary:before {
+  content: attr(title);
+}
+
+[data-number="3"] span.primary:after {
+  content: attr(title);
+}
+
+/* Number 2 */
+
+[data-number="2"] span.primary:before {
+  content: "2";
+}
+
+[data-number="2"] span.secondary:after {
+  content: "2";
+}
+
+[data-number="2"] span.secondary:before {
+  content: attr(title);
+}
+
+[data-number="2"] span.primary:after {
+  content: attr(title);
+}
+
+/* Number 1 */
+
+[data-number="1"] span.primary:before {
+  content: "1";
+}
+
+[data-number="1"] span.secondary:after {
+  content: "1";
+}
+
+[data-number="1"] span.secondary:before {
+  content: attr(title);
+}
+
+[data-number="1"] span.primary:after {
+  content: attr(title);
+}
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
@@ -68,6 +471,10 @@
     <link rel="stylesheet" href="{{asset('web/css/css-owl.carousel.min.css')}}">
     <link rel="stylesheet" href="{{asset('web/css/css-style.css')}}">
     <link rel="stylesheet" href="{{asset('web/css/style.css')}}">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!-- Toastr -->
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
 </head>
 
 <body>
@@ -104,7 +511,8 @@
                     <div class="collapse navbar-collapse" id="main_nav">
                         <ul class="navbar-nav">
                             <li class="nav-item"><a class="nav-link active" href="/"> Home </a></li>
-                            <li class="nav-item"><a class="nav-link" target="_blank" href="{{asset('web/pdf/Program.pdf')}}"> Scientific Program </a></li>
+                            {{-- <li class="nav-item"><a class="nav-link" target="_blank" href="{{asset('web/pdf/Program.pdf')}}"> Scientific Program </a></li> --}}
+                            <li class="nav-item"><a class="nav-link comming-soon" target="_blank" > Scientific Program </a></li>
 
                             <li class="nav-item"><a class="nav-link" href="{{route('about-us')}}">Abstract</a></li>
                             <li class="nav-item dropdown">
@@ -268,7 +676,30 @@
 
     <a href="#" id="scroll-top"><i class="far fa-long-arrow-up"></i></a>
 
+<script>
+    $('.comming-soon').click(function(){
+        toastr.options = {
+				'closeButton': true,
+				'debug': false,
+				'newestOnTop': false,
+				'progressBar': false,
+				'positionClass': 'toast-top-right',
+				'preventDuplicates': false,
+				'showDuration': '1000',
+				'hideDuration': '1000',
+				'extendedTimeOut': '1000',
+				'showEasing': 'swing',
+				'hideEasing': 'linear',
+				'showMethod': 'fadeIn',
+				'hideMethod': 'fadeOut',
+			}
+        toastr.options.progressBar = true,
+        toastr.options.positionClass = "toast-bottom-center";
+        toastr.info('COMMING SOON')
 
+    })
+</script>
+    
     <script data-cfasync="false" src="{{asset('web/js/cloudflare-static-email-decode.min.js')}}"></script>
     <script src="{{asset('web/js/js-jquery-3.6.0.min.js')}}"></script>
     <script src="{{asset('web/js/js-modernizr.min.js')}}"></script>
@@ -282,6 +713,48 @@
     <script src="{{asset('web/js/js-counter-up.js')}}"></script>
     <script src="{{asset('web/js/js-wow.min.js')}}"></script>
     <script src="{{asset('web/js/js-main.js')}}"></script>
+    <script>
+        setInterval(function() {
+            doFlip(2, 2);
+            }, 1000);
+
+function doFlip(numberIndex, count) {
+    
+  if (count === undefined) {
+    count = 1;
+  }
+  
+  var currentNumberElement = $(".number:eq(" + numberIndex + ")");
+  
+  var currentNumber = Number(currentNumberElement.attr("data-number"));    
+
+  currentNumber -= count;
+  
+  var makeAFlip = false;
+  
+  if (currentNumber < 0) {
+    currentNumber = 10 + currentNumber;
+    makeAFlip = true;
+  }
+  
+  currentNumberElement.find(".primary").attr("title", currentNumber);
+  currentNumberElement.find(".secondary").attr("title", currentNumber);
+  
+  if (makeAFlip) {
+    if (numberIndex > 0) {
+      doFlip(--numberIndex);
+    }
+  } 
+  
+  currentNumberElement.addClass("flip");
+  
+  setTimeout(function() {
+    currentNumberElement.attr("data-number", currentNumber);
+    
+    currentNumberElement.removeClass("flip");
+  }, 500);
+}
+    </script>
 </body>
 
 </html>
