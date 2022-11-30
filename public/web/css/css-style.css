@@ -3221,10 +3221,20 @@ body.rtl-mode .price-wrapper {
 
 }
 
-
+.mobb{
+  display: none;
+}
 @media only screen and (max-width: 600px) {
   .header-top-wrapper img{
-    margin-top: 78px !important;
+    margin-top: 59px !important;
+  }
+
+  .webb{
+    display: none;
+  }
+
+  .mobb{
+display: block;
   }
 
   .header-top {

@@ -492,7 +492,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
         <div class="header-top">
             
                 <div class="header-top-wrapper">
-                    <img src="{{asset('web/images/aiimscusa_main.png')}}" />
+                    <img class="webb" src="{{asset('web/images/aiimscusa_main.png')}}" />
+                    <img class="mobb" src="{{asset('web/images/phone_banner.png')}}" />
                 </div>
         </div>
         <div class="main-navigation">
@@ -502,7 +503,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
                         <img src="{{asset('web/images/logo-logo.png')}}" alt="logo">
                     </a> --}}
                     <div class="mobile-menu-right">
-                        <a href="#" class="mobile-search-btn search-box-outer"><i class="far fa-search"></i></a>
+                        <!-- <a href="#" class="mobile-search-btn search-box-outer"><i class="far fa-search"></i></a> -->
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                             data-bs-target="#main_nav" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"><i class="far fa-bars"></i></span>
@@ -541,9 +542,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 
                         </ul>
                         <div class="header-nav-right">
-                            {{-- <div class="header-nav-search">
+                             <!-- <div class="header-nav-search">
                                 <a href="#" class="search-box-outer"><i class="far fa-search"></i></a>
-                            </div> --}}
+                            </div> -->
                             <div class="header-btn d-flex">
                                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSecmHa4UtvlI_YJDZ6mDGk47g2-wnSQtSE-OHdL9PQq-1g0CA/viewform" class="theme-btn">Registration<i class="far fa-arrow-right"></i></a>
                                
@@ -713,48 +714,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
     <script src="{{asset('web/js/js-counter-up.js')}}"></script>
     <script src="{{asset('web/js/js-wow.min.js')}}"></script>
     <script src="{{asset('web/js/js-main.js')}}"></script>
-    <script>
-        setInterval(function() {
-            doFlip(2, 2);
-            }, 1000);
-
-function doFlip(numberIndex, count) {
     
-  if (count === undefined) {
-    count = 1;
-  }
-  
-  var currentNumberElement = $(".number:eq(" + numberIndex + ")");
-  
-  var currentNumber = Number(currentNumberElement.attr("data-number"));    
-
-  currentNumber -= count;
-  
-  var makeAFlip = false;
-  
-  if (currentNumber < 0) {
-    currentNumber = 10 + currentNumber;
-    makeAFlip = true;
-  }
-  
-  currentNumberElement.find(".primary").attr("title", currentNumber);
-  currentNumberElement.find(".secondary").attr("title", currentNumber);
-  
-  if (makeAFlip) {
-    if (numberIndex > 0) {
-      doFlip(--numberIndex);
-    }
-  } 
-  
-  currentNumberElement.addClass("flip");
-  
-  setTimeout(function() {
-    currentNumberElement.attr("data-number", currentNumber);
-    
-    currentNumberElement.removeClass("flip");
-  }, 500);
-}
-    </script>
 </body>
 
 </html>

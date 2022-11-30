@@ -1,6 +1,6 @@
 @extends('layouts.main')
 @section('content')
-<div class="container">
+<!-- <div class="container">
     <span class="number" data-number="9">
         <span class="primary">
         </span>
@@ -13,7 +13,7 @@
         <span class="secondary">
         </span>
     </span>
-</div>
+</div> -->
     <div class="hero-section hero-slider owl-carousel owl-theme">
         <div class="hero-single" style="background-image: url({{ asset('web/assets/img/slider/slider-1.jpg') }})">
             <div class="container">
@@ -597,4 +597,47 @@
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96708.34194156103!2d-74.03927096447748!3d40.759040329405195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4a01c8df6fb3cb8!2sSolomon%20R.%20Guggenheim%20Museum!5e0!3m2!1sen!2sbd!4v1619410634508!5m2!1sen!2s"
             style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     </div>
+
+    <script>
+        setInterval(function() {
+            doFlip(2, 2);
+            }, 1000);
+
+function doFlip(numberIndex, count) {
+    
+  if (count === undefined) {
+    count = 1;
+  }
+  
+  var currentNumberElement = $(".number:eq(" + numberIndex + ")");
+  
+  var currentNumber = Number(currentNumberElement.attr("data-number"));    
+
+  currentNumber -= count;
+  
+  var makeAFlip = false;
+  
+  if (currentNumber < 0) {
+    currentNumber = 10 + currentNumber;
+    makeAFlip = true;
+  }
+  
+  currentNumberElement.find(".primary").attr("title", currentNumber);
+  currentNumberElement.find(".secondary").attr("title", currentNumber);
+  
+  if (makeAFlip) {
+    if (numberIndex > 0) {
+      doFlip(--numberIndex);
+    }
+  } 
+  
+  currentNumberElement.addClass("flip");
+  
+  setTimeout(function() {
+    currentNumberElement.attr("data-number", currentNumber);
+    
+    currentNumberElement.removeClass("flip");
+  }, 500);
+}
+    </script>
 @endsection
