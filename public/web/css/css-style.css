@@ -3225,7 +3225,7 @@ body.rtl-mode .price-wrapper {
   display: none;
   visibility: hidden;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 770px) {
   .header-top-wrapper img{
     margin-top: 59px !important;
   }
