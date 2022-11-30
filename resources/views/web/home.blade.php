@@ -107,7 +107,7 @@
     </div>
 
 
-    <div class="feature-area py-120">
+    <div class="feature-area py-50">
         <div class="container">
             <div class="feature-area-wrapper">
                 <div class="row">
@@ -165,7 +165,7 @@
     </div>
 
 
-    <div class="about-area py-120">
+    <div class="about-area py-50">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">
