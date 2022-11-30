@@ -3223,6 +3223,7 @@ body.rtl-mode .price-wrapper {
 
 .mobb{
   display: none;
+  visibility: hidden;
 }
 @media only screen and (max-width: 600px) {
   .header-top-wrapper img{
