@@ -171,7 +171,7 @@
                 <div class="col-lg-6">
                     <div class="about-left">
                         <div class="about-img">
-                            <img class="about-img-1" src="{{ asset('web/images/about-01.jpg') }}" alt="">
+                            <img class="about-img-1" src="{{ asset('web/images/20222.jpg') }}" alt="">
                         </div>
 
                     </div>
