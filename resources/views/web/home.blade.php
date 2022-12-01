@@ -174,6 +174,19 @@
                             <img class="about-img-1" src="{{ asset('web/images/20222.jpg') }}" alt="">
                         </div>
 
+                        <div class="about-left-content">
+                            <div class="about-left-icon">
+                                <i class="flaticon-customer"></i>
+                            </div>
+                            <div class="about-left-info">
+                                <ul>
+                                    <li style="
+                                    font-weight: 900;"><i class="lni-check-mark-circle"></i><span class="text">Suandeep Varma</span></li>
+                                   <li><i class="lni-check-mark-circle"></i><span class="text">Cadaveric Workshop</span></li>
+                                   
+                                 </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-6">
