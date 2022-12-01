@@ -335,6 +335,9 @@ margin & padding
   padding: 120px 0;
 }
 
+.py-50 {
+  padding: 50px 0;
+}
 .pt-120 {
   padding-top: 120px;
 }
@@ -3228,6 +3231,8 @@ body.rtl-mode .price-wrapper {
 @media only screen and (max-width: 770px) {
   .header-top-wrapper img{
     margin-top: 59px !important;
+    width: 100%;
+
   }
 
   .webb{
