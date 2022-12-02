@@ -15,7 +15,7 @@
     </span>
 </div> -->
     <div class="hero-section hero-slider owl-carousel owl-theme">
-        <div class="hero-single" style="background-image: url({{ asset('web/assets/img/slider/slider-1.jpg') }})">
+        <div class="hero-single" style="background-image: url({{ asset('web/images/ban1.jpg') }})">
             <div class="container">
               
 
@@ -46,36 +46,7 @@
                 </div>
             </div>
         </div>
-        <div class="hero-single" style="background-image: url({{ asset('web/assets/img/slider/slider-2.jpg') }})">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-md-7 col-lg-7">
-                        <div class="hero-content" style="height: 400px">
-                            {{-- <h6 class="hero-sub-title wow animate__animated animate__fadeInUp"
-                            data-wow-duration="1s" data-wow-delay=".25s"># Best Mind Care &amp; Stay Happy
-                        </h6>
-                        <h1 class="hero-title wow animate__animated animate__fadeInUp" data-wow-duration="1s"
-                            data-wow-delay=".50s">
-                            We Provide Psychology <span>therapy</span> &amp; Counseling For You
-                        </h1>
-                        <p class="wow animate__animated animate__fadeInUp" data-wow-duration="1s"
-                            data-wow-delay=".75s">
-                            There are many variations of passages available but the majority have suffered
-                            alteration in some form by injected humour or randomised words.
-                        </p>
-                        <div class="hero-btn wow animate__animated animate__fadeInUp" data-wow-duration="1s"
-                            data-wow-delay="1s">
-                            <a href="contact.html" class="theme-btn">Contact Us<i
-                                    class="far fa-arrow-right"></i></a>
-                            <a href="{{route('about-us')}}" class="theme-btn theme-btn2">About Us<i
-                                    class="far fa-arrow-right"></i></a>
-                        </div> --}}
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="hero-single" style="background-image:url({{ asset('web/assets/img/slider/slider-3.jpg') }})">
+        <div class="hero-single" style="background-image: url({{ asset('web/images/ban2.jpg') }})">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-md-7 col-lg-7">
