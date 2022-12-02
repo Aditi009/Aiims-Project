@@ -13,10 +13,10 @@
     <div class="case-area py-120">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 mx-auto">
-                    <div class="site-heading text-center">
+                <div class="col-lg-6">
+                    <div class="site-heading">
                         <span class="site-title-tagline">Gallery</span>
-                        <h2 class="site-title">Recent <span>Works</span></h2>
+                        <h2 class="site-title">2022</h2>
                     </div>
                 </div>
             </div>
@@ -132,6 +132,15 @@
                         </div>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="site-heading">
+                            <span class="site-title-tagline">Gallery</span>
+                            <h2 class="site-title">2021</h2>
+                        </div>
+                    </div>
+                </div>
+         
                 <div class="col-md-6 col-lg-4 filter-item cat2 cat3">
                     <div class="case-item">
                         <div class="case-img">
@@ -172,6 +181,15 @@
                         </div>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="site-heading">
+                            <span class="site-title-tagline">Gallery</span>
+                            <h2 class="site-title">2020</h2>
+                        </div>
+                    </div>
+                </div>
+         
                 <div class="col-md-6 col-lg-4 filter-item cat2 cat3">
                     <div class="case-item">
                         <div class="case-img">
@@ -273,6 +291,15 @@
                         </div>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="site-heading">
+                            <span class="site-title-tagline">Gallery</span>
+                            <h2 class="site-title">2019</h2>
+                        </div>
+                    </div>
+                </div>
+         
                 <div class="col-md-6 col-lg-4 filter-item cat2 cat3">
                     <div class="case-item">
                         <div class="case-img">
@@ -415,6 +442,15 @@
                         </div>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="site-heading">
+                            <span class="site-title-tagline">Gallery</span>
+                            <h2 class="site-title">2018</h2>
+                        </div>
+                    </div>
+                </div>
+         
                 <div class="col-md-6 col-lg-4 filter-item cat2 cat3">
                     <div class="case-item">
                         <div class="case-img">
