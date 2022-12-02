@@ -623,7 +623,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
                     </div>
                     <div class="col-md-6 col-lg-3">
                         <div class="footer-widget-box list">
-                            <h4 class="footer-widget-title">Sponsorsd</h4>
+                            <h4 class="footer-widget-title">Sponsors</h4>
                             <ul class="footer-list">
                                 {{-- <li><a href="#"><i class="fas fa-caret-right"></i> Online Support</a></li>
                                 <li><a href="#"><i class="fas fa-caret-right"></i> FAQ's</a></li>
