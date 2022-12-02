@@ -136,9 +136,8 @@
     </div>
 
 
-    <div class="about-area py-50">
         <div class="container">
-            <div class="row align-items-center">
+            <div class="row">
                 <div class="col-lg-6">
                     <div class="about-left">
                         <div class="about-img">
@@ -222,7 +221,6 @@
 
             </div>
         </div>
-    </div>
 
     <div class="container">
         <div class="row">

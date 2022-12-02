@@ -71,7 +71,7 @@ li {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #204066;
+  color: #5698F3;
   margin: 0px;
   font-weight: 600;
   font-family: 'IBM Plex Sans', sans-serif;
@@ -174,6 +174,14 @@ preloader
   left: calc(50% - 20px);
 }
 
+.site-title-tagline-p {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 50px;
+  color: #5698F3;
+  letter-spacing: 3px;
+  position: relative;
+}
 .loader-box-1, .loader-box-2 {
   width: 100%;
   height: 100%;
@@ -259,7 +267,7 @@ site title css
   font-weight: 700;
   text-transform: capitalize;
   font-size: 42px;
-  color: #204066;
+  color: #5698F3;
   margin-top: 5px;
   margin-bottom: 0;
 }
@@ -566,7 +574,7 @@ theme button
   width: 15px;
   height: 15px;
   border-radius: 8px;
-  background: #204066;
+  background: #5698F3;
   z-index: -1;
   transition: all 0.4s ease-in-out;
   -webkit-transition: all 0.4s ease-in-out;
@@ -582,7 +590,7 @@ theme button
 }
 
 .theme-btn2 {
-  background: #204066;
+  background: #5698F3;
 }
 
 .theme-btn2::before {
@@ -683,7 +691,7 @@ header top css
 }
 
 .header-top-social a:hover {
-  background: #204066;
+  background: #5698F3;
   color: #fff;
 }
 
@@ -726,7 +734,7 @@ nav menu css
     padding: 33px 0 33px 0;
     font-size: 16px;
     font-weight: 600;
-    color: #204066;
+    color: #5698F3;
     text-transform: uppercase;
   }
   .navbar .nav-item:last-child .nav-link {
@@ -754,7 +762,7 @@ nav menu css
     font-size: 15px;
     font-weight: 500;
     padding: 8px 15px;
-    color: #204066;
+    color: #5698F3;
     position: relative;
     text-transform: uppercase;
     transition: all .5s ease-in-out;
@@ -843,7 +851,7 @@ nav menu css
     color: #4F78AB;
   }
   .header-nav-search a {
-    color: #204066;
+    color: #5698F3;
     font-size: 18px;
     padding: 5px;
   }
@@ -879,7 +887,7 @@ nav menu css
 }
 
 .navbar.fixed-top .nav-item .nav-link::before {
-  color: #204066;
+  color: #5698F3;
 }
 
 .navbar .navbar-brand .logo-display {
@@ -980,7 +988,7 @@ button.navbar-toggler:focus {
     float: right;
   }
   .navbar .nav-item .nav-link {
-    color: #204066;
+    color: #5698F3;
     font-weight: 700;
     transition: all .5s ease-in-out;
   }
@@ -989,7 +997,7 @@ button.navbar-toggler:focus {
   }
   .navbar-toggler-icon {
     font-size: 32px;
-    color: #204066;
+    color: #5698F3;
     font-weight: 500;
     padding-right: 10px;
     margin-bottom: 10px;
@@ -998,7 +1006,7 @@ button.navbar-toggler:focus {
     border-radius: 0px;
   }
   .navbar.fixed-top .navbar-toggler-icon {
-    color: #204066;
+    color: #5698F3;
   }
   .header-nav-right {
     display: none;
@@ -1409,7 +1417,7 @@ service css
 
 .service-title a {
   font-size: 22px;
-  color: #204066;
+  color: #5698F3;
 }
 
 .service-title a:hover {
@@ -1434,7 +1442,7 @@ service single
 .service-download a {
   border: 2px solid #4F78AB;
   padding: 10px 20px;
-  color: #204066;
+  color: #5698F3;
   display: block;
   margin-bottom: 20px;
   transition: all .5s ease-in-out;
@@ -1603,7 +1611,7 @@ choose css
 
 .choose-content-text{
  font-weight: 600;
- color: #204066;
+ color: #5698F3;
 }
 
 @media all and (max-width: 1199px) {
@@ -1735,7 +1743,7 @@ counter css
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  background: #204066;
+  background: #5698F3;
   border-radius: 50px;
   margin-bottom: 20px;
 }
@@ -1854,7 +1862,7 @@ Case studies css
   text-transform: uppercase;
   margin: 10px;
   font-weight: 600;
-  color: #204066;
+  color: #5698F3;
   cursor: pointer;
   padding-bottom: 5px;
   border-bottom: 3px solid transparent;
@@ -1923,7 +1931,7 @@ case single
 
 .new-project-btn {
   background: #fff;
-  color: #204066;
+  color: #5698F3;
   border: none;
   font-weight: 500;
   padding: 10px 25px;
@@ -1931,7 +1939,7 @@ case single
 }
 
 .new-project-btn:hover {
-  background: #204066;
+  background: #5698F3;
   color: #fff;
 }
 
@@ -1989,14 +1997,14 @@ blog css
 }
 
 .blog-item-meta ul li a{
-  color: #204066;
+  color: #5698F3;
 }
 
 .blog-title a{
   font-size: 20px;
   margin-bottom: 15px;
   text-transform: capitalize;
-  color: #204066;
+  color: #5698F3;
 }
 
 .blog-item-info p {
@@ -2006,7 +2014,7 @@ blog css
 .blog-btn {
   padding: 6px 25px;
   border: 2px solid #4F78AB;
-  color: #204066;
+  color: #5698F3;
 }
 
 .blog-item-info a:hover {
@@ -2071,7 +2079,7 @@ blog single css
   position: absolute;
   height: 2px;
   width: 40px;
-  background: #204066;
+  background: #5698F3;
   left: 0;
   top: 10px;
 }
@@ -2089,13 +2097,13 @@ blog single css
 }
 
 .blog-details-tags ul a {
-  border: 1px solid #204066;
+  border: 1px solid #5698F3;
   padding: 2px 15px;
   transition: all .5s ease-in-out;
 }
 
 .blog-details-tags ul a:hover {
-  background: #204066;
+  background: #5698F3;
   color: #fff;
 }
 
@@ -2117,7 +2125,7 @@ blog single css
 
 .author-name {
   font-size: 22px;
-  color: #204066;
+  color: #5698F3;
   margin: 8px 0;
 }
 
@@ -2131,7 +2139,7 @@ blog single css
 
 .author-social a {
   margin-right: 10px;
-  color: #204066;
+  color: #5698F3;
   transition: all .5s ease-in-out;
 }
 
@@ -2172,7 +2180,7 @@ blog single css
 }
 
 .blog-comments-content a:hover {
-  color: #204066;
+  color: #5698F3;
 }
 
 .blog-comments-reply {
@@ -2244,7 +2252,7 @@ sidebar css
 }
 
 .widget .widget-title {
-  color: #204066;
+  color: #5698F3;
   padding-bottom: 10px;
   margin-bottom: 30px;
   position: relative;
@@ -2354,20 +2362,20 @@ sidebar css
   width: 35px;
   height: 35px;
   line-height: 35px;
-  border: 1px solid #204066;
-  color: #204066;
+  border: 1px solid #5698F3;
+  color: #5698F3;
   text-align: center;
   margin-right: 5px;
   transition: all .5s ease-in-out;
 }
 
 .widget .social-share-link a:hover {
-  background: #204066;
+  background: #5698F3;
   color: #fff;
 }
 
 .widget .tag-list a {
-  border: 1px solid #204066;
+  border: 1px solid #5698F3;
   padding: 3px 20px;
   margin-bottom: 10px;
   margin-right: 10px;
@@ -2376,7 +2384,7 @@ sidebar css
 }
 
 .widget .tag-list a:hover {
-  background-color: #204066;
+  background-color: #5698F3;
   color: #fff;
 }
 
@@ -2393,11 +2401,11 @@ contact us css
 
 .contact-form-header {
   margin-bottom: 30px;
-  color: #204066;
+  color: #5698F3;
 }
 
 .contact-form-header h2 {
-  color: #204066;
+  color: #5698F3;
   font-size: 30px;
   margin-bottom: 10px;
 }
@@ -2467,12 +2475,12 @@ contact us css
 }
 
 .contact-info h5 {
-  color: #204066;
+  color: #5698F3;
   margin-bottom: 5px;
 }
 
 .contact-info p {
-  color: #204066;
+  color: #5698F3;
 }
 
 
@@ -2619,7 +2627,7 @@ team css
 }
 
 .team-bio h5 a{
-  color: #204066;
+  color: #5698F3;
 }
 
 .team-bio h5 a:hover{
@@ -2692,7 +2700,7 @@ team single css
   width: 35px;
   line-height: 31px;
   border: 2px solid #4F78AB;
-  color: #204066;
+  color: #5698F3;
   text-align: center;
   border-radius: 50px;
   margin-right: 5px;
@@ -2828,7 +2836,7 @@ pricing css
 .pricing-amount strong {
   font-size: 60px;
   font-weight: 700;
-  color: #204066;
+  color: #5698F3;
   line-height: 1;
 }
 
@@ -2840,7 +2848,7 @@ pricing css
 
 .pricing-amount-type span{
   display: inline-block;
-  color: #204066;
+  color: #5698F3;
 }
 
 .pricing-feature {
@@ -2875,7 +2883,7 @@ appointment css
 ====================== */
 
 .appointment-area{
-  background: #204066;
+  background: #5698F3;
   position: relative;
   z-index: 1;
 }
@@ -2985,7 +2993,7 @@ feature css
 .feature-content h5{
   font-size: 22px;
   margin-bottom: 8px;
-  color: #204066;
+  color: #5698F3;
 }
 
 .feature-item.active{
@@ -3044,7 +3052,7 @@ faq css
   border-radius: 0px !important;
   font-weight: 700;
   font-size: 18px;
-  color: #204066;
+  color: #5698F3;
   box-shadow: none !important;
 }
 
@@ -3181,7 +3189,7 @@ pagination css
 
 .pagination .page-link {
   border: none;
-  background: #204066;
+  background: #5698F3;
   color: #fff;
   margin: 0 10px;
   border-radius: 0px !important;
@@ -3294,7 +3302,7 @@ auth css
 }
 
 .login-form .login-footer a:hover {
-  color: #204066;
+  color: #5698F3;
 }
 
 .login-form .form-group {
@@ -3302,7 +3310,7 @@ auth css
 }
 
 .login-form label {
-  color: #204066;;
+  color: #5698F3;;
   margin-bottom: 5px;
 }
 
@@ -3329,7 +3337,7 @@ auth css
 }
 
 .login-form .forgot-pass:hover {
-  color: #204066;
+  color: #5698F3;
 }
 
 .login-form .theme-btn{
@@ -3428,7 +3436,7 @@ coming soon css
 }
 
 .coming-soon .newsletter-form button:hover {
-  background-color: #204066;
+  background-color: #5698F3;
   color: #fff;
 }
 
@@ -3565,7 +3573,7 @@ footer css
 ====================== */
 
 .footer-area {
-  background:#152847;
+  background:#5698F3;
   position: relative;
   z-index: 1;
 }
@@ -3923,7 +3931,7 @@ search popup
 }
 
 .search-popup .form-group input[type="submit"]:hover, .search-popup .form-group button:hover {
-  background: #204066;
+  background: #5698F3;
 }
 
 .search-popup input::placeholder, .search-popup textarea::placeholder {
@@ -3939,7 +3947,7 @@ search popup
     display: block;
     position: absolute;
     right: 20%;
-    color: #204066;
+    color: #5698F3;
     font-size: 20px;
   }
 }
@@ -3982,11 +3990,11 @@ home-3
 }
 
 .home-3 .hero-title{
-  color: #204066 !important;
+  color: #5698F3 !important;
 }
 
 .home-3 .hero-single p{
-  color: #204066 !important;
+  color: #5698F3 !important;
 }
 
 

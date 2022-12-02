@@ -513,7 +513,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
                         <ul class="navbar-nav">
                             <li class="nav-item"><a class="nav-link active" href="/"> Home </a></li>
                             {{-- <li class="nav-item"><a class="nav-link" target="_blank" href="{{asset('web/pdf/Program.pdf')}}"> Scientific Program </a></li> --}}
-                            <li class="nav-item"><a class="nav-link comming-soon" target="_blank" > Scientific Program </a></li>
+                            {{-- <li class="nav-item"><a class="nav-link comming-soon" target="_blank" > Scientific Program </a></li> --}}
+                            <li class="nav-item"><a class="nav-link"href="{{route('scientific_program')}}" > Scientific Program </a></li>
 
                             <li class="nav-item"><a class="nav-link" href="{{route('about-us')}}">Abstract</a></li>
                             <li class="nav-item dropdown">
@@ -524,7 +525,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
                                     <li><a class="dropdown-item" href="{{route('national_faculty')}}">National Faculty</a></li>
                                 </ul>
                             </li>
-                            <li class="nav-item"><a class="nav-link" href="{{route('organiser')}}"> Organisers </a></li>
+                            {{-- <li class="nav-item"><a class="nav-link" href="{{route('organiser')}}"> Organisers </a></li> --}}
                              <li class="nav-item"><a class="nav-link" href="{{route('commitee')}}"> Committee </a></li>
                            
                             
@@ -592,10 +593,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
                             <a href="#" class="footer-logo">
                                 <img src="{{asset('web/images/logo-logo.png')}}" alt="">
                             </a>
-                            <p class="mb-20">
-                                We are many variations of passages available but the majority have suffered alteration
-                                in some form by injected humour.
-                            </p>
+                  
                             <ul class="footer-contact">
                                 <li><i class="far fa-map-marker-alt"></i> Conference Secretariat Room No: 5014 A,
                                     5th floor, Teaching Block, AIIMS, New Delhi</li>

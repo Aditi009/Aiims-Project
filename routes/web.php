@@ -27,7 +27,7 @@ Route::get('/organiser',[MainController::class,'organiser'])->name('organiser');
 Route::get('/contact',[MainController::class,'contact'])->name('contact');
 Route::get('/about-us',[MainController::class,'aboutUs'])->name('about-us');
 Route::get('/download',[MainController::class,'download'])->name('download');
-
+Route::get('/scientific_program',[MainController::class,'program'])->name('scientific_program');
 
 
 

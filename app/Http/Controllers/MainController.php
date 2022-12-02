@@ -43,5 +43,8 @@ class MainController extends Controller
     public function download(){
         return view('web.download');
     }
-    
+    public function program(){
+        return view('web.program');
+
+    }
 }
