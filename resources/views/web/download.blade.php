@@ -10,7 +10,7 @@
         </div>
     </div>
 
-    <div class="case-area py-120">
+    {{-- <div class="case-area py-120">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 mx-auto">
@@ -63,7 +63,19 @@
             </div>
         </div>
     </div>
-    
+     --}}
+
+<div class="case-area py-120">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 mx-auto">
+                <div class="site-heading-p text-center">
+                    <span class="site-title-tagline-p">Coming Soon....</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
   
     @endsection
 

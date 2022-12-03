@@ -17,13 +17,16 @@
 
         <div class="about-area py-120">
             <div class="container">
-                <div class="row align-items-center">
+                <div class="row">
                     <div class="col-lg-6">
                         <div class="about-left">
                             <div class="about-img">
-                                <img class="about-img-1" src="{{asset('web/images/about-01.jpg')}}" alt="">
+                                <img class="about-img-1" src="{{asset('web/images/ban1.jpg')}}" alt="">
                             </div>
-                            <div class="about-left-content">
+                            <div class="about-img">
+                                <img class="about-img-1 mt-2" src="{{asset('web/images/ban2.jpg')}}" alt="">
+                            </div>
+                            {{-- <div class="about-left-content">
                                 <div class="about-left-icon">
                                     <i class="flaticon-telephone"></i>
                                 </div>
@@ -36,14 +39,13 @@
                                        <li><i class="lni-check-mark-circle"></i><span class="text">Certificate</span></li>
                                      </ul>
                                 </div>
-                            </div>
+                            </div> --}}
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="about-right">
                             <div class="site-heading mb-3">
                                 <span class="site-title-tagline">About Us</span>
-                                <h2 class="site-title">Cadaveric Ultrasound Guided Regional <span>Anaesthesia</span></h2>
                             </div>
                             <p class="about-text">
                                 <b>Dear Friends,</b>
@@ -86,7 +88,7 @@
                                     class="far fa-arrow-right"></i></a>
                         </div>
                     </div>
-                    <section id="contact-text">
+                    {{-- <section id="contact-text">
                         <div class="container">
                           <div class="row contact-wrapper">
                             <div class="col-lg-4 col-md-5 col-xs-12 contact-info">
@@ -115,46 +117,11 @@
                             </div>
                           </div>
                         </div>
-                    </section>
+                    </section> --}}
                 </div>
             </div>
         </div>
 
-
-        <div class="counter-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="counter-box">
-                            <div class="icon"><i class="flaticon-mental-health"></i></div>
-                            <span class="counter" data-count="+" data-to="500" data-speed="3000">500</span>
-                            <h6 class="title">+ Project Done</h6>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="counter-box">
-                            <div class="icon"><i class="flaticon-inspiration"></i></div>
-                            <span class="counter" data-count="+" data-to="250" data-speed="3000">250</span>
-                            <h6 class="title">+ Satisfied Clients</h6>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="counter-box">
-                            <div class="icon"><i class="flaticon-psychiatrist"></i></div>
-                            <span class="counter" data-count="+" data-to="120" data-speed="3000">120</span>
-                            <h6 class="title">+ Experts Psychiatrist</h6>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="counter-box">
-                            <div class="icon"><i class="flaticon-thinking"></i></div>
-                            <span class="counter" data-count="+" data-to="50" data-speed="3000">50</span>
-                            <h6 class="title">+ Experience Years</h6>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
 
 
    
