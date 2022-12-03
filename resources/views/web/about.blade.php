@@ -18,31 +18,8 @@
         <div class="about-area py-120">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6">
-                        <div class="about-left">
-                            <div class="about-img">
-                                <img class="about-img-1" src="{{asset('web/images/ban1.jpg')}}" alt="">
-                            </div>
-                            <div class="about-img">
-                                <img class="about-img-1 mt-2" src="{{asset('web/images/ban2.jpg')}}" alt="">
-                            </div>
-                            {{-- <div class="about-left-content">
-                                <div class="about-left-icon">
-                                    <i class="flaticon-telephone"></i>
-                                </div>
-                                <div class="about-left-info">
-                                    <ul>
-                                        <li><i class="lni-check-mark-circle"></i><span class="text">Interactive Lectures</span></li>
-                                       <li><i class="lni-check-mark-circle"></i><span class="text">Cadaveric Workshop</span></li>
-                                       <li><i class="lni-check-mark-circle"></i><span class="text">Needling in Soft Embaled Cadavers</span></li>
-                                        <li><i class="lni-check-mark-circle"></i><span class="text">Master Demo by Experts</span></li>
-                                       <li><i class="lni-check-mark-circle"></i><span class="text">Certificate</span></li>
-                                     </ul>
-                                </div>
-                            </div> --}}
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
+                    
+                    <div class="col-lg-12">
                         <div class="about-right">
                             <div class="site-heading mb-3">
                                 <span class="site-title-tagline">About Us</span>
