@@ -15,8 +15,8 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="site-heading">
-                        <span class="site-title-tagline">Gallery</span>
-                        <h2 class="site-title">2022</h2>
+                        <span class="site-title-tagline">CUSA</span>
+                        <h2 class="site-title">2019</h2>
                     </div>
                 </div>
             </div>
@@ -135,8 +135,8 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="site-heading">
-                            <span class="site-title-tagline">Gallery</span>
-                            <h2 class="site-title">2021</h2>
+                            <span class="site-title-tagline">Cusa</span>
+                            <h2 class="site-title">2018</h2>
                         </div>
                     </div>
                 </div>
@@ -181,7 +181,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row">
+                <!-- <div class="row">
                     <div class="col-lg-6">
                         <div class="site-heading">
                             <span class="site-title-tagline">Gallery</span>
@@ -832,7 +832,7 @@
                           
                         </div>
                     </div>
-                </div>
+                </div> -->
            
                
             </div>

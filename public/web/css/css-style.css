@@ -562,7 +562,7 @@ theme button
   z-index: 1;
   border: none;
   border-radius: 0px;
-  background: #4F78AB;
+  background: #5698f4;
   box-shadow: 0 3px 24px rgb(0 0 0 / 10%);
 }
 
@@ -574,7 +574,7 @@ theme button
   width: 15px;
   height: 15px;
   border-radius: 8px;
-  background: #5698F3;
+  background: #5698f4;
   z-index: -1;
   transition: all 0.4s ease-in-out;
   -webkit-transition: all 0.4s ease-in-out;
@@ -607,7 +607,7 @@ container
 
 @media (min-width: 1200px) {
   .container, .container-sm, .container-md, .container-lg, .container-xl {
-    max-width: auto;
+    max-width: 1100px;
   }
 }
 
@@ -627,7 +627,7 @@ scroll-top css
   font-size: 22px;
   border: none;
   outline: none;
-  background: #4F78AB;
+  background: #5698f4;
   color: #fff;
   cursor: pointer;
   width: 50px;
@@ -1233,9 +1233,13 @@ about css
 
 .about-img{
   position: relative;
+  
+}
+.about-img img {
+  border: 2px solid grey;
 }
 
-.about-img::before{
+/* .about-img::before{
   content: "";
   position: absolute;
   background: #4F78AB;
@@ -1244,7 +1248,7 @@ about css
   width: 100%;
   height: 100%;
   z-index: -1;
-}
+} */
 
 .about-left-content {
   position: absolute;
@@ -1253,8 +1257,8 @@ about css
   align-items: center;
   gap: 15px;
   padding: 10px 20px 10px 10px;
-  left: 25px;
-  bottom: 80px;
+  left: 47px;
+  bottom: -37px;
   box-shadow: 0 3px 24px rgb(0 0 0 / 10%);
 }
 
@@ -3573,7 +3577,7 @@ footer css
 ====================== */
 
 .footer-area {
-  background:#5698F3;
+  background:#5698f4;
   position: relative;
   z-index: 1;
 }
@@ -3641,7 +3645,7 @@ footer css
 }
 
 .footer-social li a i:hover {
-  background: #304D71;
+  background: #ffffff;
   color: #fff;
 }
 
@@ -3670,6 +3674,7 @@ footer css
 }
 
 .copyright .footer-menu li {
+  color: white;
   display: inline-block;
   margin-left: 25px;
   font-size: 16px;
@@ -3691,7 +3696,7 @@ footer css
 }
 
 .copyright .copyright-text a {
-  color: #4F78AB;
+  color: #ffffff;
   font-weight: 500;
 }
 
@@ -3778,7 +3783,7 @@ footer css
   text-align: center;
   -webkit-transition: 0.3s;
   transition: 0.3s;
-  color: #4F78AB;
+  color: #ffffff;
 }
 
 .footer-opening{

@@ -586,7 +586,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 
     <footer class="footer-area">
         <div class="footer-widget">
-            <div class="container pt-60 pb-50">
+            <div class="container pt-5">
                 <div class="row footer-widget-wrapper">
                     <div class="col-md-6 col-lg-6">
                         <div class="footer-widget-box about-us">
@@ -623,16 +623,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
                         <div class="footer-widget-box list">
                             <h4 class="footer-widget-title">Sponsors</h4>
                             <ul class="footer-list">
-                                {{-- <li><a href="#"><i class="fas fa-caret-right"></i> Online Support</a></li>
+                                 <!-- <li><a href="#"><i class="fas fa-caret-right"></i> Online Support</a></li>
                                 <li><a href="#"><i class="fas fa-caret-right"></i> FAQ's</a></li>
                                 <li><a href="#"><i class="fas fa-caret-right"></i> Free Consultancy</a></li>
                                 <li><a href="#"><i class="fas fa-caret-right"></i> 24/7 Service</a></li>
                                 <li><a href="#"><i class="fas fa-caret-right"></i> Make Call</a></li>
-                                <li><a href="#"><i class="fas fa-caret-right"></i> Contact Support</a></li> --}}
+                                <li><a href="#"><i class="fas fa-caret-right"></i> Contact Support</a></li>  -->
                             </ul>
                         </div>
                     </div>
-                    {{-- <div class="col-md-6 col-lg-4">
+                   <!-- <div class="col-md-6 col-lg-4">
                         <div class="footer-widget-box list">
                             <h4 class="footer-widget-title">Opening Hour</h4>
                             <div class="footer-opening">
@@ -647,7 +647,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
                                 </ul>
                             </div>
                         </div>
-                    </div> --}}
+                    </div> -->
                 </div>
             </div>
            
