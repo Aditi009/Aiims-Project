@@ -1,6 +1,6 @@
 @extends('layouts.main')
 @section('content')
-<div class="site-breadcrumb" style="background: url('{{asset('web/assets/img/slider/slider-1.jpg')}}')">
+<div class="site-breadcrumb" style="background: url('{{asset('web/images/hi.jpg')}}')">
     <div class="container">
             <h2 class="breadcrumb-title">International Faculty </h2>
             <ul class="breadcrumb-menu">
