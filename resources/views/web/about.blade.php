@@ -2,7 +2,7 @@
 @section('content')
 
 
-  
+{{--   
 
 <div class="site-breadcrumb" style="background: url('{{asset('web/images/hi.jpg')}}')">
     <div class="container">
@@ -12,7 +12,7 @@
                     <li class="active">About Us</li>
                 </ul>
             </div>
-        </div>
+        </div> --}}
 
 
         <div class="about-area py-120">
@@ -61,8 +61,7 @@
 
                             </p>
                           
-                            <a href="{{route('about-us')}}" class="theme-btn mt-4">Discover More <i
-                                    class="far fa-arrow-right"></i></a>
+                         
                         </div>
                     </div>
                     {{-- <section id="contact-text">

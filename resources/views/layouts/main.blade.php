@@ -479,14 +479,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 
 <body>
 
+
     <div class="preloader">
         <div class="loader">
             <div class="loader-box-1"></div>
             <div class="loader-box-2"></div>
         </div>
     </div>
-
-
     <header class="header">
 
         <div class="header-top">
@@ -511,14 +510,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
                     </div>
                     <div class="collapse navbar-collapse" id="main_nav">
                         <ul class="navbar-nav">
-                            <li class="nav-item"><a class="nav-link active" href="/"> Home </a></li>
+                            <li class="nav-item"><a class="nav-link  {{  Request::path() == "/" ? 'active' : ''}}" href="/"> Home </a></li>
                             {{-- <li class="nav-item"><a class="nav-link" target="_blank" href="{{asset('web/pdf/Program.pdf')}}"> Scientific Program </a></li> --}}
                             {{-- <li class="nav-item"><a class="nav-link comming-soon" target="_blank" > Scientific Program </a></li> --}}
-                            <li class="nav-item"><a class="nav-link"href="{{route('scientific_program')}}" > Scientific Program </a></li>
+                            <li class="nav-item"><a class="nav-link {{  Request::path() == "scientific_program" ? 'active' : ''}}" href="{{route('scientific_program')}}" > Scientific Program </a></li>
 
-                            <li class="nav-item"><a class="nav-link" href="{{route('about-us')}}">Abstract</a></li>
+                            <li class="nav-item"><a class="nav-link {{  Request::path() == "about-us" ? 'active' : ''}}" href="{{route('about-us')}}">Abstract</a></li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle " href="#"
+                                <a class="nav-link  {{  (Request::path() == "national_faculty" || Request::path() == "international_faculty") ? 'active' : ''}} dropdown-toggle " href="#"
                                     data-bs-toggle="dropdown">Faculty</a>
                                 <ul class="dropdown-menu fade-up">
                                     <li><a class="dropdown-item" href="{{route('international_faculty')}}">International Faculty</a></li>
@@ -526,7 +525,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
                                 </ul>
                             </li>
                             {{-- <li class="nav-item"><a class="nav-link" href="{{route('organiser')}}"> Organisers </a></li> --}}
-                             <li class="nav-item"><a class="nav-link" href="{{route('commitee')}}"> Committee </a></li>
+                             <li class="nav-item"><a class="nav-link {{  Request::path() == "commitee" ? 'active' : ''}}" href="{{route('commitee')}}"> Committee </a></li>
                            
                             
 
@@ -536,9 +535,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
                             
 
                             
-                            <li class="nav-item"><a class="nav-link" href="{{route('download')}}">Download</a></li>
-                            <li class="nav-item"><a class="nav-link" href="{{route('gallery')}}"> Gallery </a></li>
-                            <li class="nav-item"><a class="nav-link"  href="{{route('contact')}}">Contact Us</a></li>
+                            <li class="nav-item"><a class="nav-link  {{  Request::path() == "download" ? 'active' : ''}}" href="{{route('download')}}">Downloads</a></li>
+                            <li class="nav-item"><a class="nav-link  {{  Request::path() == "gallery" ? 'active' : ''}}" href="{{route('gallery')}}"> Gallery </a></li>
+                            <li class="nav-item"><a class="nav-link  {{  Request::path() == "contact" ? 'active' : ''}}"  href="{{route('contact')}}">Contact Us</a></li>
 
 
                         </ul>

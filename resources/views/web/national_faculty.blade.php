@@ -1,6 +1,6 @@
 @extends('layouts.main')
 @section('content')
-<div class="site-breadcrumb" style="background: url('{{asset('web/images/hi.jpg')}}')">
+{{-- <div class="site-breadcrumb" style="background: url('{{asset('web/images/hi.jpg')}}')">
     <div class="container">
         <h2 class="breadcrumb-title">National Faculty </h2>
         <ul class="breadcrumb-menu">
@@ -8,7 +8,7 @@
             <li class="active"> National Faculty</li>
         </ul>
     </div>
-</div>
+</div> --}}
 
 
 <div class="team-area py-120">

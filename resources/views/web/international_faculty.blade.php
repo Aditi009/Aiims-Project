@@ -1,6 +1,6 @@
 @extends('layouts.main')
 @section('content')
-<div class="site-breadcrumb" style="background: url('{{asset('web/images/hi.jpg')}}')">
+{{-- <div class="site-breadcrumb" style="background: url('{{asset('web/images/hi.jpg')}}')">
     <div class="container">
             <h2 class="breadcrumb-title">International Faculty </h2>
             <ul class="breadcrumb-menu">
@@ -8,7 +8,7 @@
                 <li class="active"> International Faculty</li>
             </ul>
         </div>
-    </div>
+    </div> --}}
 
 
     <div class="team-area py-120">
@@ -21,10 +21,12 @@
                     </div>
                 </div>
             </div>
+
             <div class="row justify-content-center">
+
                 <div class="col-md-6 col-lg-3">
-                    <div class="team-item">
-                        <img src="{{asset('web/images/pritanand.png')}}" style="min-height: 413px;" alt="thumb">
+                    <div class="team-item active">
+                        <img src="{{asset('web/images/philippe.png')}}" style="min-height: 413px;" alt="thumb">
                         <div class="team-social">
                             <a href="#"><i class="fab fa-facebook-f"></i></a>
                             <a href="#"><i class="fab fa-twitter"></i></a>
@@ -34,8 +36,8 @@
                         </div>
                         <div class="team-content">
                             <div class="team-bio">
-                                <h5><a href="#">Prit Anand Singh</a></h5>
-                                <span>Director, Pain Management Service at Changi General Hospital, Singapore</span>
+                                <h5><a href="#">Philippe Macaire</a></h5>
+                                <span>Director of Anesthesiology and Pain Management VinMec INternational Hospitals Hanoi Vietnam</span>
                             </div>
                         </div>
                     </div>
@@ -60,8 +62,8 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
-                    <div class="team-item active">
-                        <img src="{{asset('web/images/philippe.png')}}" style="min-height: 413px;" alt="thumb">
+                    <div class="team-item">
+                        <img src="{{asset('web/images/mornewolmaran.png')}}" style="min-height: 413px;" alt="thumb">
                         <div class="team-social">
                             <a href="#"><i class="fab fa-facebook-f"></i></a>
                             <a href="#"><i class="fab fa-twitter"></i></a>
@@ -71,12 +73,52 @@
                         </div>
                         <div class="team-content">
                             <div class="team-bio">
-                                <h5><a href="#">Philippe Macaire</a></h5>
-                                <span>Director of Anesthesiology and Pain Management VinMec INternational Hospitals Hanoi Vietnam</span>
+                                <h5><a href="#">Vishal uppal</a></h5>
+                                <span>Norfolk & Norwich University Hospital, UK
+</span>
                             </div>
                         </div>
                     </div>
                 </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="team-item">
+                        <img src="{{asset('web/images/mornewolmaran.png')}}" style="min-height: 413px;" alt="thumb">
+                        <div class="team-social">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                        </div>
+                        <div class="team-content">
+                            <div class="team-bio">
+                                <h5><a href="#">Sandeep</a></h5>
+                                <span>Norfolk & Norwich University Hospital, UK
+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="team-item">
+                        <img src="{{asset('web/images/pritanand.png')}}" style="min-height: 413px;" alt="thumb">
+                        <div class="team-social">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                        </div>
+                        <div class="team-content">
+                            <div class="team-bio">
+                                <h5><a href="#">Prit Anand Singh</a></h5>
+                                <span>Director, Pain Management Service at Changi General Hospital, Singapore</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+             
+              
                 <!-- <div class="col-md-6 col-lg-3">
                     <div class="team-item">
                         <img src="{{asset('web/images/team-04.jpg')}}" alt="thumb">
