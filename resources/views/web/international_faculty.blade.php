@@ -37,7 +37,7 @@
                         <div class="team-content">
                             <div class="team-bio">
                                 <h5><a href="#">Philippe Macaire</a></h5>
-                                <span>Director of Anesthesiology and Pain Management VinMec INternational Hospitals Hanoi Vietnam</span>
+                                <span> VinMec INternational Hospitals Hanoi Vietnam</span>
                             </div>
                         </div>
                     </div>
@@ -112,7 +112,7 @@
                         <div class="team-content">
                             <div class="team-bio">
                                 <h5><a href="#">Prit Anand Singh</a></h5>
-                                <span>Director, Pain Management Service at Changi General Hospital, Singapore</span>
+                                <span> Changi General Hospital, Singapore</span>
                             </div>
                         </div>
                     </div>

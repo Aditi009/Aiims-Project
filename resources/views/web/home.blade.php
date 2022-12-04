@@ -255,9 +255,7 @@
                     </div>
 
                     <div class="about-left-content">
-                        <div class="about-left-icon">
-                            <i class="flaticon-customer"></i>
-                        </div>
+                     
                         <div class="about-left-info">
                             <ul>
                                 <li style="

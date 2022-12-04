@@ -9,6 +9,11 @@
         </ul>
     </div>
 </div> --}}
+<style>
+    .team-item img{
+        min-height: 400px;
+    }
+</style>
 
 
 <div class="team-area py-120">
@@ -32,8 +37,8 @@
                     </div>
                     <div class="team-content">
                         <div class="team-bio">
-                            <h5><a href="#">DR. T. SIVASHANMUGAM</a></h5>
-                            <span>MD, DNB, PDCC, FRCP. PROFESSOR AND Head Department of Anaesthesiology
+                            <h5><a href="#">T. SIVASHANMUGAM</a></h5>
+                            <span>
                             </span>
                         </div>
                     </div>
@@ -49,7 +54,7 @@
                     </div>
                     <div class="team-content">
                         <div class="team-bio">
-                            <h5><a href="#">Dr Sandeep Diwan</a></h5>
+                            <h5><a href="#">Sandeep Diwan</a></h5>
                             <span>Sancheti Hospital, Pune
                             </span>
                         </div>
@@ -67,8 +72,7 @@
                     <div class="team-content">
                         <div class="team-bio">
                             <h5><a href="#">Kajal Jain</a></h5>
-                            <span>Department of Anaesthesia and Intensive Care
-                                , PGIMER, Chandigarh
+                            <span>PGIMER, Chandigarh
                             </span>
                         </div>
                     </div>
@@ -104,7 +108,7 @@
                     <div class="team-content">
                         <div class="team-bio">
                             <h5><a href="#">Dr. Deep Arora</a></h5>
-                            <span>Director - Anaesthesia Pain Management ,Max Hospital, Gurgaon
+                            <span>Max Hospital, Gurgaon
                             </span>
                         </div>
                     </div>
@@ -120,8 +124,8 @@
                     </div>
                     <div class="team-content">
                         <div class="team-bio">
-                            <h5><a href="#">Dr. Subramanyam S Mahankali</a></h5>
-                            <span>Lead Consultant - MBBS, MD, DNB, FRCA, CCT, Aster Hospital Bangalore
+                            <h5><a href="#">Subramanyam S Mahankali</a></h5>
+                            <span> Aster Hospital Bangalore
                             </span>
                         </div>
                     </div>
@@ -137,8 +141,8 @@
                     </div>
                     <div class="team-content">
                         <div class="team-bio">
-                            <h5><a href="#">Dr. Debendra Kumar Tripathi</a></h5>
-                            <span>MBBS, MD , Additional Professor
+                            <h5><a href="#"> Debendra Kumar Tripathi</a></h5>
+                            <span>
 AIIMS, Rishikesh
                             </span>
                         </div>
