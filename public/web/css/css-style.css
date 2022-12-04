@@ -3742,12 +3742,12 @@ footer css
 
 .footer-list li a i{
   margin-right: 5px;
-  color: #5698f4;
+  color: white;
 }
 
 .footer-list li a:hover {
   padding-left: 10px;
-  color: #5698f4;
+  color: white;
 }
 
 .footer-widget-box p {
