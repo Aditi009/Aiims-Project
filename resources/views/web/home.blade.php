@@ -1,5 +1,30 @@
 @extends('layouts.main')
 @section('content')
+<style>
+.animate-charcter {
+    text-transform: uppercase;
+    background-image: linear-gradient( -225deg, #231557 0%, #44107a 29%, #ff1361 67%, #fff800 100% );
+    background-size: auto auto;
+    padding: 10px;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    box-shadow: 0 0 15px rgb(0 0 0 / 17%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+    font-size: 44px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+</style>
     <!-- <div class="container">
         <span class="number" data-number="9">
             <span class="primary">
@@ -13,7 +38,13 @@
             <span class="secondary">
             </span>
         </span>
-    </div> -->
+    </div> --> 
+    <div class="container time" >
+        <div id="day_to">
+            <h3 class="animate-charcter"> EKOSH</h3>
+
+        </div>
+    </div>
     <div class="hero-section hero-slider owl-carousel owl-theme">
         <div class="hero-single" style="background-image: url({{ asset('web/carousel-3.jpg') }})">
             <div class="container">
@@ -205,25 +236,37 @@
     <div class="feature-area py-50">
         <div class="container">
             <div class="feature-area-wrapper">
-                <div class="row">
+                <div class="row justify-content-center">
+
+                    <div class="col-md-6 col-lg-3">
+                        <div class="feature-item ">
+                            <div class="feature-icon">
+                                <i class="flaticon-meeting"></i>
+                            </div>
+                            <div class="feature-content">
+                                <h5>Volunteer Scanning with Hands - on Experience</h5>
+
+                            </div>
+                        </div>
+                    </div>
                     <div class="col-md-6 col-lg-3">
                         <div class="feature-item active">
                             <div class="feature-icon">
                                 <i class="flaticon-psychology-2"></i>
                             </div>
                             <div class="feature-content">
-                                <h5>Quiz: Win & Get Exciting Prizes</h5>
+                                <h5>Interactive - Talks and Case Discussions</h5>
 
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-3">
-                        <div class="feature-item">
+                        <div class="feature-item ">
                             <div class="feature-icon">
                                 <i class="flaticon-psychologist"></i>
                             </div>
                             <div class="feature-content">
-                                <h5>feedback, certificate/award distribution</h5>
+                                <h5>Domonstrations of Anatomy on Cadavers</h5>
 
                             </div>
                         </div>
@@ -234,11 +277,39 @@
                                 <i class="flaticon-meeting"></i>
                             </div>
                             <div class="feature-content">
-                                <h5>Group Photograph/Disposal</h5>
+                                <h5>Point of Care Ultrasound- Gastric Lung</h5>
 
                             </div>
                         </div>
                     </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="feature-item active">
+                            <div class="feature-icon">
+                                <i class="flaticon-psychologist"></i>
+                            </div>
+                            <div class="feature-content">
+                                <h5>Needling in Soft Embalmed Cadavers</h5>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    
+                    
+
+                    <div class="col-md-6 col-lg-3">
+                        <div class="feature-item ">
+                            <div class="feature-icon">
+                                <i class="flaticon-psychology-2"></i>
+                            </div>
+                            <div class="feature-content">
+                                <h5>Quiz: Win & Get Exciting Prizes</h5>
+
+                            </div>
+                        </div>
+                    </div>
+               
 
                 </div>
             </div>
@@ -306,6 +377,7 @@
         </div>
     </div>
 
+    
 
     <!-- registration -->
     <div class="testimonial-area py-120">
@@ -688,47 +760,7 @@
             width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
+    <script type = "text/JavaScript" src = "https://MomentJS.com/downloads/moment.js"></script>
 
-    <script>
-        setInterval(function() {
-            doFlip(2, 2);
-        }, 1000);
 
-        function doFlip(numberIndex, count) {
-
-            if (count === undefined) {
-                count = 1;
-            }
-
-            var currentNumberElement = $(".number:eq(" + numberIndex + ")");
-
-            var currentNumber = Number(currentNumberElement.attr("data-number"));
-
-            currentNumber -= count;
-
-            var makeAFlip = false;
-
-            if (currentNumber < 0) {
-                currentNumber = 10 + currentNumber;
-                makeAFlip = true;
-            }
-
-            currentNumberElement.find(".primary").attr("title", currentNumber);
-            currentNumberElement.find(".secondary").attr("title", currentNumber);
-
-            if (makeAFlip) {
-                if (numberIndex > 0) {
-                    doFlip(--numberIndex);
-                }
-            }
-
-            currentNumberElement.addClass("flip");
-
-            setTimeout(function() {
-                currentNumberElement.attr("data-number", currentNumber);
-
-                currentNumberElement.removeClass("flip");
-            }, 500);
-        }
-    </script>
 @endsection

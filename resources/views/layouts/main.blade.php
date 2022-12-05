@@ -11,6 +11,20 @@
 
     <title>CUSA - COMPREHENSIVE SYMPOSIUM ON ULTRASOUND FOR ANAESTHESIOLOGIST</title>
 <style>
+  .time{
+
+    position: fixed;
+    background: white;
+    z-index: 99;
+    right: 0;
+    top: 200px;
+    height: 67px;
+    width: 240px !important;
+  }
+
+  
+
+
     li span {
   display: block;
 }
@@ -487,6 +501,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
         </div>
     </div>
     <header class="header">
+      
+
 
         <div class="header-top">
             
@@ -674,6 +690,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 
     <a href="#" id="scroll-top"><i class="far fa-long-arrow-up"></i></a>
 
+    <script>
+      const nextDate = "24/02/2023"
+      const nowDate = moment();
+      const nexttt =    nextDate ? moment(nextDate, 'DD/MM/YYYY') : '';
+      const diff = nexttt.diff(nowDate,'days')+ " Days"
+      $('.animate-charcter').html(diff)
+  </script>
 <script>
     $('.comming-soon').click(function(){
         toastr.options = {
@@ -696,6 +719,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
         toastr.info('COMMING SOON')
 
     })
+
 </script>
     
     <script data-cfasync="false" src="{{asset('web/js/cloudflare-static-email-decode.min.js')}}"></script>
