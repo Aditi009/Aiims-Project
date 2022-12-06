@@ -19,8 +19,37 @@
     right: 0;
     top: 200px;
     height: 67px;
-    width: 240px !important;
+    width: 276px !important
   }
+
+  @media only screen and (max-width: 600px) {
+    .time {
+    position: fixed;
+    background: white;
+    z-index: 9999;
+    right: 0;
+    top: 200px;
+    height: 46px;
+    width: 161px !important;
+}
+.animate-charcter {
+    text-transform: uppercase;
+    background-image: linear-gradient( -225deg, #231557 0%, #44107a 29%, #ff1361 67%, #fff800 100% );
+    background-size: auto auto;
+    padding: 10px;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    /* box-shadow: 0 0 15px rgb(0 0 0 / 17%); */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+    font-size: 20px;
+}
+}
 
   
 
@@ -694,8 +723,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
       const nextDate = "24/02/2023"
       const nowDate = moment();
       const nexttt =    nextDate ? moment(nextDate, 'DD/MM/YYYY') : '';
-      const diff = nexttt.diff(nowDate,'days')+ " Days"
-      $('.animate-charcter').html(diff)
+      const diff = nexttt.diff(nowDate,'days')
+
+      html = "<span><i class='far fa-calendar-alt animate-charcter'></i></span><h3 class='animate-charcter'>"+diff+" DAYS</h3>"
+      $('#day_to').html(html)
   </script>
 <script>
     $('.comming-soon').click(function(){
