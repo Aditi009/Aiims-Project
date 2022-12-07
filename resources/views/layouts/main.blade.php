@@ -12,14 +12,13 @@
     <title>CUSA - COMPREHENSIVE SYMPOSIUM ON ULTRASOUND FOR ANAESTHESIOLOGIST</title>
 <style>
   .time{
-
     position: fixed;
     background: white;
     z-index: 9999;
     right: 0;
-    top: 200px;
-    height: 67px;
-    width: 276px !important
+    top: 300px;
+    text-align:center;
+    width: 90px !important
   }
 
   @media only screen and (max-width: 600px) {
@@ -27,8 +26,8 @@
     position: fixed;
     background: white;
     z-index: 9999;
-    right: 0;
-    top: 200px;
+    right: 2px;
+    top: 3px;
     height: 46px;
     width: 161px !important;
 }
@@ -47,7 +46,7 @@
     -webkit-text-fill-color: transparent;
     animation: textclip 2s linear infinite;
     display: inline-block;
-    font-size: 20px;
+    font-size: 22px;
 }
 }
 
