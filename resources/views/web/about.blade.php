@@ -14,6 +14,9 @@
 
 
     <style>
+        .icon2{
+            background-color: black !important; 
+        }
         .my-first {
             width: 100%;
             padding: 11px;
@@ -42,24 +45,45 @@
         .myui li {
             list-style: inherit;
         }
-        .my-card{
+
+        .pl-4{
+            padding-left: 10px;
+        }
+        .my-card {
             margin: 0px 0px 0px 0px;
-    padding: 15px 15px 15px 15px;
-    background-color: #F8F8F8;
-    border-radius: 25px 25px 25px 25px;
+            padding: 15px 15px 15px 15px;
+            background-color: #F8F8F8;
+            border-radius: 25px 25px 25px 25px;
 
         }
-        .elementor-icon-box-title{
+
+        .elementor-icon-box-title {
             color: black
         }
-        .click{
+
+        .click {
             color: #5698f4;
         }
-        .my-2-card{
+
+        .my-2-card {
             margin: 0px 0px 0px 0px;
-    padding: 15px 15px 15px 15px;
-    background-color: #5698f454;
-    border-radius: 25px 25px 25px 25px;
+            padding: 18px 64px 25px 50px;
+            background-color: #5698f454;
+            border-radius: 25px 25px 25px 25px;
+        }
+
+        .elementor-icon {
+            font-size: 40px;
+            border-radius: 25px 25px 25px 25px;
+            padding: 0.5em;
+            color: white;
+            background-color: #5698f4;
+
+        }
+
+        .elementor-icon {
+            font-size: 40px;
+            border-radius: 25px 25px 25px 25px;
         }
     </style>
     <div class="about-area py-120">
@@ -80,14 +104,50 @@
 
                     <div class="collapse" id="collapseExample">
                         <div class="card card-body mycard">
-                            <ul class="myui"><li>An abstract is a compendious summary of a research paper’s substance including its background, purpose, methodology, results, and conclusion.</li><li>It should be one paragraph with a word limit of 175-275.</li><li>Keywords should be provided as a must (no more than 06 words).</li><li>Keywords should be written in lowercase letters (Not applicable to names/scientific names) and should be separated with commas.</li><li>Please do not include subheadings, bullets, lists and header/footer in the abstract.</li><li>Abstract titles should be short, but descriptive. Informative titles, indicating key points are encouraged. Abbreviations should not be used in the title.</li><li>Acronyms should be written in full the first time, mentioned in the text, followed by the abbreviation in parentheses.</li><li>Always follow SI Units.</li><li>Scientific names must be in Italic.</li><li>Use a negative exponent (g. kgm<sup>-3</sup>) and do not indicate units as divisions (e.g. kg/m 3 ).</li><li>Chemical formulae should be written in a standard form such as “CaCO<sub>3</sub>”, not as “CaCO3”. Use a zero before decimal points such as “0.45,” not “.45.”</li><li>There shall be no citations or references in the abstract specifically. If there is a need to cite references, please provide the sources in brackets.</li></ul>
+                            <ul class="myui">
+                                <li>An abstract is a compendious summary of a research paper’s substance including its
+                                    background, purpose, methodology, results, and conclusion.</li>
+                                <li>It should be one paragraph with a word limit of 175-275.</li>
+                                <li>Keywords should be provided as a must (no more than 06 words).</li>
+                                <li>Keywords should be written in lowercase letters (Not applicable to names/scientific
+                                    names) and should be separated with commas.</li>
+                                <li>Please do not include subheadings, bullets, lists and header/footer in the abstract.
+                                </li>
+                                <li>Abstract titles should be short, but descriptive. Informative titles, indicating key
+                                    points are encouraged. Abbreviations should not be used in the title.</li>
+                                <li>Acronyms should be written in full the first time, mentioned in the text, followed by
+                                    the abbreviation in parentheses.</li>
+                                <li>Always follow SI Units.</li>
+                                <li>Scientific names must be in Italic.</li>
+                                <li>Use a negative exponent (g. kgm<sup>-3</sup>) and do not indicate units as divisions
+                                    (e.g. kg/m 3 ).</li>
+                                <li>Chemical formulae should be written in a standard form such as “CaCO<sub>3</sub>”, not
+                                    as “CaCO3”. Use a zero before decimal points such as “0.45,” not “.45.”</li>
+                                <li>There shall be no citations or references in the abstract specifically. If there is a
+                                    need to cite references, please provide the sources in brackets.</li>
+                            </ul>
                             <p><strong>FONT</strong></p>
-                            <ul  class="myui"><li><strong>Title</strong>: Times New Roman, 12 points, Upper case, Centered text in bold</li><li><strong>Body</strong>: Times New Roman, 11 points; Line spacing: 1, one column of text</li></ul>
+                            <ul class="myui">
+                                <li><strong>Title</strong>: Times New Roman, 12 points, Upper case, Centered text in bold
+                                </li>
+                                <li><strong>Body</strong>: Times New Roman, 11 points; Line spacing: 1, one column of text
+                                </li>
+                            </ul>
                             <p><strong>AFFILIATIONS</strong></p>
-                            <ul  class="myui"><li>Affiliations should be indicated with superscript Arabic numbers appearing at the end of surname/family name.</li><li>A superscript asterisk shout be used for the corresponding author</li><li>Names of affiliations should be given including the country.</li><li>If there is more than one name and address, they should be related by superscript numbers.</li></ul>
+                            <ul class="myui">
+                                <li>Affiliations should be indicated with superscript Arabic numbers appearing at the end of
+                                    surname/family name.</li>
+                                <li>A superscript asterisk shout be used for the corresponding author</li>
+                                <li>Names of affiliations should be given including the country.</li>
+                                <li>If there is more than one name and address, they should be related by superscript
+                                    numbers.</li>
+                            </ul>
                             <p>Eg:-</p>
                             <p>Surname INITIALS 1 , Surname INITIALS 1* and Surname INITIALS 2</p>
-                            <ol><li>Department, Faculty, University, Country</li><li>Department, Institute, Country</li></ol>
+                            <ol>
+                                <li>Department, Faculty, University, Country</li>
+                                <li>Department, Institute, Country</li>
+                            </ol>
                             <p>*author@gmail.com (* Email address of the corresponding author)</p>
                         </div>
                     </div>
@@ -99,7 +159,23 @@
 
                     <div class="collapse" id="collapseExample1">
                         <div class="card card-body mycard">
-                            <ul class="myui"><li>Abstracts should represent the original work.</li><li>Informative abstracts and critical abstracts are accepted.</li><li>The Abstract should be written in English.</li><li>Please indicate one – three most relevant themes for your abstract from the conference tracks.</li><li>Please send in a brief biography together with the Abstract (An example is given in the abstract template).</li><li>Please<strong>&nbsp;<a href="https://tiikmedu-my.sharepoint.com/:w:/p/publication/EXrkLF1PdjBNtTcXVp1j9xwB2XJcZA13SxohO-wOkpZtMg?e=3iuWsK">download</a></strong><a href="https://tiikmedu-my.sharepoint.com/:w:/p/publication/EXrkLF1PdjBNtTcXVp1j9xwB2XJcZA13SxohO-wOkpZtMg?e=3iuWsK">&nbsp;</a>the abstract template and follow the format carefully.</li><li>Documents that do not confirm to the guidelines will be asked to revise.</li><li>Documents received&nbsp;after the given deadline, due to any reason will not be accepted&nbsp;unless the deadline is extended.</li><li>The abstract should be submitted in the format of MS Word (.doc or .docx) document.</li></ul>
+                            <ul class="myui">
+                                <li>Abstracts should represent the original work.</li>
+                                <li>Informative abstracts and critical abstracts are accepted.</li>
+                                <li>The Abstract should be written in English.</li>
+                                <li>Please indicate one – three most relevant themes for your abstract from the conference
+                                    tracks.</li>
+                                <li>Please send in a brief biography together with the Abstract (An example is given in the
+                                    abstract template).</li>
+                                <li>Please<strong>&nbsp;<a
+                                            href="https://tiikmedu-my.sharepoint.com/:w:/p/publication/EXrkLF1PdjBNtTcXVp1j9xwB2XJcZA13SxohO-wOkpZtMg?e=3iuWsK">download</a></strong><a
+                                        href="https://tiikmedu-my.sharepoint.com/:w:/p/publication/EXrkLF1PdjBNtTcXVp1j9xwB2XJcZA13SxohO-wOkpZtMg?e=3iuWsK">&nbsp;</a>the
+                                    abstract template and follow the format carefully.</li>
+                                <li>Documents that do not confirm to the guidelines will be asked to revise.</li>
+                                <li>Documents received&nbsp;after the given deadline, due to any reason will not be
+                                    accepted&nbsp;unless the deadline is extended.</li>
+                                <li>The abstract should be submitted in the format of MS Word (.doc or .docx) document.</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -114,50 +190,78 @@
                         </h5>
                         <p class="elementor-icon-box-description">
                             Once you prepared your abstract according to the above guidelines,</p>
-                            <ul class="myui">
-                              
-                                <li>To Submit your abstract <a class="click"href="https://educationconference.co/abstract-guidelines/#abstract">Click Here&gt;&gt;</a></li>
-                            </ul>
-                           <ul class="myui">
-                                <li>After submission you will be acknowledged of the receipt of the abstract via an email within three working days.</li>
-                           </ul>
+                        <ul class="myui">
+
+                            <li>To Submit your abstract <a
+                                    class="click"href="https://educationconference.co/abstract-guidelines/#abstract">Click
+                                    Here&gt;&gt;</a></li>
+                        </ul>
+                        <ul class="myui">
+                            <li>After submission you will be acknowledged of the receipt of the abstract via an email within
+                                three working days.</li>
+                        </ul>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="my-card">
                         <h5 class="elementor-icon-box-title">
                             <span>
-                             DEADLINE FOR THE ABSTRACT SUBMISSION
+                                DEADLINE FOR THE ABSTRACT SUBMISSION
                             </span>
                         </h5>
-                        <ol class="myui"> 
+                        <ol class="myui">
                             <li><b>Please submit your abstract before: 12<sup>th</sup> December 2022</b></li>
-                       </ol>
+                        </ol>
                     </div>
                 </div>
 
             </div>
             <div class="row mt-5">
                 <div class="col-md-6">
-                    <div class="my-2-card">
-                        <div class="left">
-                            <i class="fa fa-book"></i>
+                    <div class="my-2-card d-flex">
+                        <div class="elementor-icon-box-icon">
+                            <span class="elementor-icon elementor-animation-">
+                                <i class="fa fa-book-alt"></i>
+                            </span>
+                        </div>
+                        <div class="elementor-icon-box-content pl-4">
+                            <h5 class="elementor-icon-box-title">
+                                <span>
+                                    Extended Abstract Submission Deadline </span>
+                            </h5>
+                            <p class="elementor-icon-box-description">
+                                12<sup>th</sup> December 2022 </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="my-2-card">
-                        <h5 class="elementor-icon-box-title">
-                            <span>
-                             DEADLINE FOR THE ABSTRACT SUBMISSION
+                    <div class="my-2-card d-flex">
+                        <div class="elementor-icon-box-icon">
+                            <span class="elementor-icon icon2 elementor-animation-">
+                                <i class="fa fa-calendar-alt"></i>
                             </span>
-                        </h5>
-                        <ol class="myui"> 
-                            <li><b>Please submit your abstract before: 12<sup>th</sup> December 2022</b></li>
-                       </ol>
+                        </div>
+                        <div class="elementor-icon-box-content pl-4">
+                            <h5 class="elementor-icon-box-title">
+                                <span>
+                                    Extended Abstract Submission Deadline </span>
+                            </h5>
+                            <p class="elementor-icon-box-description">
+                                12<sup>th</sup> December 2022 </p>
+                        </div>
                     </div>
                 </div>
 
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-lg-12">
+                    <div class="site-heading text-center">
+                        <h2 class="site-title">
+					Submit Your Abstract
+					</h2>
+                    </div>
+                </div>
             </div>
 
         </div>
