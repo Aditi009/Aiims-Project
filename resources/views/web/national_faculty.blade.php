@@ -11,7 +11,7 @@
 </div> --}}
 <style>
     .team-item img{
-        min-height: 400px;
+        min-height: 370px;
     }
 </style>
 
