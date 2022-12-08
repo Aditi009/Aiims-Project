@@ -14,9 +14,17 @@
 
 
     <style>
-        .icon2{
-            background-color: black !important; 
+        a:hover {
+            color: white;
         }
+
+        .icon2 {
+            background-color: black !important;
+        }
+        .col-md-6{
+            padding: 10px;
+        }
+
         .my-first {
             width: 100%;
             padding: 11px;
@@ -24,12 +32,21 @@
             font-size: 31px;
             font-weight: 800;
             border-width: 2px;
-            color: #5698f4;
+            color: white;
+            position: relative;
             border-color: #5698f454;
-            background-color: #5698f454;
+            background-color: #5698f4;
             /* padding: 22px 22px 22px 22px; */
             line-height: 1.2em;
 
+
+        }
+
+        .fa-angle-down {
+            position: absolute;
+            top: 17px;
+            right: 10px;
+            font-size: 25px;
         }
 
         .mycard {
@@ -46,9 +63,10 @@
             list-style: inherit;
         }
 
-        .pl-4{
+        .pl-4 {
             padding-left: 10px;
         }
+
         .my-card {
             margin: 0px 0px 0px 0px;
             padding: 15px 15px 15px 15px;
@@ -92,15 +110,15 @@
                 <p class="text-center">To facilitate the submission process and the subsequent follow-up process, please
                     consider the following guidelines, information, tips, terms and deadlines mentioned.</p>
                 <div class="header-btn d-flex justify-content-center">
-                    <a href="{{ asset('web/images/abstract-cusa.pdf') }}"
-                        class="theme-btn mt-4">DOWNLOAD ABSTRACT TEMPLATE </a>
+                    <a href="{{ asset('web/images/abstract-cusa.pdf') }}" class="theme-btn mt-4">DOWNLOAD ABSTRACT TEMPLATE
+                    </a>
                 </div>
             </div>
             <div class="row mt-5">
                 <div class="col-md-6">
                     <a class="my-first" data-bs-toggle="collapse" href="#collapseExample" role="button"
                         aria-expanded="false" aria-controls="collapseExample">
-                        BASIC FORMAT FOR ABSTRACT </a>
+                        BASIC FORMAT FOR ABSTRACT <span><i class="fa fa-angle-down"></i></span></a>
 
                     <div class="collapse" id="collapseExample">
                         <div class="card card-body mycard">
@@ -108,7 +126,7 @@
                                 <li>An abstract is a compendious summary of a research paper’s substance including its
                                     background, purpose, methodology, results, and conclusion.</li>
                                 <li>It should be one paragraph with a word limit of 200-250</li>
-                         
+
                                 <li>Abstract titles should be short, but descriptive. Informative titles, indicating key
                                     points are encouraged. Abbreviations should not be used in the title.</li>
                             </ul>
@@ -141,14 +159,14 @@
                 <div class="col-md-6">
                     <a class="my-first" data-bs-toggle="collapse" href="#collapseExample1" role="button"
                         aria-expanded="false" aria-controls="collapseExample">
-                        GENERAL INSTRUCTIONS</a>
+                        GENERAL INSTRUCTIONS<span><i class="fa fa-angle-down"></i></span></a>
 
                     <div class="collapse" id="collapseExample1">
                         <div class="card card-body mycard">
                             <ul class="myui">
                                 <li>Informative abstracts and critical abstracts are accepted.</li>
                                 <li>The Abstract should be written in English.</li>
-                              
+
                                 <li>Please send in a brief biography together with the Abstract (An example is given in the
                                     abstract template).</li>
                                 <li>Please<strong>&nbsp;<a
@@ -177,7 +195,8 @@
                         <ul class="myui">
 
                             <li>To Submit your abstract <a
-                                    class="click"href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=cusaaiims@gmail.com">cusaaiims@gmail.com</a></li>
+                                    class="click"href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=cusaaiims@gmail.com">cusaaiims@gmail.com</a>
+                            </li>
                         </ul>
                         <ul class="myui">
                             <li>After submission you will be acknowledged of the receipt of the abstract via an email .</li>
@@ -188,7 +207,7 @@
                     <div class="my-card">
                         <h5 class="elementor-icon-box-title">
                             <span>
-                            ABSTRACT SUBMISSION DEADLINE
+                                ABSTRACT SUBMISSION DEADLINE
                             </span>
                         </h5>
                         <ol class="myui">
@@ -209,12 +228,11 @@
                         <div class="elementor-icon-box-content pl-4">
                             <h5 class="elementor-icon-box-title">
                                 <span>
-                                ABSTRACT SUBMISSION DEADLINE </span>
+                                    ABSTRACT SUBMISSION DEADLINE </span>
                             </h5>
                             <p class="elementor-icon-box-description">
                                 31<sup>th</sup> January 2023 </p>
-                                <a href="mailto:cusaaiims@gmail.com"
-                    >Submit Now <i class="far fa-arrow-right"></i></a>
+                            <a href="mailto:cusaaiims@gmail.com">Submit Now <i class="far fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -232,8 +250,9 @@
                             </h5>
                             {{-- <p class="elementor-icon-box-description">
                                 12<sup>th</sup> December 2022 </p> --}}
-                                <a href="https://docs.google.com/forms/d/e/1FAIpQLSecmHa4UtvlI_YJDZ6mDGk47g2-wnSQtSE-OHdL9PQq-1g0CA/viewform"
-                    >Register Now <i class="far fa-arrow-right"></i></a>
+                            <a
+                                href="https://docs.google.com/forms/d/e/1FAIpQLSecmHa4UtvlI_YJDZ6mDGk47g2-wnSQtSE-OHdL9PQq-1g0CA/viewform">Register
+                                Now <i class="far fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -243,11 +262,11 @@
             <div class="row mt-5">
                 <div class="col-lg-12">
                     <div class="site-heading text-center">
-                    <a class="theme-btn" href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=cusaaiims@gmail.com" target="_blank"
-                    >
-					Submit Your Abstract
-					 <i class="far fa-arrow-right"></i></a>
-                        
+                        <a class="theme-btn" href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=cusaaiims@gmail.com"
+                            target="_blank">
+                            Submit Your Abstract
+                            <i class="far fa-arrow-right"></i></a>
+
                     </div>
                 </div>
             </div>
