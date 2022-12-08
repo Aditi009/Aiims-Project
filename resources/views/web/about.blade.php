@@ -107,12 +107,8 @@
                             <ul class="myui">
                                 <li>An abstract is a compendious summary of a research paper’s substance including its
                                     background, purpose, methodology, results, and conclusion.</li>
-                                <li>It should be one paragraph with a word limit of 175-275.</li>
-                                <li>Keywords should be provided as a must (no more than 06 words).</li>
-                                <li>Keywords should be written in lowercase letters (Not applicable to names/scientific
-                                    names) and should be separated with commas.</li>
-                                <li>Please do not include subheadings, bullets, lists and header/footer in the abstract.
-                                </li>
+                                <li>It should be one paragraph with a word limit of 200-250</li>
+                         
                                 <li>Abstract titles should be short, but descriptive. Informative titles, indicating key
                                     points are encouraged. Abbreviations should not be used in the title.</li>
                             </ul>
@@ -150,11 +146,9 @@
                     <div class="collapse" id="collapseExample1">
                         <div class="card card-body mycard">
                             <ul class="myui">
-                                <li>Abstracts should represent the original work.</li>
                                 <li>Informative abstracts and critical abstracts are accepted.</li>
                                 <li>The Abstract should be written in English.</li>
-                                <li>Please indicate one – three most relevant themes for your abstract from the conference
-                                    tracks.</li>
+                              
                                 <li>Please send in a brief biography together with the Abstract (An example is given in the
                                     abstract template).</li>
                                 <li>Please<strong>&nbsp;<a
@@ -183,12 +177,10 @@
                         <ul class="myui">
 
                             <li>To Submit your abstract <a
-                                    class="click"href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=cusaaiims@gmail.com">Click
-                                    Here&gt;&gt;</a></li>
+                                    class="click"href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=cusaaiims@gmail.com">cusaaiims@gmail.com</a></li>
                         </ul>
                         <ul class="myui">
-                            <li>After submission you will be acknowledged of the receipt of the abstract via an email within
-                                three working days.</li>
+                            <li>After submission you will be acknowledged of the receipt of the abstract via an email .</li>
                         </ul>
                     </div>
                 </div>
@@ -235,11 +227,11 @@
                         </div>
                         <div class="elementor-icon-box-content pl-4">
                             <h5 class="elementor-icon-box-title">
-                                <span>
-                                    EARLY BIRD PAYMENT DEADLINE </span>
+                                <span style="text-transform: uppercase">
+                                    register to submit abstract </span>
                             </h5>
-                            <p class="elementor-icon-box-description">
-                                12<sup>th</sup> December 2022 </p>
+                            {{-- <p class="elementor-icon-box-description">
+                                12<sup>th</sup> December 2022 </p> --}}
                                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSecmHa4UtvlI_YJDZ6mDGk47g2-wnSQtSE-OHdL9PQq-1g0CA/viewform"
                     >Register Now <i class="far fa-arrow-right"></i></a>
                         </div>

@@ -85,7 +85,7 @@
             </div>
 
             <div class="col-md-3 card myprofilecard align-items-center">
-                <img class="card-img-top" src="{{ asset('web/images/deeparora.png') }}" alt="Card image cap">
+                <img class="card-img-top" src="{{ asset('web/org/anj.jpeg') }}" alt="Card image cap">
                 <div class="card-body">
                     <div class="card-text text-center">
                         <p class="body-text">Organising Secretary
@@ -112,7 +112,7 @@
             </div>
 
             <div class="col-md-3 card myprofilecard align-items-center">
-                <img class="card-img-top" src="{{ asset('web/images/deeparora.png') }}" alt="Card image cap">
+                <img class="card-img-top" src="{{ asset('web/org/db.jpg') }}" alt="Card image cap">
                 <div class="card-body">
                     <div class="card-text text-center">
                         <p class="body-text">Co-Organising Secretary
@@ -139,7 +139,7 @@
             </div>
 
             <div class="col-md-2 card myprofilecard align-items-center">
-                <img class="card-img-top" src="{{ asset('web/images/deeparora.png') }}" alt="Card image cap">
+                <img class="card-img-top" src="{{ asset('web/org/amit.png') }}" alt="Card image cap">
                 <div class="card-body">
                     <div class="card-text text-center">
                         <p class="body-text">Workshop coordinators
@@ -150,7 +150,7 @@
                 </div>
             </div>
             <div class="col-md-2 card myprofilecard align-items-center">
-                <img class="card-img-top" src="{{ asset('web/images/deeparora.png') }}" alt="Card image cap">
+                <img class="card-img-top" src="{{ asset('web/org/neha.png') }}" alt="Card image cap">
                 <div class="card-body">
                     <div class="card-text text-center">
                         <p class="body-text">Workshop coordinators
@@ -162,7 +162,7 @@
             </div>
 
             <div class="col-md-2 card myprofilecard align-items-center">
-                <img class="card-img-top" src="{{ asset('web/images/deeparora.png') }}" alt="Card image cap">
+                <img class="card-img-top" src="{{ asset('web/org/sachine.png') }}" alt="Card image cap">
                 <div class="card-body">
                     <div class="card-text text-center">
                         <p class="body-text">Workshop coordinators

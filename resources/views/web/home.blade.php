@@ -21,6 +21,9 @@
 
 @media only screen and (max-width: 600px) {
 
+    .design-our{
+        margin-left: 14%;
+    }
     .animate-charcter {
         text-transform: uppercase;
         background-image: linear-gradient(-225deg, #231557 0%, #44107a 29%, #ff1361 67%, #fff800 100%);
@@ -40,7 +43,31 @@
     }
 }
 
+.feature-item{
+    -webkit-transform: rotateZ(-30deg);
+    -ms-transform: rotateZ(-30deg);
+    transform: rotateZ(-44deg);
+    width: 237px;
+    text-align: center;
+    height: 237px;
 
+}
+.feature-item:hover{
+    -webkit-transform: rotateZ(-30deg);
+    -ms-transform: rotateZ(-30deg);
+    transform: rotateZ(-44deg);
+    width: 237px;
+    text-align: center;
+    height: 237px;
+
+}
+.feature-content{
+    transform: rotateZ(43deg);
+    display: flex;
+    justify-content: center;
+    margin-top: 54px;
+    margin-left: -15px;
+}
 @keyframes textclip {
     to {
         background-position: 200% center;
@@ -267,13 +294,11 @@
 <div class="feature-area py-50">
     <div class="container">
         <div class="feature-area-wrapper">
-            <div class="row justify-content-center">
+            <div class="row justify-content-center design-our  mt-5">
 
                 <div class="col-md-6 col-lg-3">
-                    <div class="feature-item ">
-                        <div class="feature-icon">
-                            <i class="flaticon-meeting"></i>
-                        </div>
+                    <div class="feature-item active" style="background: #db5620">
+                     
                         <div class="feature-content">
                             <h5>Volunteer Scanning with Hands - on Experience</h5>
 
@@ -281,10 +306,8 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
-                    <div class="feature-item active">
-                        <div class="feature-icon">
-                            <i class="flaticon-psychology-2"></i>
-                        </div>
+                    <div class="feature-item active" style="background: #8c51c9;">
+                     
                         <div class="feature-content">
                             <h5>Interactive - Talks and Case Discussions</h5>
 
@@ -292,10 +315,8 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
-                    <div class="feature-item ">
-                        <div class="feature-icon">
-                            <i class="flaticon-psychologist"></i>
-                        </div>
+                    <div class="feature-item active">
+                      
                         <div class="feature-content">
                             <h5>Domonstrations of Anatomy on Cadavers</h5>
 
@@ -303,44 +324,14 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
-                    <div class="feature-item active">
-                        <div class="feature-icon">
-                            <i class="flaticon-meeting"></i>
-                        </div>
+                    <div class="feature-item active" style="background: #910707">
+                       
                         <div class="feature-content">
                             <h5>Point of Care Ultrasound- Gastric Lung</h5>
 
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="feature-item active">
-                        <div class="feature-icon">
-                            <i class="flaticon-psychologist"></i>
-                        </div>
-                        <div class="feature-content">
-                            <h5>Needling in Soft Embalmed Cadavers</h5>
-
-                        </div>
-                    </div>
-                </div>
-
-
-
-
-
-                <div class="col-md-6 col-lg-3">
-                    <div class="feature-item ">
-                        <div class="feature-icon">
-                            <i class="flaticon-psychology-2"></i>
-                        </div>
-                        <div class="feature-content">
-                            <h5>Quiz: Win & Get Exciting Prizes</h5>
-
-                        </div>
-                    </div>
-                </div>
-
 
             </div>
         </div>
@@ -348,7 +339,7 @@
 </div>
 
 
-<div class="container">
+<div class="container mt-5">
     <div class="row">
         <div class="col-lg-6">
             <div class="row justify-content-center">

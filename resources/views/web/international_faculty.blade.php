@@ -26,7 +26,7 @@
 
                 <div class="col-md-6 col-lg-3">
                     <div class="team-item active">
-                        <img src="{{asset('web/images/philippe.png')}}" style="min-height: 413px;" alt="thumb">
+                        <img src="{{asset('web/images/philippe.png')}}" style="min-height: 370px;" alt="thumb">
                         <div class="team-social">
                             <a href="#"><i class="fab fa-facebook-f"></i></a>
                             <a href="#"><i class="fab fa-twitter"></i></a>
@@ -44,7 +44,7 @@
                 </div>
                 <div class="col-md-6 col-lg-3">
                     <div class="team-item">
-                        <img src="{{asset('web/images/mornewolmaran.png')}}" style="min-height: 413px;" alt="thumb">
+                        <img src="{{asset('web/images/mornewolmaran.png')}}" style="min-height: 370px;" alt="thumb">
                         <div class="team-social">
                             <a href="#"><i class="fab fa-facebook-f"></i></a>
                             <a href="#"><i class="fab fa-twitter"></i></a>
@@ -63,7 +63,7 @@
                 </div>
                 <div class="col-md-6 col-lg-3">
                     <div class="team-item">
-                        <img src="{{asset('web/images/mornewolmaran.png')}}" style="min-height: 413px;" alt="thumb">
+                        <img src="{{asset('web/images/mornewolmaran.png')}}" style="min-height: 370px;" alt="thumb">
                         <div class="team-social">
                             <a href="#"><i class="fab fa-facebook-f"></i></a>
                             <a href="#"><i class="fab fa-twitter"></i></a>
@@ -82,7 +82,7 @@
                 </div>
                 <div class="col-md-6 col-lg-3">
                     <div class="team-item">
-                        <img src="{{asset('web/images/mornewolmaran.png')}}" style="min-height: 413px;" alt="thumb">
+                        <img src="{{asset('web/images/mornewolmaran.png')}}" style="min-height: 370px;" alt="thumb">
                         <div class="team-social">
                             <a href="#"><i class="fab fa-facebook-f"></i></a>
                             <a href="#"><i class="fab fa-twitter"></i></a>
@@ -101,7 +101,7 @@
                 </div>
                 <div class="col-md-6 col-lg-3">
                     <div class="team-item">
-                        <img src="{{asset('web/images/pritanand.png')}}" style="min-height: 413px;" alt="thumb">
+                        <img src="{{asset('web/images/pritanand.png')}}" style="min-height: 370px;" alt="thumb">
                         <div class="team-social">
                             <a href="#"><i class="fab fa-facebook-f"></i></a>
                             <a href="#"><i class="fab fa-twitter"></i></a>
