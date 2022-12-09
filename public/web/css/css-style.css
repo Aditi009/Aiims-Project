@@ -2974,8 +2974,8 @@ feature css
 }
 
 .feature-item:hover{
-  background: #5698f4;
   transform: translateY(-10px);
+  color: #0795FE;
 }
 
 .feature-icon{
@@ -3009,11 +3009,11 @@ feature css
   color: #fff;
 }
 
-.feature-item:hover .feature-icon i,
+/* .feature-item:hover .feature-icon i,
 .feature-item:hover p,
 .feature-item:hover h5{
   color: #fff;
-}
+} */
 
 
 

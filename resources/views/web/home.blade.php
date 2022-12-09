@@ -43,7 +43,7 @@
     }
 }
 
-.feature-item{
+/* .feature-item{
     -webkit-transform: rotateZ(-30deg);
     -ms-transform: rotateZ(-30deg);
     transform: rotateZ(-44deg);
@@ -67,14 +67,23 @@
     justify-content: center;
     margin-top: 54px;
     margin-left: -15px;
-}
+} */
 @keyframes textclip {
     to {
         background-position: 200% center;
     }
 }
 
-
+marquee{
+    font-size: 18px;
+    font-weight: 600;
+    color: #b71b1b;
+    width: 100%;
+    text-align: left !important;
+    display: block;
+    padding-top: 10px;
+    text-align: left;
+}
 .homepcard{
     background: #FFFFFF;
     border: 1px solid #F7F7F7;
@@ -82,6 +91,17 @@
     box-shadow: 1px 2px 3px rgb(0 0 0 / 10%);
     border-radius: 4px;
 }
+.my-p>* {
+    padding: 0;
+    padding-left: 0!important;
+    padding-right: 0px !important;
+    margin: 0px !important;
+}
+
+.feature-item{
+    height: 250px;
+}
+
 </style>
 <!-- <div class="container">
         <span class="number" data-number="9">
@@ -290,7 +310,68 @@
 
 </div>
 
+<div class="feature-area py-50">
+    <div class="container">
+        <div class="feature-area-wrapper">
+            <div class="row my-p">
+                <div class="col-md-6 col-lg-3">
+                    <div class="feature-item active">
+                        <div class="feature-icon">
+                            <i class="flaticon-psychology-2"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h5>Quiz: Win & Get Exciting Prizes</h5>
 
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="feature-item active" style="    background: #a12020;">
+                        <div class="feature-icon">
+                            <i class="flaticon-psychologist"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h5>feedback, certificate/award distribution</h5>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="feature-item active">
+                        <div class="feature-icon">
+                            <i class="flaticon-meeting"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h5>Group Photograph/Disposal</h5>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="feature-item active" style="background: #ffb300;">
+                        <div class="feature-icon">
+                            <i class="flaticon-meeting"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h5>Group Photograph/Disposal</h5>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+{{-- <div class="row">
+    <marquee class="first-marquee" behavior="alternate">essential skills for all anaesthesiologists
+        <br>revisiting regional blocks from classic to newest approaches
+    </marquee>
+    <marquee class="second-marquee" behavior="alternate"></marquee>
+</div> --}}
+
+{{-- 
 <div class="feature-area py-50">
     <div class="container">
         <div class="feature-area-wrapper">
@@ -336,7 +417,7 @@
             </div>
         </div>
     </div>
-</div>
+</div> --}}
 
 
 <div class="container mt-5">
