@@ -38,7 +38,7 @@ body {
   font-style: normal;
   font-size: 16px;
   font-weight: normal;
-  color: #757F95;
+  color: black;
   line-height: 1.8;
 }
 
@@ -2446,6 +2446,7 @@ contact us css
 }
 
 .contact-info {
+  min-height: 230px;
   padding: 20px;
   position: relative;
   text-align: center;
@@ -2974,8 +2975,8 @@ feature css
 }
 
 .feature-item:hover{
-  background: #5698f4;
   transform: translateY(-10px);
+  color: #0795FE;
 }
 
 .feature-icon{
@@ -3000,7 +3001,8 @@ feature css
 }
 
 .feature-item.active{
-  background: #5698f4;
+  background: rgb(9,81,180);
+  background: linear-gradient(45deg, rgba(9,81,180,1) 0%, rgba(104,166,251,1) 100%);
 }
 
 .feature-item.active .feature-icon i,
@@ -3009,11 +3011,11 @@ feature css
   color: #fff;
 }
 
-.feature-item:hover .feature-icon i,
+/* .feature-item:hover .feature-icon i,
 .feature-item:hover p,
 .feature-item:hover h5{
   color: #fff;
-}
+} */
 
 
 

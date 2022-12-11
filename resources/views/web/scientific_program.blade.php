@@ -11,7 +11,7 @@
     </div>
 
 
-    <div class="about-area py-120">
+    <!-- <div class="about-area py-120">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">
@@ -321,6 +321,6 @@
                 <img src="images/partner-03.jpg" alt="thumb">
             </div>
         </div>
-    </div>
+    </div> -->
     @endsection
 

@@ -504,8 +504,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 
 </style>
     <link rel="icon" type="image/x-icon" href="{{asset('web/images/logo-favicon.png')}}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="{{asset('web/css/css-bootstrap.min.css')}}">
     <link rel="stylesheet" href="{{asset('web/css/css-all-fontawesome.min.css')}}">
     <link rel="stylesheet" href="{{asset('web/css/css-flaticon.css')}}">
     <link rel="stylesheet" href="{{asset('web/css/css-animate.min.css')}}">
@@ -640,11 +640,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
                             <ul class="footer-contact">
                                 <li><i class="far fa-map-marker-alt"></i> Conference Secretariat Room No: 5014 A,
                                     5th floor, Teaching Block, AIIMS, New Delhi</li>
-                                <li><a href="tel:+21236547898"><i class="far fa-phone"></i>91-9810 104 383, +91-9899 323 110,
+                                <li><a href="tel:+21236547898"><i class="far fa-phone"></i>91-9810 104 383, +91-9464 533 877,
                                     +91-7042 129 428
                                     </a></li>
-                                <li><a href="/cdn-cgi/l/email-protection#4920272f26092c31282439252c672a2624"><i
-                                            class="far fa-envelope"></i> aiimscusa@gmail.com</a>
+                                <li><a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=cusaaiims@gmail.com"><i
+                                            class="far fa-envelope"></i> cusaaiims@gmail.com</a>
                                 </li>
                             </ul>
                         </div>

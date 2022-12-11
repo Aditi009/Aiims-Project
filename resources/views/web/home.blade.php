@@ -21,9 +21,10 @@
 
 @media only screen and (max-width: 600px) {
 
-    .design-our{
+    .design-our {
         margin-left: 14%;
     }
+
     .animate-charcter {
         text-transform: uppercase;
         background-image: linear-gradient(-225deg, #231557 0%, #44107a 29%, #ff1361 67%, #fff800 100%);
@@ -43,7 +44,7 @@
     }
 }
 
-.feature-item{
+/* .feature-item{
     -webkit-transform: rotateZ(-30deg);
     -ms-transform: rotateZ(-30deg);
     transform: rotateZ(-44deg);
@@ -67,46 +68,86 @@
     justify-content: center;
     margin-top: 54px;
     margin-left: -15px;
-}
+} */
 @keyframes textclip {
     to {
         background-position: 200% center;
     }
 }
 
+marquee {
+    font-size: 18px;
+    font-weight: 600;
+    color: #b71b1b;
+    width: 100%;
+    text-align: left !important;
+    display: block;
+    padding-top: 10px;
+    text-align: left;
+}
 
-.homepcard{
+.homepcard {
     background: #FFFFFF;
     border: 1px solid #F7F7F7;
     box-sizing: border-box;
     box-shadow: 1px 2px 3px rgb(0 0 0 / 10%);
     border-radius: 4px;
 }
+
+.my-p>* {
+    padding: 0;
+    padding-left: 0 !important;
+    padding-right: 0px !important;
+    margin: 0px !important;
+}
+
+.feature-item {
+    height: 250px;
+}
+
+.mycorousel img{
+    height:650px;
+    
+}
+
+
+.anim {
+    animation-duration: 1000ms;
+    animation-name: blink;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    -webkit-animation:blink 1000ms infinite; /* Safari and Chrome */
+
+        font-size: 16px;
+
+    }
+@keyframes blink {
+    from {
+        color:blue;
+    }
+    to {
+        color:red;
+    }
+}
+@-webkit-keyframes blink {
+    from {
+        color:  blue;
+    }
+    to {
+        color: red;
+    }
+}
 </style>
-<!-- <div class="container">
-        <span class="number" data-number="9">
-            <span class="primary">
-            </span>
-            <span class="secondary">
-            </span>
-        </span>
-        <span class="number" data-number="9">
-            <span class="primary">
-            </span>
-            <span class="secondary">
-            </span>
-        </span>
-    </div> -->
+
 <div class="container time">
     <div id="day_to">
         <h3 class="animate-charcter"> </h3>
 
     </div>
 </div>
-<div class="hero-section hero-slider owl-carousel owl-theme">
-    <div class="hero-single" style="background-image: url({{ asset('web/carousel-3.jpg') }})">
+<!-- <div class="hero-section hero-slider owl-carousel owl-theme">
+    <div class="hero-single" style="background-image: url({{ asset('web/carousel/1.jpeg') }})">
         <div class="container">
-
 
             <div class="row align-items-center">
                 <div class="col-md-7 col-lg-7">
@@ -135,7 +176,7 @@
         </div>
     </div>
 </div>
-<div class="hero-single" style="background-image: url({{ asset('web/carousel-4.jpg') }})">
+<div class="hero-single" style="background-image: url({{ asset('web/carousel/2.jpeg') }})">
     <div class="container">
 
 
@@ -167,7 +208,7 @@
 </div>
 </div>
 
-<div class="hero-single" style="background-image: url({{ asset('web/images/ban1.jpg') }})">
+<div class="hero-single" style="background-image: url({{ asset('web/carousel/3.jpeg') }})">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-md-7 col-lg-7">
@@ -197,7 +238,7 @@
 </div>
 </div>
 
-<div class="hero-single" style="background-image: url({{ asset('web/images/ban2.jpg') }})">
+<div class="hero-single" style="background-image: url({{ asset('web/carousel/4.jpeg') }})">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-md-7 col-lg-7">
@@ -227,7 +268,7 @@
 </div>
 </div>
 
-<div class="hero-single" style="background-image: url({{ asset('web/carousel-8.jpg') }})">
+<div class="hero-single" style="background-image: url({{ asset('web/carousel/5.jpeg') }})">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-md-7 col-lg-7">
@@ -257,7 +298,7 @@
 </div>
 </div>
 
-<div class="hero-single" style="background-image: url({{ asset('web/carousel-6.jpg') }})">
+<div class="hero-single" style="background-image: url({{ asset('web/carousel/6.jpeg') }})">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-md-7 col-lg-7">
@@ -288,17 +329,70 @@
 </div>
 
 
+</div> -->
+
+
+<div id="carouselExampleIndicators" class="carousel slide mycorousel" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img class="d-block w-100" src="{{ asset('web/carousel/1.jpeg') }}" alt="First slide">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="{{ asset('web/carousel/2.jpeg') }}" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="{{ asset('web/carousel/3.jpeg') }}" alt="Third slide">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="{{ asset('web/carousel/4.jpeg') }}" alt="Third slide">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="{{ asset('web/carousel/5.jpeg') }}" alt="Third slide">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="{{ asset('web/carousel/6.jpeg') }}" alt="Third slide">
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
 </div>
 
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+        <marquee behavior="alternate" width="100%" direction="left" scrollamount="6">
+                    <p class="anim">Essential skill for all Anaesthesiologists! </p>
+                    </marquee>
+                    <marquee behavior="alternate" width="100%" direction="left" scrollamount="6" >
+                    <p class="anim">Revisiting regional blocks from classic to the newest approaches !!</p>
+                    </marquee>
+        </div>
+    </div>
+</div>
 
 <div class="feature-area py-50">
     <div class="container">
         <div class="feature-area-wrapper">
-            <div class="row justify-content-center design-our  mt-5">
-
-                <div class="col-md-6 col-lg-3">
-                    <div class="feature-item active" style="background: #db5620">
-                     
+            <div class="row my-p">
+            <div class="col-md-6 col-lg-3">
+                    <div class="feature-item active">
+                        <div class="feature-icon">
+                            <img src="{{ asset('web/images/icon2.png') }}" class="flaticon-meeting"/>
+                        </div>
                         <div class="feature-content">
                             <h5>Volunteer Scanning with Hands - on Experience</h5>
 
@@ -306,28 +400,38 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
-                    <div class="feature-item active" style="background: #8c51c9;">
-                     
-                        <div class="feature-content">
-                            <h5>Interactive - Talks and Case Discussions</h5>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
                     <div class="feature-item active">
-                      
+                        <div class="feature-icon">
+                            <!-- <i class="flaticon-psychology-2"></i> -->
+                            <img src="{{ asset('web/images/icon1.png') }}" class="flaticon-meeting"/>
+                        </div>
                         <div class="feature-content">
-                            <h5>Domonstrations of Anatomy on Cadavers</h5>
+                            <h5>Demonstration of Anatomy and Needling on Cadavers</h5>
 
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
-                    <div class="feature-item active" style="background: #910707">
-                       
+                    <div class="feature-item active" >
+                        <div class="feature-icon">
+                            <!-- <i class="flaticon-psychologist"></i> -->
+                            <img src="{{ asset('web/images/icon3.png') }}" class="flaticon-meeting"/>
+                        </div>
                         <div class="feature-content">
-                            <h5>Point of Care Ultrasound- Gastric Lung</h5>
+                            <h5>Point of Care Ultrasound</h5>
+
+                        </div>
+                    </div>
+                </div>
+               
+                <div class="col-md-6 col-lg-3">
+                    <div class="feature-item active" >
+                        <div class="feature-icon">
+                            <!-- <i class="flaticon-meeting"></i> -->
+                            <img src="{{ asset('web/images/icon4.png') }}" class="flaticon-meeting"/>
+                        </div>
+                        <div class="feature-content">
+                            <h5>Quiz: Win & Get Exciting Prizes</h5>
 
                         </div>
                     </div>
@@ -339,17 +443,20 @@
 </div>
 
 
+
+
 <div class="container mt-5">
     <div class="row">
         <div class="col-lg-6">
             <div class="row justify-content-center">
-            <div class="card homepcard" style="width: 18rem;">
-                <img class="card-img-top" src="{{ asset('web/images/hod.png') }}" alt="Card image cap">
-                <div class="card-body">
-                    <p class="card-text">
-                    <ul>
+                <div class="card homepcard" style="width: 18rem;">
+                    <img class="card-img-top" src="{{ asset('web/images/hod.png') }}" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">
+                        <ul>
                             <li style="
-                                    font-weight: 900; color:maroon;"><i class="lni-check-mark-circle"></i><span class="text">Dr.
+                                    font-weight: 900; color:maroon;"><i class="lni-check-mark-circle"></i><span
+                                    class="text">Dr.
                                     Lokesh Kashyap
                                 </span></li>
                             <li><i class="lni-check-mark-circle"></i><span class="text">Professor & Head</span></li>
@@ -359,9 +466,9 @@
                             </li>
 
                         </ul>
-                    </p>
+                        </p>
+                    </div>
                 </div>
-            </div>
             </div>
         </div>
         <div class="col-lg-6">
@@ -781,6 +888,10 @@
         width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script type="text/JavaScript" src="https://MomentJS.com/downloads/moment.js"></script>
 
 

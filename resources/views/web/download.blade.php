@@ -1,5 +1,11 @@
 @extends('layouts.main')
 @section('content')
+<style>
+    .mystyl{
+        color : red;
+        font-size: 22px;
+    }
+</style>
 {{-- <div class="site-breadcrumb" style="background: url('{{asset('web/images/hi.jpg')}}')">
     <div class="container">
             <h2 class="breadcrumb-title">Download </h2>
@@ -70,7 +76,7 @@
         <div class="row">
             <div class="col-lg-6 mx-auto">
                 <div class="site-heading-p text-center">
-                    <span class="site-title-tagline-p">Coming Soon....</span>
+                    <span class="mystyl">After the event, downloads are provided.</span>
                 </div>
             </div>
         </div>

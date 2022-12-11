@@ -34,7 +34,7 @@
                             </div>
                             <div class="contact-info-content">
                                 <h5>Call Us</h5>
-                                <p>91-9810 104 383, +91-9899 323 110, +91-7042 129 428</p>
+                                <p>91-9810 104 383, +91-9464 533 877, +91-7042 129 428</p>
                             </div>
                         </div>
                     </div>
@@ -45,7 +45,8 @@
                             </div>
                             <div class="contact-info-content">
                                 <h5>Email Us</h5>
-                                <p> aiimscusa@gmail.com</p>
+                                 <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=cusaaiims@gmail.com"><p><i
+                                            class="far fa-envelope"></i> cusaaiims@gmail.com</p></a>
                             </div>
                         </div>
                     </div>

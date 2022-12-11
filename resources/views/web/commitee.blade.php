@@ -44,7 +44,7 @@
     border-radius: 50%;
     height: 180px;
     width: 180px;
-    object-fit: cover;
+    object-fit: unset;
     border: 4px solid #5698f4;
 }
 
@@ -100,7 +100,7 @@
         <div class="row justify-content-center mt-5 topcardrow">
 
             <div class="col-md-3 card myprofilecard align-items-center">
-                <img class="card-img-top" src="{{ asset('web/images/deeparora.png') }}" alt="Card image cap">
+                <img class="card-img-top" src="{{ asset('web/images/bikas.jpeg') }}" alt="Card image cap">
                 <div class="card-body">
                     <div class="card-text text-center">
                         <p class="body-text">Co-Organising Secretary
@@ -126,7 +126,7 @@
 
         <div class="row justify-content-center mt-5">
 
-            <div class="col-md-2 card myprofilecard align-items-center">
+            <div class="col-md-3 card myprofilecard align-items-center">
                 <img class="card-img-top" src="{{ asset('web/org/heenagarg.jpeg') }}" alt="Card image cap">
                 <div class="card-body">
                     <div class="card-text text-center">
@@ -138,7 +138,7 @@
                 </div>
             </div>
 
-            <div class="col-md-2 card myprofilecard align-items-center">
+            <div class="col-md-3 card myprofilecard align-items-center">
                 <img class="card-img-top" src="{{ asset('web/org/amit.png') }}" alt="Card image cap">
                 <div class="card-body">
                     <div class="card-text text-center">
@@ -149,7 +149,7 @@
 
                 </div>
             </div>
-            <div class="col-md-2 card myprofilecard align-items-center">
+            <div class="col-md-3 card myprofilecard align-items-center">
                 <img class="card-img-top" src="{{ asset('web/org/neha.png') }}" alt="Card image cap">
                 <div class="card-body">
                     <div class="card-text text-center">
@@ -161,7 +161,7 @@
                 </div>
             </div>
 
-            <div class="col-md-2 card myprofilecard align-items-center">
+            <div class="col-md-3 card myprofilecard align-items-center">
                 <img class="card-img-top" src="{{ asset('web/org/sachine.png') }}" alt="Card image cap">
                 <div class="card-body">
                     <div class="card-text text-center">
@@ -206,7 +206,7 @@
                     <li>Dr. Sneha Singh</li>
                 </ul>
             </div>
-            <div class="col-md-2"></div>
+            <div class="col-md-3"></div>
             <div class="col-md-4">
                 <p class="body-text">Scientific Advisors</p>
                 <ul class="organiserslist">

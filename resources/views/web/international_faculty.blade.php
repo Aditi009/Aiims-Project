@@ -9,9 +9,147 @@
             </ul>
         </div>
     </div> --}}
-
+    <style>
+        .card-text{
+            max-width:210px;
+        }
+        .body-text {
+            text-align: center;
+            color: red;
+            font-size: 20px;
+            font-weight: 600;
+        }
+        
+        .body-bottom {
+            color: #5698f4;
+            font-weight: 500;
+            font-size: 17px;
+            margin-top: -10px;
+            max-width:210 px;
+        
+        }
+        
+        @media only screen and (max-width: 600px) {}
+        
+        .about-area {
+            padding-bottom: 60px;
+        }
+        
+        
+        /****y styles */
+        .myprofilecard {
+            border: none;
+            width: auto;
+        }
+        
+        .myprofilecard img {
+            border-radius: 50%;
+            height: 180px;
+            width: 180px;
+            object-fit: cover;
+            border: 4px solid #5698f4;
+        }
+        
+        .topcardrow .myprofilecard {
+            width: 30rem;
+        }
+        
+        .ocheading {
+            color: #7e1916;
+            font-weight: 900;
+        }
+        
+        .organiserslist li {
+            color: #5698f4;
+            margin-left: 4px;
+        }
+        
+        .listcontainer {
+            margin-top: 40px;
+        }
+        </style>
 
     <div class="team-area py-120">
+     
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mx-auto">
+                    <div class="site-heading text-center">
+                        <span class="site-title-tagline">Team</span>
+                        <h2 class="site-title" style=" color: #7e1916;">International Faculty</span></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center mt-5">
+    
+                <div class="col-md-3 card myprofilecard align-items-center">
+                    <img class="card-img-top"  src="{{asset('web/images/mclair.png')}}" alt="Card image cap">
+                    <div class="card-body">
+                        <div class="card-text text-center">
+                            <p class="body-text">Philippe Macaire
+                            </p>
+                            <p class="body-bottom">VinMec INternational Hospitals Hanoi Vietnam</p>
+                        </div>
+    
+                    </div>
+                </div>
+    
+                <div class="col-md-3 card myprofilecard align-items-center">
+                    <img class="card-img-top" src="{{ asset('web/images/mornewolmaran.png') }}" alt="Card image cap">
+                    <div class="card-body">
+                        <div class="card-text text-center">
+                            <p class="body-text">Morne Wolmarans
+                            </p>
+                            <p class="body-bottom">Norfolk & Norwich University Hospital, UK</p>
+                        </div>
+    
+                    </div>
+                </div>
+    
+                <div class="col-md-3 card myprofilecard align-items-center">
+                    <img class="card-img-top" src="{{ asset('web/images/vishalupal.png') }}" alt="Card image cap">
+                    <div class="card-body">
+                        <div class="card-text text-center">
+                            <p class="body-text">Vishal uppal
+                            </p>
+                            <p class="body-bottom">Norfolk & Norwich University Hospital, UK/p>
+                        </div>
+    
+                    </div>
+                </div>
+               
+            </div>
+            <div class="row justify-content-center mt-5">
+            <div class="col-md-3 card myprofilecard align-items-center">
+                    <img class="card-img-top" src="{{ asset('web/images/sand.png') }}" alt="Card image cap">
+                    <div class="card-body">
+                        <div class="card-text text-center">
+                            <p class="body-text">Sandeep Verma
+                            </p>
+                            <p class="body-bottom">Norfolk & Norwich University Hospital, UK</p>
+                        </div>
+    
+                    </div>
+                </div>
+    
+                <div class="col-md-3 card myprofilecard align-items-center">
+                    <img class="card-img-top" src="{{ asset('web/images/pritanand.png') }}" alt="Card image cap">
+                    <div class="card-body">
+                        <div class="card-text text-center">
+                            <p class="body-text">Prit Anand Singh
+                            </p>
+                            <p class="body-bottom">Changi General Hospital, Singapore</p>
+                        </div>
+    
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+
+
+    {{-- <div class="team-area py-120">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 mx-auto">
@@ -140,6 +278,6 @@
             </div>
         </div>
     </div>
-    
+     --}}
     @endsection
 
