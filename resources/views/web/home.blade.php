@@ -391,7 +391,7 @@ marquee {
             <div class="col-md-6 col-lg-3">
                     <div class="feature-item active">
                         <div class="feature-icon">
-                            <img src="{{ asset('web/images/icon2.png') }}" class="flaticon-meeting"/>
+                            <img src="{{ asset('web/images/icon3.png') }}" class="flaticon-meeting"/>
                         </div>
                         <div class="feature-content">
                             <h5>Volunteer Scanning with Hands - on Experience</h5>

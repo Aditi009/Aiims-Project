@@ -105,7 +105,7 @@
                     <div class="card-text text-center">
                         <p class="body-text">Co-Organising Secretary
                         </p>
-                        <p class="body-bottom">Dr Bikash Ranjan Ray</p>
+                        <p class="body-bottom">Dr. Bikash Ranjan Ray</p>
                     </div>
 
                 </div>
@@ -130,7 +130,7 @@
                 <img class="card-img-top" src="{{ asset('web/org/heenagarg.jpeg') }}" alt="Card image cap">
                 <div class="card-body">
                     <div class="card-text text-center">
-                        <p class="body-text">Workshop coordinators
+                        <p class="body-text">Workshop coordinator
                         </p>
                         <p class="body-bottom">Dr. Heena Garg</p>
                     </div>
@@ -142,7 +142,7 @@
                 <img class="card-img-top" src="{{ asset('web/org/amit.png') }}" alt="Card image cap">
                 <div class="card-body">
                     <div class="card-text text-center">
-                        <p class="body-text">Workshop coordinators
+                        <p class="body-text">Workshop coordinator
                         </p>
                         <p class="body-bottom">Dr. Amit Kumar</p>
                     </div>
@@ -153,7 +153,7 @@
                 <img class="card-img-top" src="{{ asset('web/org/neha.png') }}" alt="Card image cap">
                 <div class="card-body">
                     <div class="card-text text-center">
-                        <p class="body-text">Workshop coordinators
+                        <p class="body-text">Workshop coordinator
                         </p>
                         <p class="body-bottom">Dr. Neha Pangasa</p>
                     </div>
@@ -165,7 +165,7 @@
                 <img class="card-img-top" src="{{ asset('web/org/sachine.png') }}" alt="Card image cap">
                 <div class="card-body">
                     <div class="card-text text-center">
-                        <p class="body-text">Workshop coordinators
+                        <p class="body-text">Workshop coordinator
                         </p>
                         <p class="body-bottom">Dr. Sachin Kumar</p>
                     </div>
@@ -180,7 +180,7 @@
             <div class="col-md-4">
                 <p class="body-text">Executive Committee</p>
                 <ul class="organiserslist">
-                    <li>Dr. Punnet Khanna</li>
+                    <li>Dr. Puneet Khanna</li>
                     <li>Dr. Rahul K Anand</li>
                     <li>Dr. Shailendra Kumar</li>
                     <li>Dr. Souvik Maitra</li>
@@ -196,7 +196,7 @@
                     <li>Dr. Sulagna Bhattacharjee</li>
                     <li>Dr. Parin Lalwani</li>
                     <li>Dr. Kelika Prakash </li>
-                    <li>Dr. Mritunjay Kumar</li>
+                    <li>Dr. Mrityunjay Kumar</li>
                     <li>Dr. T. Nageshwara Rao</li>
                     <li>Dr. Dhruv Jain</li>
                     <li>Dr. Sana Yasmin Hussain </li>

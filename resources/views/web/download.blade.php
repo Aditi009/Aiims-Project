@@ -76,7 +76,7 @@
         <div class="row">
             <div class="col-lg-6 mx-auto">
                 <div class="site-heading-p text-center">
-                    <span class="mystyl">After the event, downloads are provided.</span>
+                    <span class="mystyl">See this space for post event photographs and certificates.</span>
                 </div>
             </div>
         </div>

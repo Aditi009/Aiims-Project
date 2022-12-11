@@ -55,7 +55,7 @@
             <div class="col-lg-8 mx-auto">
                 <div class="site-heading-p text-center">
                     <marquee behavior="alternate" width="100%" direction="left" scrollamount="6">
-                    <p class="anim">A wake shoulder surgery - Myth or Reality ? </p>
+                    <p class="anim">Awake shoulder surgery - Myth or Reality ? </p>
                     </marquee>
                     <marquee behavior="alternate" width="100%" direction="left" scrollamount="6" >
                     <p class="anim">ESP block in 2023 - Where do we stand ?</p>
@@ -69,7 +69,10 @@
                     <marquee behavior="alternate" width="100%" direction="left" scrollamount="6">
                     <p class="anim">EDRA exam - How to prepare?.</p>
                     </marquee>
-
+                    <marquee behavior="alternate" width="100%" direction="left" scrollamount="6">
+                        <p class="anim">                    Much more…
+                        </p>
+                        </marquee>
                     <!-- <p class="anim">A wake shoulder surgery - Myth or Reality ? </p>
                     <p class="anim">ESP block in 2023 - Where do we stand ?</p>
                     <p class="anim">Why regional Anaesthesia is must in 2023?</p>

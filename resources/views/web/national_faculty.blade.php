@@ -151,7 +151,7 @@
                 <img class="card-img-top" src="{{ asset('web/images/tshivanshmgham.png') }}" alt="Card image cap">
                 <div class="card-body">
                     <div class="card-text text-center">
-                        <p class="body-text">T. SIVASHANMUGAM
+                        <p class="body-text">T. Sivasanmugam
                         </p>
                         <p class="body-bottom">MGMC, Pondicherry </p>
                     </div>
@@ -178,7 +178,7 @@
                     <div class="card-text text-center">
                         <p class="body-text">Rupinder Singh
                         </p>
-                        <p class="body-bottom">DMC, Ludhiyana</p>
+                        <p class="body-bottom">DMC, Ludhiana</p>
                     </div>
 
                 </div>

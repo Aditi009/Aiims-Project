@@ -126,7 +126,7 @@
                         <div class="card-text text-center">
                             <p class="body-text">Sandeep Verma
                             </p>
-                            <p class="body-bottom">Norfolk & Norwich University Hospital, UK</p>
+                            <p class="body-bottom">Mid Yorkshire Hospitals NHS Trust</p>
                         </div>
     
                     </div>
