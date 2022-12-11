@@ -377,16 +377,14 @@ marquee {
         <marquee behavior="alternate" width="100%" direction="left" scrollamount="6">
                     <p class="anim">Essential skill for all Anaesthesiologists! </p>
                     </marquee>
-                    <marquee behavior="alternate" width="100%" direction="left" scrollamount="6" style="
-    margin-top: -20px;
-">
+                    <marquee behavior="alternate" width="100%" direction="left" scrollamount="6" >
                     <p class="anim">Revisiting regional blocks from classic to the newest approaches !!</p>
                     </marquee>
         </div>
     </div>
 </div>
 
-<div class="feature-area py-50">
+<div class="feature-area" style="    margin-top: 10px;" >
     <div class="container">
         <div class="feature-area-wrapper">
             <div class="row my-p">
