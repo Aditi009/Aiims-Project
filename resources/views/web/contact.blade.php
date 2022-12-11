@@ -10,6 +10,16 @@
         </div>
     </div> --}}
 
+    <style>
+        .contact-info {
+  padding: 20px;
+  height: 100%;
+  position: relative;
+  text-align: center;
+  margin-bottom: 10px;
+  box-shadow: 0 0 40px 5px rgb(0 0 0 / 5%);
+}
+    </style>
 
     <div class="contact-area py-120">
         <div class="container">
