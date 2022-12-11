@@ -88,7 +88,7 @@
                         <div class="card-text text-center">
                             <p class="body-text">Philippe Macaire
                             </p>
-                            <p class="body-bottom">VinMec INternational Hospitals, Hanoi Vietnam</p>
+                            <p class="body-bottom">VinMec International Hospitals, Hanoi Vietnam</p>
                         </div>
     
                     </div>
