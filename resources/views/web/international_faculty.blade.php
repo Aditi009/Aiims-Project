@@ -112,7 +112,8 @@
                         <div class="card-text text-center">
                             <p class="body-text">Vishal uppal
                             </p>
-                            <p class="body-bottom">Norfolk & Norwich University Hospital, UK</p>
+                            <p class="body-bottom">Dalhousie University 
+                                Halifax, Canada</p>
                         </div>
     
                     </div>
