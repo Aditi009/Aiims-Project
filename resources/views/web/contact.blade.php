@@ -55,7 +55,7 @@
                             </div>
                             <div class="contact-info-content">
                                 <h5>Email Us</h5>
-                                 <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=cusaaiims@gmail.com"><p><i
+                                 <a href="mailto:cusaaiims@gmail.com"><p><i
                                             class="far fa-envelope"></i> cusaaiims@gmail.com</p></a>
                             </div>
                         </div>

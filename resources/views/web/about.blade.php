@@ -193,7 +193,7 @@
                         <ul class="myui">
 
                             <li>To Submit your abstract <a
-                                    class="click"href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=cusaaiims@gmail.com">cusaaiims@gmail.com</a>
+                                    class="click"href="mailto:cusaaiims@gmail.com">cusaaiims@gmail.com</a>
                             </li>
                         </ul>
                         <ul class="myui">
@@ -260,7 +260,7 @@
             <div class="row mt-5">
                 <div class="col-lg-12">
                     <div class="site-heading text-center">
-                        <a class="theme-btn" href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=cusaaiims@gmail.com"
+                        <a class="theme-btn" href="mailto:cusaaiims@gmail.com"
                             target="_blank">
                             Submit Your Abstract
                             <i class="far fa-arrow-right"></i></a>

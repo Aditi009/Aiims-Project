@@ -377,7 +377,9 @@ marquee {
         <marquee behavior="alternate" width="100%" direction="left" scrollamount="6">
                     <p class="anim">Essential skill for all Anaesthesiologists! </p>
                     </marquee>
-                    <marquee behavior="alternate" width="100%" direction="left" scrollamount="6" >
+                    <marquee behavior="alternate" width="100%" direction="left" scrollamount="6" style="
+    margin-top: -20px;
+">
                     <p class="anim">Revisiting regional blocks from classic to the newest approaches !!</p>
                     </marquee>
         </div>
@@ -391,7 +393,7 @@ marquee {
             <div class="col-md-6 col-lg-3">
                     <div class="feature-item active">
                         <div class="feature-icon">
-                            <img src="{{ asset('web/images/icon3.png') }}" class="flaticon-meeting"/>
+                            <img src="{{ asset('web/images/icon2.png') }}" class="flaticon-meeting"/>
                         </div>
                         <div class="feature-content">
                             <h5>Volunteer Scanning with Hands - on Experience</h5>

@@ -5,6 +5,9 @@
         color : red;
         font-size: 22px;
     }
+    .flyers img{
+        cursor:pointer;
+    }
 </style>
 {{-- <div class="site-breadcrumb" style="background: url('{{asset('web/images/hi.jpg')}}')">
     <div class="container">
@@ -70,6 +73,26 @@
         </div>
     </div>
      --}}
+
+     <div class="row flyers m-5 justify-content-center">
+        <div class="col-md-3">
+            <a target="_blank" href="{{asset('web/flyer/1.jpeg')}}"><img src="{{asset('web/flyer/1.jpeg')}}" alt="" /></a>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-3">
+            <a target="_blank" href="{{asset('web/flyer/2.jpeg')}}"><img src="{{asset('web/flyer/2.jpeg')}}" alt="" /></a>
+        </div>
+     </div>
+     <div class="row flyers m-5 justify-content-center">
+        <div class="col-md-3">
+            <a target="_blank" href="{{asset('web/flyer/3.jpeg')}}"><img src="{{asset('web/flyer/3.jpeg')}}" alt="" /></a>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-3">
+            <a target="_blank" href="{{asset('web/flyer/4.jpeg')}}"><img src="{{asset('web/flyer/4.jpeg')}}" alt="" /></a>
+        </div>
+     </div>
+
 
 <div class="case-area py-120">
     <div class="container">

@@ -590,7 +590,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
                                 <a href="#" class="search-box-outer"><i class="far fa-search"></i></a>
                             </div> -->
                             <div class="header-btn d-flex">
-                                <a href="https://docs.google.com/forms/d/e/1FAIpQLSecmHa4UtvlI_YJDZ6mDGk47g2-wnSQtSE-OHdL9PQq-1g0CA/viewform" class="theme-btn">Registration<i class="far fa-arrow-right"></i></a>
+                                <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSecmHa4UtvlI_YJDZ6mDGk47g2-wnSQtSE-OHdL9PQq-1g0CA/viewform" class="theme-btn">Registration<i class="far fa-arrow-right"></i></a>
                                
 
                             </div>
@@ -643,7 +643,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
                                 <li><a href="tel:+21236547898"><i class="far fa-phone"></i>91-9810 104 383, +91-9464 533 877,
                                     +91-7042 129 428
                                     </a></li>
-                                <li><a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=cusaaiims@gmail.com"><i
+                                <li><a href="mailto:cusaaiims@gmail.com"><i
                                             class="far fa-envelope"></i> cusaaiims@gmail.com</a>
                                 </li>
                             </ul>
@@ -653,6 +653,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
                         <div class="footer-widget-box list">
                             <h4 class="footer-widget-title">Quick Links</h4>
                             <ul class="footer-list">
+                              <li><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSecmHa4UtvlI_YJDZ6mDGk47g2-wnSQtSE-OHdL9PQq-1g0CA/viewform" ><i class="fas fa-caret-right"></i>Registration</a></li>
                                 <li><a href="{{route('about-us')}}"><i class="fas fa-caret-right"></i> Abstract</a></li>
                                 <li><a  href="{{route('scientific_program')}}"><i class="fas fa-caret-right"></i>  Scientific Program </a></li>
                                 <li><a href="{{route('national_faculty')}}"><i class="fas fa-caret-right"></i> National Faculty</a></li>
