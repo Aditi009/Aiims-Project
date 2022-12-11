@@ -94,12 +94,12 @@ marquee {
     border-radius: 4px;
 }
 
-.my-p>* {
+/* .my-p>* {
     padding: 0;
     padding-left: 0 !important;
     padding-right: 0px !important;
     margin: 0px !important;
-}
+} */
 
 .feature-item {
     height: 250px;

@@ -109,7 +109,7 @@
                 <img class="card-img-top" src="{{asset('web/images/deeparora.png')}}" alt="Card image cap">
                 <div class="card-body">
                     <div class="card-text text-center">
-                        <p class="body-text">Dr. Deep Arora
+                        <p class="body-text">Deep Arora
                         </p>
                         <p class="body-bottom">Max Hospital, Gurgaon</p>
                     </div>

@@ -61,7 +61,7 @@
                     <p class="anim">ESP block in 2023 - Where do we stand ?</p>
                     </marquee>
                     <marquee behavior="alternate" width="100%" direction="left" scrollamount="6">
-                    <p class="anim">Why regional Anaesthesia is must in 2023?</p>
+                    <p class="anim">Why Regional Anaesthesia is must in 2023?</p>
                     </marquee>
                     <marquee behavior="alternate" width="100%" direction="left" scrollamount="6">
                     <p class="anim">POCUS: Why where & how in Trauma.</p>
