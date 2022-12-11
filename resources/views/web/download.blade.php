@@ -8,6 +8,10 @@
     .flyers img{
         cursor:pointer;
     }
+    .flyers img:hover{
+        cursor:pointer;
+        scale:1.2;
+    }
 </style>
 {{-- <div class="site-breadcrumb" style="background: url('{{asset('web/images/hi.jpg')}}')">
     <div class="container">
