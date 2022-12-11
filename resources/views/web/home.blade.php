@@ -498,7 +498,7 @@ marquee {
 
                 </p>
 
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSecmHa4UtvlI_YJDZ6mDGk47g2-wnSQtSE-OHdL9PQq-1g0CA/viewform"
+                <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSecmHa4UtvlI_YJDZ6mDGk47g2-wnSQtSE-OHdL9PQq-1g0CA/viewform"
                     class="theme-btn mt-4">Registration<i class="far fa-arrow-right"></i></a>
 
             </div>

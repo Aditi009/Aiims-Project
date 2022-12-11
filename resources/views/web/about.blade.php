@@ -248,7 +248,7 @@
                             </h5>
                             {{-- <p class="elementor-icon-box-description">
                                 12<sup>th</sup> December 2022 </p> --}}
-                            <a
+                            <a target="_blank"
                                 href="https://docs.google.com/forms/d/e/1FAIpQLSecmHa4UtvlI_YJDZ6mDGk47g2-wnSQtSE-OHdL9PQq-1g0CA/viewform">Register
                                 Now <i class="far fa-arrow-right"></i></a>
                         </div>
