@@ -70,7 +70,7 @@
                     <p class="anim">EDRA exam - How to prepare?.</p>
                     </marquee>
                     <marquee behavior="alternate" width="100%" direction="left" scrollamount="6">
-                        <p class="anim">                    Much more…
+                        <p class="anim">                    And much more…
                         </p>
                         </marquee>
                     <!-- <p class="anim">A wake shoulder surgery - Myth or Reality ? </p>

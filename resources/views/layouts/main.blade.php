@@ -654,10 +654,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
                             <h4 class="footer-widget-title">Quick Links</h4>
                             <ul class="footer-list">
                                 <li><a href="{{route('about-us')}}"><i class="fas fa-caret-right"></i> Abstract</a></li>
-                                <li><a target="_blank" href="{{asset('web/pdf/Program.pdf')}}"><i class="fas fa-caret-right"></i>  Scientific Program </a></li>
-                                <li><a href="{{route('organiser')}}"><i class="fas fa-caret-right"></i> Organisers</a></li>
+                                <li><a  href="{{route('scientific_program')}}"><i class="fas fa-caret-right"></i>  Scientific Program </a></li>
+                                <li><a href="{{route('national_faculty')}}"><i class="fas fa-caret-right"></i> National Faculty</a></li>
+                                <li><a href="{{route('international_faculty')}}"><i class="fas fa-caret-right"></i> International Faculty</a></li>
                                 <li><a href="{{route('commitee')}}"><i class="fas fa-caret-right"></i> Committee</a></li>
                                 <li><a href="{{route('download')}}"><i class="fas fa-caret-right"></i> Downloads</a></li>
+                                <li><a href="{{route('gallery')}}"><i class="fas fa-caret-right"></i> Gallery</a></li>
+                                <li><a href="{{route('contact')}}"><i class="fas fa-caret-right"></i> Contact Us</a></li>
                                 <li><a href="https://www.delhimetrorail.com/" target="_blank"><i class="fas fa-caret-right"></i>Delhi Metro</a></li>
                             </ul>
                         </div>
