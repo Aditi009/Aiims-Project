@@ -29,7 +29,7 @@
     right: 2px;
     top: 3px;
     height: 46px;
-    width: 161px !important;
+    width: 175px !important;
 }
 .animate-charcter {
     text-transform: uppercase;
