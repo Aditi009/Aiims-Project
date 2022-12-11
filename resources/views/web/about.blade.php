@@ -106,10 +106,10 @@
     </style>
     <div class="about-area py-120">
         <div class="container">
-            <div class="row">
+            <div class="row justify-content-center">
                 <p class="text-center">To facilitate the submission process and the subsequent follow-up process, please
                     consider the following guidelines, information, tips, terms and deadlines mentioned.</p>
-                <div class="header-btn d-flex justify-content-center">
+                <div class="header-btn d-flex">
                     <a href="{{ asset('web/images/abstract-cusa.pdf') }}" class="theme-btn mt-4">DOWNLOAD ABSTRACT TEMPLATE
                     </a>
                 </div>
