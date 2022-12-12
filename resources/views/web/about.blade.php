@@ -110,7 +110,7 @@
                 <p class="text-center">To facilitate the submission process and the subsequent follow-up process, please
                     consider the following guidelines, information, tips, terms and deadlines mentioned.</p>
                 <div class="header-btn d-flex">
-                    <a href="{{ asset('web/images/abstract-cusa.pdf') }}" class="theme-btn mt-4">DOWNLOAD ABSTRACT TEMPLATE
+                    <a href="{{ asset('web/docs/Abstract Template CUSA.docx') }}" class="theme-btn mt-4">DOWNLOAD ABSTRACT TEMPLATE
                     </a>
                 </div>
             </div>
@@ -139,18 +139,18 @@
                             <ul class="myui">
                                 <li>Affiliations should be indicated with superscript Arabic numbers appearing at the end of
                                     surname/family name.</li>
-                                <li>A superscript asterisk shout be used for the corresponding author</li>
-                                <li>Names of affiliations should be given including the country.</li>
+                                <li>A superscript asterisk shout be used for the author.</li>
+                                <li>Names of affiliations should be given.</li>
                                 <li>If there is more than one name and address, they should be related by superscript
                                     numbers.</li>
                             </ul>
                             <p>Eg:-</p>
                             <p>Surname INITIALS 1 , Surname INITIALS 1* and Surname INITIALS 2</p>
                             <ol>
-                                <li>Department, Faculty, University, Country</li>
-                                <li>Department, Institute, Country</li>
+                                <li>Department, University</li>
+                                <li>Department, Institute</li>
                             </ol>
-                            <p>*author@gmail.com (* Email address of the corresponding author)</p>
+                            <p>*author@gmail.com (* Email address of the author)</p>
                         </div>
                     </div>
                 </div>
