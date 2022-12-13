@@ -40,7 +40,7 @@ Version         : 1.0
         margin: -1,
         autoplay: true,
         autoplayHoverPause: true,
-        autoplayTimeout: 5000,
+        autoplayTimeout: 1000,
         items: 1,
         navText: [
             "<i class='far fa-long-arrow-left'></i>",

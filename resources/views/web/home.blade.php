@@ -145,7 +145,7 @@ marquee {
 
     </div>
 </div>
-<!-- <div class="hero-section hero-slider owl-carousel owl-theme">
+ <div class="hero-section hero-slider owl-carousel owl-theme">
     <div class="hero-single" style="background-image: url({{ asset('web/carousel/1.jpeg') }})">
         <div class="container">
 
@@ -329,10 +329,10 @@ marquee {
 </div>
 
 
-</div> -->
+</div> 
 
 
-<div id="carouselExampleIndicators" class="carousel slide mycorousel" data-ride="carousel">
+{{-- <div id="carouselExampleIndicators" class="carousel slide mycorousel" data-ride="carousel">
     <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -369,7 +369,7 @@ marquee {
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
     </a>
-</div>
+</div> --}}
 
 <div class="container">
     <div class="row justify-content-center">
