@@ -75,7 +75,7 @@
             <div class="row">
                 <div class="col-lg-6 mx-auto">
                     <div class="site-heading text-center">
-                        <span class="site-title-tagline">Team</span>
+                        <span class="site-title-tagline">Meet with the experts</span>
                         <h2 class="site-title" style=" color: #7e1916;">International Faculty</span></h2>
                     </div>
                 </div>

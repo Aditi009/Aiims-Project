@@ -31,8 +31,8 @@
                                 <i class="fal fa-map-marker-alt"></i>
                             </div>
                             <div class="contact-info-content">
-                                <h5>Office Address</h5>
-                                <p>Conference Secretariat Room No: 5014 A,
+                                <h5>Conference Secretariat</h5>
+                                <p> Room No: 5014 A,
                                     5th floor, Teaching Block, AIIMS, New Delhi</p>
                             </div>
                         </div>

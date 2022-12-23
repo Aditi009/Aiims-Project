@@ -76,7 +76,7 @@
         <div class="row">
             <div class="col-lg-6 mx-auto">
                 <div class="site-heading text-center">
-                    <span class="site-title-tagline">Team</span>
+                    <span class="site-title-tagline">Meet with the experts</span>
                     <h2 class="site-title" style=" color: #7e1916;">National Faculty</span></h2>
                 </div>
             </div>
@@ -135,7 +135,7 @@
             </div>
 
             <div class="col-md-3 card myprofilecard align-items-center">
-                <img class="card-img-top" src="{{ asset('web/images/niddhibhatia.jpeg') }}" alt="Card image cap">
+                <img class="card-img-top" src="{{ asset('web/images/nidhibhatia.png') }}" alt="Card image cap">
                 <div class="card-body">
                     <div class="card-text text-center">
                         <p class="body-text">Nidhi Bhatia
@@ -173,10 +173,10 @@
                 </div>
             </div>
             <div class="col-md-3 card myprofilecard align-items-center">
-                <img class="card-img-top" src="{{ asset('web/images/rupinder.jpeg') }}" alt="Card image cap">
+                <img class="card-img-top" src="{{ asset('web/images/rupinder.png') }}" alt="Card image cap">
                 <div class="card-body">
                     <div class="card-text text-center">
-                        <p class="body-text">Rupinder Singh
+                        <p class="body-text">Rupinder Kaur
                         </p>
                         <p class="body-bottom">DMC, Ludhiana</p>
                     </div>

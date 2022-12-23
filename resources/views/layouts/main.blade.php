@@ -504,8 +504,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 
 </style>
     <link rel="icon" type="image/x-icon" href="{{asset('web/images/logo-favicon.png')}}">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="{{asset('web/css/css-bootstrap.min.css')}}">
     <link rel="stylesheet" href="{{asset('web/css/css-all-fontawesome.min.css')}}">
     <link rel="stylesheet" href="{{asset('web/css/css-flaticon.css')}}">
     <link rel="stylesheet" href="{{asset('web/css/css-animate.min.css')}}">
@@ -656,11 +656,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
                               <li><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSecmHa4UtvlI_YJDZ6mDGk47g2-wnSQtSE-OHdL9PQq-1g0CA/viewform" ><i class="fas fa-caret-right"></i>Registration</a></li>
                                 <li><a href="{{route('about-us')}}"><i class="fas fa-caret-right"></i> Abstract</a></li>
                                 <li><a  href="{{route('scientific_program')}}"><i class="fas fa-caret-right"></i>  Scientific Program </a></li>
-                                <li><a href="{{route('national_faculty')}}"><i class="fas fa-caret-right"></i> National Faculty</a></li>
+                                <!-- <li><a href="{{route('national_faculty')}}"><i class="fas fa-caret-right"></i> National Faculty</a></li>
                                 <li><a href="{{route('international_faculty')}}"><i class="fas fa-caret-right"></i> International Faculty</a></li>
-                                <li><a href="{{route('commitee')}}"><i class="fas fa-caret-right"></i> Committee</a></li>
+                                <li><a href="{{route('commitee')}}"><i class="fas fa-caret-right"></i> Committee</a></li> -->
                                 <li><a href="{{route('download')}}"><i class="fas fa-caret-right"></i> Downloads</a></li>
-                                <li><a href="{{route('gallery')}}"><i class="fas fa-caret-right"></i> Gallery</a></li>
+                                <!-- <li><a href="{{route('gallery')}}"><i class="fas fa-caret-right"></i> Gallery</a></li> -->
                                 <li><a href="{{route('contact')}}"><i class="fas fa-caret-right"></i> Contact Us</a></li>
                                 <li><a href="https://www.delhimetrorail.com/" target="_blank"><i class="fas fa-caret-right"></i>Delhi Metro</a></li>
                             </ul>
