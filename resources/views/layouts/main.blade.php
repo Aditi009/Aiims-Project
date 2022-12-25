@@ -535,8 +535,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
         <div class="header-top">
             
                 <div class="header-top-wrapper">
-                    <img class="webb" src="{{asset('web/images/aiimscusa_main.png')}}" />
-                    <img class="mobb" src="{{asset('web/images/phone_banner.png')}}" />
+                    <!-- <img class="webb" src="{{asset('web/images/aiimscusa_main.png')}}" />
+                    <img class="mobb" src="{{asset('web/images/phone_banner.png')}}" /> -->
                 </div>
         </div>
         <div class="main-navigation">
