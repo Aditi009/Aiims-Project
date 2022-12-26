@@ -1,14 +1,6 @@
 @extends('layouts.main')
 @section('content')
-{{-- <div class="site-breadcrumb" style="background: url('{{asset('web/images/hi.jpg')}}')">
-<div class="container">
-    <h2 class="breadcrumb-title">International Faculty </h2>
-    <ul class="breadcrumb-menu">
-        <li><a href="index.html">Home</a></li>
-        <li class="active"> International Faculty</li>
-    </ul>
-</div>
-</div> --}}
+
 <style>
 .card-text {
     max-width: 210px;
@@ -70,7 +62,7 @@
 }
 </style>
 
-<div class="team-area py-120">
+<div class="team-area">
 
     <div class="container">
         <div class="row">
@@ -81,7 +73,7 @@
                 </div>
             </div>
         </div>
-        <div class="row justify-content-center mt-5">
+        <div class="row justify-content-center mt-2">
             <div class="col-md-3 card myprofilecard align-items-center">
                 <img class="card-img-top" src="{{ asset('web/images/kajaljain.png') }}" alt="Card image cap">
                 <div class="card-body">
@@ -135,13 +127,12 @@
             </div>
 
             <div class="col-md-3 card myprofilecard align-items-center">
-                <img class="card-img-top" src="{{ asset('web/images/nidhibhatia.png') }}" alt="Card image cap">
+                <img class="card-img-top" src="{{ asset('web/images/rupinder.png') }}" alt="Card image cap">
                 <div class="card-body">
                     <div class="card-text text-center">
-                        <p class="body-text">Nidhi Bhatia
-
+                        <p class="body-text">Rupinder Kaur
                         </p>
-                        <p class="body-bottom">PGIMER, Chandigarh</p>
+                        <p class="body-bottom">DMC, Ludhiana</p>
                     </div>
 
                 </div>
@@ -173,16 +164,18 @@
                 </div>
             </div>
             <div class="col-md-3 card myprofilecard align-items-center">
-                <img class="card-img-top" src="{{ asset('web/images/rupinder.png') }}" alt="Card image cap">
+                <img class="card-img-top" src="{{ asset('web/images/nidhibhatia.png') }}" alt="Card image cap">
                 <div class="card-body">
                     <div class="card-text text-center">
-                        <p class="body-text">Rupinder Kaur
+                        <p class="body-text">Nidhi Bhatia
+
                         </p>
-                        <p class="body-bottom">DMC, Ludhiana</p>
+                        <p class="body-bottom">PGIMER, Chandigarh</p>
                     </div>
 
                 </div>
             </div>
+           
 
             <div class="col-md-3 card myprofilecard align-items-center">
                 <img class="card-img-top" src="{{ asset('web/images/devendra.png') }}" alt="Card image cap">

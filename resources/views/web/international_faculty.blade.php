@@ -69,7 +69,7 @@
         }
         </style>
 
-    <div class="team-area py-120">
+    <div class="team-area">
      
         <div class="container">
             <div class="row">
@@ -80,7 +80,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row justify-content-center mt-5">
+            <div class="row justify-content-center mt-2">
     
                 <div class="col-md-3 card myprofilecard align-items-center">
                     <img class="card-img-top"  src="{{asset('web/images/mclair.png')}}" alt="Card image cap">

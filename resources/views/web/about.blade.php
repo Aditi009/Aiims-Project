@@ -16,8 +16,7 @@
             width: 100%;
             padding: 11px;
             border: 1px solid lightgrey;
-            font-size: 31px;
-            font-weight: 800;
+            font-size: 28px;
             border-width: 2px;
             color: white;
             position: relative;
@@ -90,13 +89,19 @@
             font-size: 40px;
             border-radius: 25px 25px 25px 25px;
         }
+        .dwld-btn{
+            height: 100px;
+        }
+        .dwld-btn a{
+            font-size: 28px;
+        }
     </style>
     <div class="about-area p-3">
         <div class="container">
             <div class="row justify-content-center">
                 <p class="text-center">To facilitate the submission process and the subsequent follow-up process, please
                     consider the following guidelines, information, tips, terms and deadlines mentioned.</p>
-                <div class="header-btn d-flex">
+                <div class="header-btn d-flex dwld-btn">
                     <a href="{{ asset('web/docs/Abstract Template CUSA.docx') }}" class="theme-btn mt-4">DOWNLOAD ABSTRACT TEMPLATE
                     </a>
                 </div>

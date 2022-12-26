@@ -568,8 +568,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
                                     <li><a class="dropdown-item" href="{{route('national_faculty')}}">National Faculty</a></li>
                                 </ul>
                             </li>
-                            {{-- <li class="nav-item"><a class="nav-link" href="{{route('organiser')}}"> Organisers </a></li> --}}
-                             <li class="nav-item"><a class="nav-link {{  Request::path() == "commitee" ? 'active' : ''}}" href="{{route('commitee')}}"> Committee </a></li>
+                            
+                             <li class="nav-item"><a class="nav-link {{  Request::path() == "commitee" ? 'active' : ''}}" href="{{route('commitee')}}"> Committees </a></li>
                            
                             
 

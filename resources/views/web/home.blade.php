@@ -327,7 +327,7 @@ marquee {
 </div> -->
 
 
-<div id="carouselExampleIndicators" class="carousel slide mycorousel" data-interval="1600" data-ride="carousel">
+<div id="carouselExampleIndicators" class="carousel slide mycorousel" data-interval="3000" data-ride="carousel">
     <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -457,13 +457,12 @@ marquee {
             <br />
             <p>
                 The highlight of CUSA this time is going to be revisiting all blocks from the classic to
-                the most recent approaches! Point of Care ultrasound for the anaesthesiologist is an essential skill for
-                all anaesthesiologists! The faculty involved in POCUS are experts who will make it possible for you to
+                the most recent approaches! Point of Care ultrasound for the anaesthesiologist is an essential skill. The faculty involved in POCUS are experts who will make it possible for you to
                 assimilate POCUS in your day to day practice! Need I say more……
                 <b><i>CUSA is a Regional anaesthesia Symposium with a difference!</i></b> As always, we eagerly
                 await your participation in CUSA 2023!.
             </p>
-            <p><b style="font-size:17px;">Do come and join in this academic extravaganza!</b></p>
+            <p><i><b style="font-size:17px;color:maroon;">Do come and join in this academic extravaganza!</b></i></p>
 
             <a target="_blank"
                 href="https://docs.google.com/forms/d/e/1FAIpQLSecmHa4UtvlI_YJDZ6mDGk47g2-wnSQtSE-OHdL9PQq-1g0CA/viewform"
@@ -475,23 +474,109 @@ marquee {
 <!-- registration -->
 <div class="testimonial-area py-20">
     <div class="container mt-10">
-        <div class="row justify-content-center">
+        <div id="registration" class="row">
+
+
+            <style>
+            /* --------Styling for any table without going for stacked table in mobile......... */
+            .styled-table {
+                border-collapse: collapse;
+                font-size: 1em;
+                width: 100%;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+            }
+
+            .styled-table thead tr {
+                background-color: #738de9 !important;
+                color: #ffffff;
+                text-align: left;
+            }
+
+            .styled-table th,
+            .styled-table td {
+                padding: 12px 15px;
+            }
+
+            .styled-table tbody tr {
+                border-bottom: 0px solid #dddddd;
+            }
+
+            .styled-table tbody tr:nth-of-type(even) {
+                background-color: #f3f3f3;
+            }
+
+            
+
+            .styled-table tbody tr:last-of-type {
+                border-bottom: 1px solid #b1faeb;
+            }
+
+            tbody.reg-table>:nth-child(1) {
+                background-color: #1b47e5d4 !important;
+                font-weight: 600 !important;
+                color: #bef516 !important;
+                border-top: 1px solid #ddd;
+            }
+
+            tbody.reg-table>:nth-child(6) {
+                font-weight: 400 !important;
+                font-family: roboto, Helvetica, sans-serif;
+
+            }
+            </style>
+
+
+
+            <div class="col-md-12">
+                <table class="styled-table">
+                    <thead>
+                        <tr>
+                            <td colspan="4"><strong>Registration Fee Structure<br>
+                                </strong></td>
+                        </tr>
+                    </thead>
+                    <tbody class="reg-table">
+                        <tr>
+                            <td><span style="color: #ffffff;"><strong>Dates</strong></span></td>
+                            <td><span style="color: #ffffff;"><strong>Till 15<sup><span
+                                                style="font-size: 10px;">th</span></sup>
+                                                January</strong></span></td>
+                            <td><span style="color: #ffffff;"><strong>16<sup><span
+                                                style="font-size: 10px;">th</span></sup> January
+                                        Onwards</strong></span></td>
+                        </tr>
+                        <tr>
+                            <td>Registration Fee</td>
+                            <td><span style="color: #000000;">INR 8500<br>
+                                </span></td>
+                            <td><span style="color: #000000;">INR 9000<br>
+                                </span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+
+
+
+        </div>
+        <div class="row justify-content-center mt-5">
             <div class="col-md-3">
                 <img class="card-img-top" src="{{ asset('web/images/reg_banner.png') }}" alt="Card image cap">
             </div>
-            <div class="col-md-9">
-                <h3 style="color:black" class="card-text">Scan the QR Code for Registration after account
+            <div class="col-md-9" style="margin-top:20px">
+                <h3 style="color:black">Scan the QR Code for Registration after account
                     transfer.</h3>
                 <h4>Account Details :</h4>
 
-                <div class="row mt-3 ml-2">
+                <div class="row mt-3 ml-1">
                     <h4 style="color:black">37937307048 (State Bank of India)</h4>
                 </div>
-                <div class="row mt-3 ml-2">
+                <div class="row mt-3 ml-1">
                     <h4 style="color:black">IFSC : SBIN0001536</h4>
                 </div>
-                <div class="row mt-3 ml-2">
-                    <h4 style="color:black">Whatsapp  : 7042129428,9464533877,9810104383</h4>
+                <div class="row mt-3 ml-1">
+                    <h4 style="color:black">Whatsapp : 7042129428,9464533877,9810104383</h4>
                 </div>
             </div>
         </div>
@@ -501,13 +586,13 @@ marquee {
 </div>
 
 
-<div class="case-area py-120">
+<div class="case-area mt-5">
     <div class="container">
         <div class="row">
             <div class="col-lg-6 mx-auto">
                 <div class="site-heading text-center">
-                    <h2 class="site-title">DELHI TOURIST ATTRACTION
-                    </h2>
+                    <h3 class="">TOURIST ATTRACTIONS 
+                    </h3>
                 </div>
             </div>
         </div>

@@ -66,7 +66,6 @@ margin-top:20px;
 }
 .box-container1{
     background-color:#00C2CB;
-    margin-top: -35px;
     transform: rotate(-36deg);
     box-shadow: 2px 2px 2px grey;
 }
@@ -74,7 +73,6 @@ margin-top:20px;
 .box-container2{
     background-color:#004AAD;
     margin-left: 60px;
-    margin-top: -35px;
     transform: rotate(36deg);
     box-shadow: 2px 2px 2px grey;
 }
@@ -138,7 +136,7 @@ margin-bottom:65px;
         <div class="row">
             <div class="col-lg-6 mx-auto">
                 <div class="site-heading text-center">
-                    <h2 class="site-title" style=" color: #7e1916;">Scientific Program</span></h2>
+                    <h3 class="" style=" color: #7e1916;">Scientific Program Highlights</span></h3>
                 </div>
             </div>
        
@@ -146,33 +144,26 @@ margin-bottom:65px;
     <div class="container mnc">
     <div class="row justify-content-center">
             <div class="col-md-2 text-center box-container box-container1">
-               <p class="anim">Awake shoulder surgery - Myth or Reality ? </p>
+               <p class="anim"> Regional Anaesthesia – a must in 2023! </p>
             </div>
             <div class="col-md-2 text-center box-container box-container2">
-            <p class="anim">ESP block in 2023 - Where do we stand ?</p>
+            <p class="anim">Awake shoulder surgery – myth or reality?</p>
             </div>
         </div>
 
         <div class="row justify-content-center">
             <div class="col-md-2 text-center box-container box-container3">
-            <p class="anim">Why regional Anaesthesia is must in 2023?</p>
+            <p class="anim">3.	ESP block –  evolution till the present!</p>
             </div>
             <div class="col-md-2 text-center box-container box-container4">
                      <img src="{{asset('web/images/ultra_prob.png')}}" alt="" srcset="">
             </div>
             <div class="col-md-2 text-center box-container box-container5">
-                <p class="anim">POCUS: Why where & how in Trauma.</p>
+                <p class="anim">POCUS in Trauma.</p>
             </div>
         </div>
 
-        <div class="row justify-content-center">
-            <div class="col-md-2 text-center box-container box-container6" style="visibility:hidden;">
-            <p class="anim">EDRA exam - How to prepare?.</p>
-            </div>
-            <div class="col-md-2 text-center box-container box-container7">
-            <p class="anim">EDRA exam - How to prepare?.</p>
-            </div>
-        </div>
+        
     </div>
 </div>
 @endsection
