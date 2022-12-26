@@ -73,7 +73,7 @@
     <div class="container">
         <div class="row justify-content-center mt-5 topcardrow">
             <div class="col-md-3 card myprofilecard align-items-center">
-                <img class="card-img-top" src="{{ asset('web/org/chairperson.png') }}" alt="Card image cap">
+                <img class="card-img-top" src="{{ asset('web/images/hod.png') }}" alt="Card image cap">
                 <div class="card-body">
                     <div class="card-text text-center">
                         <p class="body-text">Organising Chairperson
@@ -200,7 +200,7 @@
                     <li>Dr. T. Nageshwara Rao</li>
                     <li>Dr. Dhruv Jain</li>
                     <li>Dr. Sana Yasmin Hussain </li>
-                    <li>Dr. Priyanka Kumar Dutta</li>
+                    <li>Dr. Priyankar Kumar Dutta</li>
                     <li>Dr. Savitri H.G </li>
                     <li>Dr. Ram Singh</li>
                     <li>Dr. Sneha Singh</li>

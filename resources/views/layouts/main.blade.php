@@ -504,8 +504,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 
 </style>
     <link rel="icon" type="image/x-icon" href="{{asset('web/images/logo-favicon.png')}}">
-    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
-    <link rel="stylesheet" href="{{asset('web/css/css-bootstrap.min.css')}}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="{{asset('web/css/css-bootstrap.min.css')}}"> -->
     <link rel="stylesheet" href="{{asset('web/css/css-all-fontawesome.min.css')}}">
     <link rel="stylesheet" href="{{asset('web/css/css-flaticon.css')}}">
     <link rel="stylesheet" href="{{asset('web/css/css-animate.min.css')}}">
@@ -535,8 +535,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
         <div class="header-top">
             
                 <div class="header-top-wrapper">
-                    <!-- <img class="webb" src="{{asset('web/images/aiimscusa_main.png')}}" />
-                    <img class="mobb" src="{{asset('web/images/phone_banner.png')}}" /> -->
+                    <img class="webb" src="{{asset('web/images/aiimscusa_main.png')}}" />
+                    <img class="mobb" src="{{asset('web/images/phone_banner.png')}}" />
                 </div>
         </div>
         <div class="main-navigation">

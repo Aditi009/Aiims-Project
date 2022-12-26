@@ -1,18 +1,5 @@
 @extends('layouts.main')
 @section('content')
-    {{--   
-
-<div class="site-breadcrumb" style="background: url('{{asset('web/images/hi.jpg')}}')">
-    <div class="container">
-                <h2 class="breadcrumb-title">About Us</h2>
-                <ul class="breadcrumb-menu">
-                    <li><a href="index.html">Home</a></li>
-                    <li class="active">About Us</li>
-                </ul>
-            </div>
-        </div> --}}
-
-
     <style>
         a:hover {
             color: white;
@@ -104,7 +91,7 @@
             border-radius: 25px 25px 25px 25px;
         }
     </style>
-    <div class="about-area py-120">
+    <div class="about-area p-3">
         <div class="container">
             <div class="row justify-content-center">
                 <p class="text-center">To facilitate the submission process and the subsequent follow-up process, please
@@ -168,8 +155,8 @@
                                 <li>Please send in a brief biography together with the Abstract (An example is given in the
                                     abstract template).</li>
                                 <li>Please<strong>&nbsp;<a
-                                            href="https://tiikmedu-my.sharepoint.com/:w:/p/publication/EXrkLF1PdjBNtTcXVp1j9xwB2XJcZA13SxohO-wOkpZtMg?e=3iuWsK">download</a></strong><a
-                                        href="https://tiikmedu-my.sharepoint.com/:w:/p/publication/EXrkLF1PdjBNtTcXVp1j9xwB2XJcZA13SxohO-wOkpZtMg?e=3iuWsK">&nbsp;</a>the
+                                            href="{{ asset('web/docs/Abstract Template CUSA.docx') }}">download</a></strong>
+                                    the
                                     abstract template and follow the format carefully.</li>
                                 <li>Documents that do not confirm to the guidelines will be asked to revise.</li>
                                 <li>Documents received&nbsp;after the given deadline, due to any reason will not be
@@ -246,8 +233,7 @@
                                 <span style="text-transform: uppercase">
                                     register to submit abstract </span>
                             </h5>
-                            {{-- <p class="elementor-icon-box-description">
-                                12<sup>th</sup> December 2022 </p> --}}
+                          
                             <a target="_blank"
                                 href="https://docs.google.com/forms/d/e/1FAIpQLSecmHa4UtvlI_YJDZ6mDGk47g2-wnSQtSE-OHdL9PQq-1g0CA/viewform">Register
                                 Now <i class="far fa-arrow-right"></i></a>
