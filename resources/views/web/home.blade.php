@@ -474,7 +474,7 @@ marquee {
 
 <!-- registration -->
 <div class="testimonial-area py-20">
-    <div class="container mt-5">
+    <div class="container mt-10">
         <div class="row justify-content-center">
             <div class="col-md-3">
                 <img class="card-img-top" src="{{ asset('web/images/reg_banner.png') }}" alt="Card image cap">
