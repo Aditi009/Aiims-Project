@@ -112,7 +112,7 @@
             </div>
 
             <div class="col-md-3 card myprofilecard align-items-center">
-                <img class="card-img-top" src="{{ asset('web/org/db.jpg') }}" alt="Card image cap">
+                <img class="card-img-top" src="{{ asset('web/org/debesh.png') }}" alt="Card image cap">
                 <div class="card-body">
                     <div class="card-text text-center">
                         <p class="body-text">Co-Organising Secretary

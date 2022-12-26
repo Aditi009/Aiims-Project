@@ -127,7 +127,7 @@ marquee {
 }
 
 .img-container-hod {
-    border: 2px solid grey;
+    box-shadow: 2px 2px 2px grey;
     padding: 0px;
     margin: 2px;
 }
@@ -423,7 +423,7 @@ marquee {
 <div class="container mt-5">
     <div class="row justify-content-center">
         <div class="col-md-3 img-container-hod">
-            <img class="" src="{{ asset('web/images/hod.png') }}" alt="Card image cap">
+            <img class="" src="{{ asset('web/images/hod.png') }}" alt="Card image cap" >
             <div class="row justify-content-center text-center">
                 <ul>
                     <li style="font-weight: 900;font-size: 24px; color:maroon;"><i
