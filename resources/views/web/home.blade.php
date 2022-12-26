@@ -18,6 +18,7 @@
     display: inline-block;
     font-size: 22px;
 }
+
 .mycorousel img {
     min-height: 450px;
     max-height: 450px;
@@ -26,9 +27,9 @@
 @media only screen and (max-width: 600px) {
 
     .mycorousel img {
-    min-height: 250px;
-    max-height: 250px;
-}
+        min-height: 250px;
+        max-height: 250px;
+    }
 
     .design-our {
         margin-left: 14%;
@@ -332,31 +333,31 @@ marquee {
         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-        
+
     </ol>
     <div class="carousel-inner">
         <div class="carousel-item active">
             <img class="d-block w-100" src="{{ asset('web/carousel/1.jpeg') }}" alt="First slide">
-</div>
-<div class="carousel-item">
-    <img class="d-block w-100" src="{{ asset('web/carousel/2.jpeg') }}" alt="Second slide">
-</div>
-<div class="carousel-item">
-    <img class="d-block w-100" src="{{ asset('web/carousel/3.jpeg') }}" alt="Third slide">
-</div>
-<div class="carousel-item">
-    <img class="d-block w-100" src="{{ asset('web/carousel/4.jpeg') }}" alt="Third slide">
-</div>
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="{{ asset('web/carousel/2.jpeg') }}" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="{{ asset('web/carousel/3.png') }}" alt="Third slide">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="{{ asset('web/carousel/4.png') }}" alt="Third slide">
+        </div>
 
-</div>
-<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-</a>
-<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-</a>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
 </div>
 
 
@@ -423,7 +424,7 @@ marquee {
 <div class="container mt-5">
     <div class="row justify-content-center">
         <div class="col-md-3 img-container-hod">
-            <img class="" src="{{ asset('web/images/hod.png') }}" alt="Card image cap" >
+            <img class="" src="{{ asset('web/images/hod.png') }}" alt="Card image cap">
             <div class="row justify-content-center text-center">
                 <ul>
                     <li style="font-weight: 900;font-size: 24px; color:maroon;"><i
@@ -473,28 +474,24 @@ marquee {
 
 <!-- registration -->
 <div class="testimonial-area py-20">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 mx-auto">
-                <div class="site-heading text-center">
-                    <h2 class="site-title">Registration</h2>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="card" >
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-3">
+                <img class="card-img-top" src="{{ asset('web/images/reg_banner.png') }}" alt="Card image cap">
+            </div>
+            <div class="col-md-9">
+                <h3 style="color:black" class="card-text">Scan the QR Code for Registration after account
+                    transfer.</h3>
+                <h4>Account Details :</h4>
 
-                        <div class="card-body">
-                            <h3 style="color:black" class="card-text">Scan the QR Code for Registration after account
-                                transfer.</h3>
-                            <h4>Account Details :</h4>
-                            <center>
-                                <div class="row justify-content-center mt-3">
-                                    <h4 style="color:black">37937307048 (State Bank of India)</h4>
-                                    <h4 style="color:black">IFSC : SBIN0001536</h4>
-                                </div>
-                            </center>
-                        </div>
-                        <img class="card-img-top" src="{{ asset('web/images/reg_banner.png') }}" alt="Card image cap">
-                    </div>
+                <div class="row mt-3 ml-2">
+                    <h4 style="color:black">37937307048 (State Bank of India)</h4>
+                </div>
+                <div class="row mt-3 ml-2">
+                    <h4 style="color:black">IFSC : SBIN0001536</h4>
+                </div>
+                <div class="row mt-3 ml-2">
+                    <h4 style="color:black">Whatsapp  : 7042129428,9464533877,9810104383</h4>
                 </div>
             </div>
         </div>

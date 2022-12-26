@@ -61,11 +61,12 @@
 }
 .box-container p{
 font-weight:900;
-margin-top:35px;
+margin-top:20px;
 /* text-shadow: 2px 2px #9e8b8b; */
 }
 .box-container1{
     background-color:#00C2CB;
+    margin-top: -35px;
     transform: rotate(-36deg);
     box-shadow: 2px 2px 2px grey;
 }
@@ -73,13 +74,15 @@ margin-top:35px;
 .box-container2{
     background-color:#004AAD;
     margin-left: 60px;
+    margin-top: -35px;
     transform: rotate(36deg);
     box-shadow: 2px 2px 2px grey;
 }
 
 .box-container3{
     background-color:#5271FF;
-    margin-top: 160px;
+    margin-top: 72px;
+    
     transform: rotate(-82deg);
     box-shadow: 2px 2px 2px grey;
 }
@@ -88,26 +91,29 @@ margin-top:35px;
 .box-container4{
     height:250px;
     width:275px;
+    margin-left: 50px;
+    margin-right: 50px;
+    scale: 1.5;
 }
 
 .box-container5{
     background-color:#00C2CB;
-    margin-top: 160px;
+    margin-top: 72px;
     box-shadow: 2px 2px 2px grey;
     transform: rotate(82deg);
 }
 
 .box-container6{
-    margin-top:60px;
+    margin-top:6px;
     background-color:#5271FF;
     transform: rotate(33deg);
     box-shadow: 2px 2px 2px grey;
 }
 
 .box-container7{
-    background-color:red;
-    margin-left:100px;
-    margin-top:165px;
+    background-color:#004AAD;
+    margin-left:6px;
+    margin-top:15px;
     box-shadow: 2px 2px 2px grey;
     transform: rotate(-33deg);
 }
@@ -139,31 +145,31 @@ margin-bottom:65px;
     </div>
     <div class="container mnc">
     <div class="row justify-content-center">
-            <div class="col-md-3 text-center box-container box-container1">
+            <div class="col-md-2 text-center box-container box-container1">
                <p class="anim">Awake shoulder surgery - Myth or Reality ? </p>
             </div>
-            <div class="col-md-3 text-center box-container box-container2">
+            <div class="col-md-2 text-center box-container box-container2">
             <p class="anim">ESP block in 2023 - Where do we stand ?</p>
             </div>
         </div>
 
         <div class="row justify-content-center">
-            <div class="col-md-3 text-center box-container box-container3">
+            <div class="col-md-2 text-center box-container box-container3">
             <p class="anim">Why regional Anaesthesia is must in 2023?</p>
             </div>
-            <div class="col-md-4 text-center box-container box-container4">
+            <div class="col-md-2 text-center box-container box-container4">
                      <img src="{{asset('web/images/ultra_prob.png')}}" alt="" srcset="">
             </div>
-            <div class="col-md-3 text-center box-container box-container5">
+            <div class="col-md-2 text-center box-container box-container5">
                 <p class="anim">POCUS: Why where & how in Trauma.</p>
             </div>
         </div>
 
         <div class="row justify-content-center">
-            <div class="col-md-3 text-center box-container box-container6" style="visibility:hidden;">
+            <div class="col-md-2 text-center box-container box-container6" style="visibility:hidden;">
             <p class="anim">EDRA exam - How to prepare?.</p>
             </div>
-            <div class="col-md-3 text-center box-container box-container7">
+            <div class="col-md-2 text-center box-container box-container7">
             <p class="anim">EDRA exam - How to prepare?.</p>
             </div>
         </div>
