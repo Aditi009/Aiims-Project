@@ -1,29 +1,21 @@
 @extends('layouts.main')
 @section('content')
-{{-- <div class="site-breadcrumb" style="background: url('{{asset('web/images/hi.jpg')}}')">
-<div class="container">
-    <h2 class="breadcrumb-title">Scientific Program </h2>
-    <ul class="breadcrumb-menu">
-        <li><a href="index.html">Home</a></li>
-        <li class="active"> Scientific Program</li>
-    </ul>
-</div>
-</div> --}}
+
 
 <style>
-.anims {
-    animation-duration: 1000ms;
-    animation-name: blink;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    -webkit-animation: blink 1000ms infinite;
+.animds {
+    animdation-duration: 1000ms;
+    animdation-name: blink;
+    animdation-iteration-count: infinite;
+    animdation-direction: alternate;
+    -webkit-animdation: blink 1000ms infinite;
     /* Safari and Chrome */
 
     font-size: 22px;
 
 }
 
-.anim{
+.animd{
  color : white;
 }
 
@@ -136,7 +128,7 @@ margin-bottom:65px;
         <div class="row">
             <div class="col-lg-6 mx-auto">
                 <div class="site-heading text-center">
-                    <h3 class="" style=" color: #7e1916;">Scientific Program Highlights</span></h3>
+                    <h3 class="" style=" color: #7e1916;">Scientific Programme Highlights</span></h3>
                 </div>
             </div>
        
@@ -144,22 +136,22 @@ margin-bottom:65px;
     <div class="container mnc">
     <div class="row justify-content-center">
             <div class="col-md-2 text-center box-container box-container1">
-               <p class="anim"> Regional Anaesthesia – a must in 2023! </p>
+               <p class="animd"> Regional Anaesthesia – a must in 2023! </p>
             </div>
             <div class="col-md-2 text-center box-container box-container2">
-            <p class="anim">Awake shoulder surgery – myth or reality?</p>
+            <p class="animd">Awake shoulder surgery – myth or reality?</p>
             </div>
         </div>
 
         <div class="row justify-content-center">
             <div class="col-md-2 text-center box-container box-container3">
-            <p class="anim">3.	ESP block –  evolution till the present!</p>
+            <p class="animd">ESP block –  evolution till the present!</p>
             </div>
             <div class="col-md-2 text-center box-container box-container4">
                      <img src="{{asset('web/images/ultra_prob.png')}}" alt="" srcset="">
             </div>
             <div class="col-md-2 text-center box-container box-container5">
-                <p class="anim">POCUS in Trauma.</p>
+                <p class="animd">POCUS in Trauma</p>
             </div>
         </div>
 

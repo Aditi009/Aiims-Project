@@ -1,138 +1,6 @@
 @extends('layouts.main')
 @section('content')
-<style>
-.animate-charcter {
-    text-transform: uppercase;
-    background-image: linear-gradient(-225deg, #231557 0%, #44107a 29%, #ff1361 67%, #fff800 100%);
-    background-size: auto auto;
-    padding: 10px;
-    background-clip: border-box;
-    background-size: 200% auto;
-    color: #fff;
-    background-clip: text;
-    text-fill-color: transparent;
-    /* box-shadow: 0 0 15px rgb(0 0 0 / 17%); */
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: textclip 2s linear infinite;
-    display: inline-block;
-    font-size: 22px;
-}
 
-.mycorousel img {
-    min-height: 450px;
-    max-height: 450px;
-}
-
-@media only screen and (max-width: 600px) {
-
-    .mycorousel img {
-        min-height: 250px;
-        max-height: 250px;
-    }
-
-    .design-our {
-        margin-left: 14%;
-    }
-
-    .animate-charcter {
-        text-transform: uppercase;
-        background-image: linear-gradient(-225deg, #231557 0%, #44107a 29%, #ff1361 67%, #fff800 100%);
-        background-size: auto auto;
-        padding: 10px;
-        background-clip: border-box;
-        background-size: 200% auto;
-        color: #fff;
-        background-clip: text;
-        text-fill-color: transparent;
-        /* box-shadow: 0 0 15px rgb(0 0 0 / 17%); */
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        animation: textclip 2s linear infinite;
-        display: inline-block;
-        font-size: 20px;
-    }
-
-    .hero-single {
-        height: 300px;
-    }
-}
-
-@keyframes textclip {
-    to {
-        background-position: 200% center;
-    }
-}
-
-marquee {
-    font-size: 18px;
-    font-weight: 600;
-    color: #b71b1b;
-    width: 100%;
-    text-align: left !important;
-    display: block;
-    padding-top: 10px;
-    text-align: left;
-}
-
-.homepcard {
-    background: #FFFFFF;
-    border: 1px solid #F7F7F7;
-    box-sizing: border-box;
-    box-shadow: 1px 2px 3px rgb(0 0 0 / 10%);
-    border-radius: 4px;
-}
-
-
-
-.feature-item {
-    height: 250px;
-}
-
-
-
-.py-20 {
-    padding-top: 20px;
-}
-
-.anim {
-    animation-duration: 1000ms;
-    animation-name: blink;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    -webkit-animation: blink 1000ms infinite;
-    /* Safari and Chrome */
-
-    font-size: 16px;
-
-}
-
-@keyframes blink {
-    from {
-        color: blue;
-    }
-
-    to {
-        color: red;
-    }
-}
-
-@-webkit-keyframes blink {
-    from {
-        color: blue;
-    }
-
-    to {
-        color: red;
-    }
-}
-
-.img-container-hod {
-    box-shadow: 2px 2px 2px grey;
-    padding: 0px;
-    margin: 2px;
-}
-</style>
 
 <div class="container time">
     <div id="day_to">
@@ -140,193 +8,6 @@ marquee {
 
     </div>
 </div>
-<!-- <div class="hero-section hero-slider owl-carousel owl-theme">
-        <div class="hero-single" style="background-image: url({{ asset('web/carousel/1.jpeg') }})">
-            <div class="container">
-
-                <div class="row align-items-center">
-                    <div class="col-md-7 col-lg-7">
-                        <div class="hero-content" style="height: 400px">
-                            {{-- <h6 class="hero-sub-title wow animate__animated animate__fadeInUp"
-                                data-wow-duration="1s" data-wow-delay=".25s"># Best Mind Care &amp; Stay Happy
-                            </h6>
-                            <h1 class="hero-title wow animate__animated animate__fadeInUp" data-wow-duration="1s"
-                                data-wow-delay=".50s">
-                                We Provide Psychology <span>therapy</span> &amp; Counseling For You
-                            </h1>
-                            <p class="wow animate__animated animate__fadeInUp" data-wow-duration="1s"
-                                data-wow-delay=".75s">
-                                There are many variations of passages available but the majority have suffered
-                                alteration in some form by injected humour or randomised words.
-                            </p>
-                            <div class="hero-btn wow animate__animated animate__fadeInUp" data-wow-duration="1s"
-                                data-wow-delay="1s">
-                                <a href="contact.html" class="theme-btn">Contact Us<i
-                                        class="far fa-arrow-right"></i></a>
-                                <a href="{{route('about-us')}}" class="theme-btn theme-btn2">About Us<i
-                                class="far fa-arrow-right"></i></a>
-                        </div> --}}
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="hero-single" style="background-image: url({{ asset('web/carousel/2.jpeg') }})">
-        <div class="container">
-
-
-            <div class="row align-items-center">
-                <div class="col-md-7 col-lg-7">
-                    <div class="hero-content" style="height: 400px">
-                        {{-- <h6 class="hero-sub-title wow animate__animated animate__fadeInUp"
-                                data-wow-duration="1s" data-wow-delay=".25s"># Best Mind Care &amp; Stay Happy
-                            </h6>
-                            <h1 class="hero-title wow animate__animated animate__fadeInUp" data-wow-duration="1s"
-                                data-wow-delay=".50s">
-                                We Provide Psychology <span>therapy</span> &amp; Counseling For You
-                            </h1>
-                            <p class="wow animate__animated animate__fadeInUp" data-wow-duration="1s"
-                                data-wow-delay=".75s">
-                                There are many variations of passages available but the majority have suffered
-                                alteration in some form by injected humour or randomised words.
-                            </p>
-                            <div class="hero-btn wow animate__animated animate__fadeInUp" data-wow-duration="1s"
-                                data-wow-delay="1s">
-                                <a href="contact.html" class="theme-btn">Contact Us<i
-                                        class="far fa-arrow-right"></i></a>
-                                <a href="{{route('about-us')}}" class="theme-btn theme-btn2">About Us<i
-                            class="far fa-arrow-right"></i></a>
-                    </div> --}}
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>
-
-    <div class="hero-single" style="background-image: url({{ asset('web/carousel/3.jpeg') }})">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-7 col-lg-7">
-                    <div class="hero-content" style="height: 400px">
-                        {{-- <h6 class="hero-sub-title wow animate__animated animate__fadeInUp"
-                                data-wow-duration="1s" data-wow-delay=".25s"># Best Mind Care &amp; Stay Happy
-                            </h6>
-                            <h1 class="hero-title wow animate__animated animate__fadeInUp" data-wow-duration="1s"
-                                data-wow-delay=".50s">
-                                We Provide Psychology <span>therapy</span> &amp; Counseling For You
-                            </h1>
-                            <p class="wow animate__animated animate__fadeInUp" data-wow-duration="1s"
-                                data-wow-delay=".75s">
-                                There are many variations of passages available but the majority have suffered
-                                alteration in some form by injected humour or randomised words.
-                            </p>
-                            <div class="hero-btn wow animate__animated animate__fadeInUp" data-wow-duration="1s"
-                                data-wow-delay="1s">
-                                <a href="contact.html" class="theme-btn">Contact Us<i
-                                        class="far fa-arrow-right"></i></a>
-                                <a href="{{route('about-us')}}" class="theme-btn theme-btn2">About Us<i
-                            class="far fa-arrow-right"></i></a>
-                    </div> --}}
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>
-
-    <div class="hero-single" style="background-image: url({{ asset('web/carousel/4.jpeg') }})">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-7 col-lg-7">
-                    <div class="hero-content" style="height: 400px">
-                        {{-- <h6 class="hero-sub-title wow animate__animated animate__fadeInUp"
-                                data-wow-duration="1s" data-wow-delay=".25s"># Best Mind Care &amp; Stay Happy
-                            </h6>
-                            <h1 class="hero-title wow animate__animated animate__fadeInUp" data-wow-duration="1s"
-                                data-wow-delay=".50s">
-                                We Provide Psychology <span>therapy</span> &amp; Counseling For You
-                            </h1>
-                            <p class="wow animate__animated animate__fadeInUp" data-wow-duration="1s"
-                                data-wow-delay=".75s">
-                                There are many variations of passages available but the majority have suffered
-                                alteration in some form by injected humour or randomised words.
-                            </p>
-                            <div class="hero-btn wow animate__animated animate__fadeInUp" data-wow-duration="1s"
-                                data-wow-delay="1s">
-                                <a href="contact.html" class="theme-btn">Contact Us<i
-                                        class="far fa-arrow-right"></i></a>
-                                <a href="{{route('about-us')}}" class="theme-btn theme-btn2">About Us<i
-                            class="far fa-arrow-right"></i></a>
-                    </div> --}}
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>
-
-    <div class="hero-single" style="background-image: url({{ asset('web/carousel/5.jpeg') }})">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-7 col-lg-7">
-                    <div class="hero-content" style="height: 400px">
-                        {{-- <h6 class="hero-sub-title wow animate__animated animate__fadeInUp"
-                                data-wow-duration="1s" data-wow-delay=".25s"># Best Mind Care &amp; Stay Happy
-                            </h6>
-                            <h1 class="hero-title wow animate__animated animate__fadeInUp" data-wow-duration="1s"
-                                data-wow-delay=".50s">
-                                We Provide Psychology <span>therapy</span> &amp; Counseling For You
-                            </h1>
-                            <p class="wow animate__animated animate__fadeInUp" data-wow-duration="1s"
-                                data-wow-delay=".75s">
-                                There are many variations of passages available but the majority have suffered
-                                alteration in some form by injected humour or randomised words.
-                            </p>
-                            <div class="hero-btn wow animate__animated animate__fadeInUp" data-wow-duration="1s"
-                                data-wow-delay="1s">
-                                <a href="contact.html" class="theme-btn">Contact Us<i
-                                        class="far fa-arrow-right"></i></a>
-                                <a href="{{route('about-us')}}" class="theme-btn theme-btn2">About Us<i
-                            class="far fa-arrow-right"></i></a>
-                    </div> --}}
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>
-
-    <div class="hero-single" style="background-image: url({{ asset('web/carousel/6.jpeg') }})">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-7 col-lg-7">
-                    <div class="hero-content" style="height: 400px">
-                        {{-- <h6 class="hero-sub-title wow animate__animated animate__fadeInUp"
-                                data-wow-duration="1s" data-wow-delay=".25s"># Best Mind Care &amp; Stay Happy
-                            </h6>
-                            <h1 class="hero-title wow animate__animated animate__fadeInUp" data-wow-duration="1s"
-                                data-wow-delay=".50s">
-                                We Provide Psychology <span>therapy</span> &amp; Counseling For You
-                            </h1>
-                            <p class="wow animate__animated animate__fadeInUp" data-wow-duration="1s"
-                                data-wow-delay=".75s">
-                                There are many variations of passages available but the majority have suffered
-                                alteration in some form by injected humour or randomised words.
-                            </p>
-                            <div class="hero-btn wow animate__animated animate__fadeInUp" data-wow-duration="1s"
-                                data-wow-delay="1s">
-                                <a href="contact.html" class="theme-btn">Contact Us<i
-                                        class="far fa-arrow-right"></i></a>
-                                <a href="{{route('about-us')}}" class="theme-btn theme-btn2">About Us<i
-                            class="far fa-arrow-right"></i></a>
-                    </div> --}}
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>
-
-
-</div> -->
-
-
 <div id="carouselExampleIndicators" class="carousel slide mycorousel" data-interval="3000" data-ride="carousel">
     <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -335,6 +16,9 @@ marquee {
         <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
 
     </ol>
+    <div class="callout">
+        <img src="{{ asset('web/images/cout_msg.png') }}" alt="" srcset="">
+    </div>
     <div class="carousel-inner">
         <div class="carousel-item active">
             <img class="d-block w-100" src="{{ asset('web/carousel/1.jpeg') }}" alt="First slide">
@@ -457,16 +141,15 @@ marquee {
             <br />
             <p>
                 The highlight of CUSA this time is going to be revisiting all blocks from the classic to
-                the most recent approaches! Point of Care ultrasound for the anaesthesiologist is an essential skill. The faculty involved in POCUS are experts who will make it possible for you to
+                the most recent approaches! Point of Care ultrasound for the anaesthesiologist is an essential skill.
+                The faculty involved in POCUS are experts who will make it possible for you to
                 assimilate POCUS in your day to day practice! Need I say more……
-                <b><i>CUSA is a Regional anaesthesia Symposium with a difference!</i></b> As always, we eagerly
+                <b><i>CUSA is a Regional Anaesthesia Symposium with a difference!</i></b> As always, we eagerly
                 await your participation in CUSA 2023!.
             </p>
             <p><i><b style="font-size:17px;color:maroon;">Do come and join in this academic extravaganza!</b></i></p>
 
-            <a target="_blank"
-                href="https://docs.google.com/forms/d/e/1FAIpQLSecmHa4UtvlI_YJDZ6mDGk47g2-wnSQtSE-OHdL9PQq-1g0CA/viewform"
-                class="theme-btn mt-4">Registration<i class="far fa-arrow-right"></i></a>
+
         </div>
     </div>
 </div>
@@ -505,7 +188,7 @@ marquee {
                 background-color: #f3f3f3;
             }
 
-            
+
 
             .styled-table tbody tr:last-of-type {
                 border-bottom: 1px solid #b1faeb;
@@ -527,11 +210,11 @@ marquee {
 
 
 
-            <div class="col-md-12">
+            <div class="col-md-12 mt-2">
                 <table class="styled-table">
                     <thead>
                         <tr>
-                            <td colspan="4"><strong>Registration Fee Structure<br>
+                            <td class="text-center" colspan="4"><strong >Registration Fee Structure<br>
                                 </strong></td>
                         </tr>
                     </thead>
@@ -540,7 +223,7 @@ marquee {
                             <td><span style="color: #ffffff;"><strong>Dates</strong></span></td>
                             <td><span style="color: #ffffff;"><strong>Till 15<sup><span
                                                 style="font-size: 10px;">th</span></sup>
-                                                January</strong></span></td>
+                                        January</strong></span></td>
                             <td><span style="color: #ffffff;"><strong>16<sup><span
                                                 style="font-size: 10px;">th</span></sup> January
                                         Onwards</strong></span></td>
@@ -567,17 +250,27 @@ marquee {
             <div class="col-md-9" style="margin-top:20px">
                 <h3 style="color:black">Scan the QR Code for Registration after account
                     transfer.</h3>
-                <h4>Account Details :</h4>
+                <div class="row">
+                    <div class="col-md-8 mt-3">
+                        <h4>Account Details :</h4>
 
-                <div class="row mt-3 ml-1">
-                    <h4 style="color:black">37937307048 (State Bank of India)</h4>
+                        <div class="row mt-3 ml-1">
+                            <h4 style="color:black">37937307048 (State Bank of India)</h4>
+                        </div>
+                        <div class="row mt-3 ml-1">
+                            <h4 style="color:black">IFSC : SBIN0001536</h4>
+                        </div>
+                        <div class="row mt-3 ml-1">
+                            <h4 style="color:black">Whatsapp : 7042129428,9464533877,9810104383</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <a target="_blank"
+                            href="https://docs.google.com/forms/d/e/1FAIpQLSecmHa4UtvlI_YJDZ6mDGk47g2-wnSQtSE-OHdL9PQq-1g0CA/viewform"
+                            class="theme-btn mt-4">Registration<i class="far fa-arrow-right"></i></a>
+                    </div>
                 </div>
-                <div class="row mt-3 ml-1">
-                    <h4 style="color:black">IFSC : SBIN0001536</h4>
-                </div>
-                <div class="row mt-3 ml-1">
-                    <h4 style="color:black">Whatsapp : 7042129428,9464533877,9810104383</h4>
-                </div>
+
             </div>
         </div>
 
@@ -591,7 +284,7 @@ marquee {
         <div class="row">
             <div class="col-lg-6 mx-auto">
                 <div class="site-heading text-center">
-                    <h3 class="">TOURIST ATTRACTIONS 
+                    <h3 class="">TOURIST ATTRACTIONS
                     </h3>
                 </div>
             </div>

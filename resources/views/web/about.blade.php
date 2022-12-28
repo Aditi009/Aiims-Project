@@ -90,10 +90,15 @@
             border-radius: 25px 25px 25px 25px;
         }
         .dwld-btn{
-            height: 100px;
+            height: 90px;
         }
         .dwld-btn a{
             font-size: 28px;
+            
+        }
+        .syabs{
+            font-size:30px;
+            height:70px;
         }
     </style>
     <div class="about-area p-3">
@@ -131,10 +136,9 @@
                             <ul class="myui">
                                 <li>Affiliations should be indicated with superscript Arabic numbers appearing at the end of
                                     surname/family name.</li>
-                                <li>A superscript asterisk shout be used for the author.</li>
+                                <li>A superscript asterisk should be used for the author.</li>
                                 <li>Names of affiliations should be given.</li>
-                                <li>If there is more than one name and address, they should be related by superscript
-                                    numbers.</li>
+                                
                             </ul>
                             <p>Eg:-</p>
                             <p>Surname INITIALS 1 , Surname INITIALS 1* and Surname INITIALS 2</p>
@@ -251,7 +255,7 @@
             <div class="row mt-5">
                 <div class="col-lg-12">
                     <div class="site-heading text-center">
-                        <a class="theme-btn" href="mailto:cusaaiims@gmail.com"
+                        <a class="theme-btn syabs" href="mailto:cusaaiims@gmail.com"
                             target="_blank">
                             Submit Your Abstract
                             <i class="far fa-arrow-right"></i></a>

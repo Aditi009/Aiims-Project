@@ -10,13 +10,12 @@
         </div>
     </div> --}}
 
-    <div class="case-area py-120">
+    <div class="case-area mt-5">
         <div class="container">
         <div class="row">
         <div class="col-lg-6">
                         <div class="site-heading">
-                            <span class="site-title-tagline">Cusa</span>
-                            <h2 class="site-title">2019</h2>
+                            <h2 class="site-title">CUSA 2019</h2>
                         </div>
                     </div>
                 </div>
@@ -88,8 +87,8 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="site-heading">
-                        <span class="site-title-tagline">CUSA</span>
-                        <h2 class="site-title">2018</h2>
+                        <!-- <span class="site-title-tagline">CUSA</span> -->
+                        <h2 class="site-title">CUSA 2018</h2>
                     </div>
                 </div>
             </div>

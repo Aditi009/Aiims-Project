@@ -201,34 +201,35 @@
                     <li>Dr. Akhil Kant Singh</li>
                     <li>Dr. Rakesh Kumar</li>
                     <li>Dr. Nishant Patel</li>
+                    <li>Dr. Abhishek. N </li>
                 </ul>
                 <ul class="organiserslist ml-2">
 
-                    <li>Dr. Abhishek. N </li>
+                   
                     <li>Dr. Ajisha Aravindan</li>
                     <li>Dr. Vineeta Venkateswaran</li>
                     <li>Dr. Christopher Dass</li>
                     <li>Dr. Shreya Bharat Shah</li>
                     <li>Dr. Anju Gupta </li>
                     <li>Dr. Sulagna Bhattacharjee</li>
+                    <li>Dr. Parin Lalwani</li>
+                    <li>Dr. Kelika Prakash </li>
 
                 </ul>
                 <ul class="organiserslist ml-2">
 
-                    <li>Dr. Parin Lalwani</li>
-                    <li>Dr. Kelika Prakash </li>
+                    
+                 
                     <li>Dr. Mrityunjay Kumar</li>
                     <li>Dr. Dhruv Jain</li>
                     <li>Dr. Sana Yasmin Hussain </li>
                     <li>Dr. Priyankar Kumar Dutta</li>
                     <li>Dr. Savitri H.G </li>
-
-                </ul>
-                <ul class="organiserslist ml-2">
-                   
                     <li>Dr. Ram Singh</li>
                     <li>Dr. Sneha Singh</li>
+
                 </ul>
+               
             </div>
             <div class="col-md-4">
                 <p class="body-text">Scientific Advisors</p>

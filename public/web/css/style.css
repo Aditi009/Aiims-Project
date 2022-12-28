@@ -1,3 +1,250 @@
 .header-top{
     height:fit-content;
 }
+
+/** layout css*/
+
+.time{
+    position: fixed;
+    background: white;
+    z-index: 9999;
+    right: 0;
+    top: 300px;
+    text-align:center;
+    width: 90px !important
+  }
+
+  @media only screen and (max-width: 600px) {
+    .time {
+    position: fixed;
+    background: white;
+    z-index: 9999;
+    right: 2px;
+    top: 3px;
+    height: 46px;
+    width: 175px !important;
+}
+.animate-charcter {
+    text-transform: uppercase;
+    background-image: linear-gradient( -225deg, #231557 0%, #44107a 29%, #ff1361 67%, #fff800 100% );
+    background-size: auto auto;
+    padding: 10px;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    /* box-shadow: 0 0 15px rgb(0 0 0 / 17%); */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+    font-size: 22px;
+}
+}
+
+  
+
+ li span {
+  display: block;
+}
+.count{
+    display: flex
+}
+.count li{
+ 
+    text-align: center;
+    padding: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    color: red;
+    font-weight: 500;
+}
+.colon{
+    margin-top: 5px;
+    color: red;
+    font-weight: 900;
+
+}
+/* * Hide from both screenreaders and browsers: h5bp.com/u */
+.hidden {
+	display: none !important;
+	visibility: hidden;
+}
+
+.dropdown-toggle::after {
+    display: inline-block;
+    margin-left: 5px;
+    vertical-align: 1.5px;
+    font-family: 'Font Awesome 5 Pro';
+    content: "" !important;
+    font-weight: 600;
+    border: none;
+    font-size: 11px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* home page  */
+
+.animate-charcter {
+    text-transform: uppercase;
+    background-image: linear-gradient(-225deg, #231557 0%, #44107a 29%, #ff1361 67%, #fff800 100%);
+    background-size: auto auto;
+    padding: 10px;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    /* box-shadow: 0 0 15px rgb(0 0 0 / 17%); */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+    font-size: 22px;
+}
+
+.mycorousel img {
+    min-height: 450px;
+    max-height: 450px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .mycorousel img {
+        min-height: 250px;
+        max-height: 250px;
+    }
+
+    .design-our {
+        margin-left: 14%;
+    }
+
+    .animate-charcter {
+        text-transform: uppercase;
+        background-image: linear-gradient(-225deg, #231557 0%, #44107a 29%, #ff1361 67%, #fff800 100%);
+        background-size: auto auto;
+        padding: 10px;
+        background-clip: border-box;
+        background-size: 200% auto;
+        color: #fff;
+        background-clip: text;
+        text-fill-color: transparent;
+        /* box-shadow: 0 0 15px rgb(0 0 0 / 17%); */
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: textclip 2s linear infinite;
+        display: inline-block;
+        font-size: 20px;
+    }
+
+    .hero-single {
+        height: 300px;
+    }
+}
+
+@keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
+}
+
+marquee {
+    font-size: 18px;
+    font-weight: 600;
+    color: #b71b1b;
+    width: 100%;
+    text-align: left !important;
+    display: block;
+    padding-top: 10px;
+    text-align: left;
+}
+
+.homepcard {
+    background: #FFFFFF;
+    border: 1px solid #F7F7F7;
+    box-sizing: border-box;
+    box-shadow: 1px 2px 3px rgb(0 0 0 / 10%);
+    border-radius: 4px;
+}
+
+
+
+.feature-item {
+    height: 250px;
+}
+
+
+
+.py-20 {
+    padding-top: 20px;
+}
+
+.anim {
+    animation-duration: 1000ms;
+    animation-name: blink;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    -webkit-animation: blink 1000ms infinite;
+    /* Safari and Chrome */
+
+    font-size: 16px;
+
+}
+
+@keyframes blink {
+    from {
+        color: blue;
+    }
+
+    to {
+        color: red;
+    }
+}
+
+@-webkit-keyframes blink {
+    from {
+        color: blue;
+    }
+
+    to {
+        color: red;
+    }
+}
+
+.img-container-hod {
+    padding: 0px;
+    margin: 2px;
+}
+
+.callout{
+    position:absolute;
+    z-index: 10;
+    height:180px;
+    margin-top:40px;
+    width:180px;
+    animation-name: calloutanim;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+.callout img {
+    height:180px;
+    width:180px;
+    min-height:180px;
+    max-height:180px
+}
+
+@keyframes calloutanim {
+  from {left: -180px;}
+  to {left:0px;}
+}

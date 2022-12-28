@@ -118,9 +118,10 @@
                 <img class="card-img-top" src="{{ asset('web/images/subrahmanyam.png') }}" alt="Card image cap">
                 <div class="card-body">
                     <div class="card-text text-center">
-                        <p class="body-text">Subramanyam S Mahankali
+                        <p class="body-text" style="line-height: 25px;">
+                        Subramanyam S Mahankali
                         </p>
-                        <p class="body-bottom">Aster Hospital, Bangalore</p>
+                        <p class="body-bottom" style="margin-top:-5px;">Aster Hospital, Bangalore</p>
                     </div>
 
                 </div>
@@ -175,16 +176,14 @@
 
                 </div>
             </div>
-           
+
 
             <div class="col-md-3 card myprofilecard align-items-center">
                 <img class="card-img-top" src="{{ asset('web/images/devendra.png') }}" alt="Card image cap">
                 <div class="card-body">
                     <div class="card-text text-center">
-                        <p class="body-text">Debendra Kumar Tripathi
-
-                        </p>
-                        <p class="body-bottom">AIIMS, Raipur</p>
+                        <p class="body-text" style="line-height: 25px;">Debendra Kumar Tripathi</p>
+                        <p class="body-bottom" style="margin-top:-5px;">AIIMS, Raipur</p>
                     </div>
 
                 </div>
