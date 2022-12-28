@@ -64,7 +64,7 @@
 }
 </style>
 <div class="about-area">
-    <div class="row justify-content-center p-10">
+    <div class="row justify-content-center pt-10">
         <h3 class="text-center ocheading">Organising Committees</h3>
     </div>
     <div class="container">
@@ -193,7 +193,7 @@
         <div class="row justify-content-center listcontainer">
             <div class="col-md-8">
                 <p class="body-text">Executive Committee</p>
-                <ul class="organiserslist">
+                <ul class="organiserslist ml-2">
                     <li>Dr. Puneet Khanna</li>
                     <li>Dr. Rahul K Anand</li>
                     <li>Dr. Shailendra Kumar</li>

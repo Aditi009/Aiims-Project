@@ -100,6 +100,15 @@
             font-size:30px;
             height:70px;
         }
+
+        @media only screen and (max-width: 600px) {
+     .dwld-btn a{
+        font-size:18px;
+     }
+     .syabs{
+        font-size:18px;
+     }
+}
     </style>
     <div class="about-area p-3">
         <div class="container">
@@ -107,7 +116,7 @@
                 <p class="text-center">To facilitate the submission process and the subsequent follow-up process, please
                     consider the following guidelines, information, tips, terms and deadlines mentioned.</p>
                 <div class="header-btn d-flex dwld-btn">
-                    <a href="{{ asset('web/docs/Abstract Template CUSA.docx') }}" class="theme-btn mt-4">DOWNLOAD ABSTRACT TEMPLATE
+                    <a href="{{ asset('web/docs/Abstract Template CUSA.docx') }}" class="theme-btn mt-4 dnwlabstmplte">DOWNLOAD ABSTRACT TEMPLATE
                     </a>
                 </div>
             </div>

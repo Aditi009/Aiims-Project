@@ -123,7 +123,7 @@ margin-bottom:65px;
 </style>
 
 
-<div class="case-area">
+<div class="case-area pt-10">
     <div class="container">
         <div class="row">
             <div class="col-lg-6 mx-auto">

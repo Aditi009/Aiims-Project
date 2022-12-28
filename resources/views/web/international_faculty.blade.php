@@ -71,7 +71,7 @@
 
     <div class="team-area">
      
-        <div class="container">
+        <div class="container pt-10">
             <div class="row">
                 <div class="col-lg-6 mx-auto">
                     <div class="site-heading text-center">
