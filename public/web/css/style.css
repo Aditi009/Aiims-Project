@@ -233,7 +233,7 @@ marquee {
     margin-top:40px;
     width:180px;
     animation-name: calloutanim;
-    animation-duration: 4s;
+    animation-duration: 5s;
     animation-delay: 2s;
     animation-iteration-count: infinite;
 }
