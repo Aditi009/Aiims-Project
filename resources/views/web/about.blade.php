@@ -70,8 +70,9 @@
         }
 
         .my-2-card {
+            min-height:140px;
             margin: 0px 0px 0px 0px;
-            padding: 18px 64px 25px 50px;
+            padding: 35px 64px 25px 50px;
             background-color: #5698f454;
             border-radius: 25px 25px 25px 25px;
         }

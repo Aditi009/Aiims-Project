@@ -76,7 +76,7 @@
                         <p class="body-text">Organising Chairperson
                         </p>
                         <p class="body-bottom">Prof. Lokesh Kashyap</p>
-                        <p class="body-bottom">Head of Department</p>
+                        <p class="body-bottom pt-10">Head of Department</p>
                     </div>
                 </div>
             </div>

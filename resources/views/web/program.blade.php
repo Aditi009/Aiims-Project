@@ -151,7 +151,7 @@ margin-bottom:65px;
                      <img src="{{asset('web/images/ultra_prob.png')}}" alt="" srcset="">
             </div>
             <div class="col-md-2 text-center box-container box-container5">
-                <p class="animd">POCUS in Trauma</p>
+                <p class="animd" style="margin-top: 45px;">POCUS in Trauma</p>
             </div>
         </div>
 

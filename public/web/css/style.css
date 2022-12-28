@@ -232,10 +232,11 @@ marquee {
     height:180px;
     margin-top:40px;
     width:180px;
-    animation-name: calloutanim;
+    /* animation-name: calloutanim;
     animation-duration: 5s;
     animation-delay: 2s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: infinite; */
+    animation: blinker 0.9s linear infinite;
 }
 .callout img {
     height:180px;
@@ -247,4 +248,25 @@ marquee {
 @keyframes calloutanim {
   from {left: -180px;}
   to {left:0px;}
+}
+
+@keyframes blinker {
+    30% {
+        opacity: 0;
+    }
+}
+
+
+/* faculty */
+.body-bottom{
+    line-height: 19.5px;
+}
+
+.body-text{
+    margin-bottom: 10px;
+}
+
+
+.card-body{
+    padding: 0px !important;
 }

@@ -26,7 +26,7 @@
             font-size: 17px;
             margin-top: -10px;
             max-width:210 px;
-        
+       
         }
         
         @media only screen and (max-width: 600px) {}
