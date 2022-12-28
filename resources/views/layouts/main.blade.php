@@ -127,7 +127,7 @@
     </header>
 
 
-    <div class="search-popup">
+    <!-- <div class="search-popup">
         <button class="close-search"><span class="far fa-times"></span></button>
         <form action="#">
             <div class="form-group">
@@ -135,7 +135,7 @@
                 <button type="submit"><i class="far fa-search"></i></button>
             </div>
         </form>
-    </div>
+    </div> -->
 
     <main class="main">
      @yield('content')
@@ -248,7 +248,7 @@
 
     
     <!-- <script data-cfasync="false" src="{{asset('web/js/cloudflare-static-email-decode.min.js')}}"></script> -->
-    <script src="{{asset('web/js/js-jquery-3.6.0.min.js')}}"></script>
+    <!-- <script src="{{asset('web/js/js-jquery-3.6.0.min.js')}}"></script> -->
     <!-- <script src="{{asset('web/js/js-modernizr.min.js')}}"></script> -->
     <script src="{{asset('web/js/js-bootstrap.bundle.min.js')}}"></script>
     <!-- <script src="{{asset('web/js/js-imagesloaded.pkgd.min.js')}}"></script> -->
@@ -264,7 +264,7 @@
     <script>
       $(document).ready(function(){
         console.log("hii");
-        $('.mpreloader').hide(1000);
+        $('.mpreloader').hide(0);
       });
     </script>
     
