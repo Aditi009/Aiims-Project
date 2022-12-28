@@ -33,14 +33,14 @@ html, body {
   box-sizing: border-box;
 }
 
-body {
+/* body {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-size: 16px;
   font-weight: normal;
   color: black;
   line-height: 1.8;
-}
+} */
 
 a {
   color: #14212B;
@@ -156,7 +156,7 @@ label {
 preloader
 ====================== */
 
-.preloader {
+.mpreloader {
   background: #fff;
   position: fixed;
   height: 100%;

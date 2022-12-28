@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="{{asset('web/css/css-bootstrap.min.css')}}">
     <link rel="stylesheet" href="{{asset('web/css/css-all-fontawesome.min.css')}}">
     <link rel="stylesheet" href="{{asset('web/css/css-flaticon.css')}}">
-    <link rel="stylesheet" href="{{asset('web/css/css-animate.min.css')}}">
+    <!-- <link rel="stylesheet" href="{{asset('web/css/css-animate.min.css')}}"> -->
     <!-- <link rel="stylesheet" href="{{asset('web/css/css-magnific-popup.min.css')}}"> -->
     <!-- <link rel="stylesheet" href="{{asset('web/css/css-owl.carousel.min.css')}}"> -->
     <link rel="stylesheet" href="{{asset('web/css/css-style.css')}}">
@@ -36,7 +36,7 @@
 <body>
 
 
-    <div class="preloader">
+    <div class="mpreloader">
         <div class="loader">
             <div class="loader-box-1"></div>
             <div class="loader-box-2"></div>
@@ -245,44 +245,28 @@
       html = "<span><i class='far fa-calendar-alt animate-charcter'></i></span><h3 class='animate-charcter'>"+diff+" DAYS</h3>"
       $('#day_to').html(html)
   </script>
-<script>
-    $('.comming-soon').click(function(){
-        toastr.options = {
-				'closeButton': true,
-				'debug': false,
-				'newestOnTop': false,
-				'progressBar': false,
-				'positionClass': 'toast-top-right',
-				'preventDuplicates': false,
-				'showDuration': '1000',
-				'hideDuration': '1000',
-				'extendedTimeOut': '1000',
-				'showEasing': 'swing',
-				'hideEasing': 'linear',
-				'showMethod': 'fadeIn',
-				'hideMethod': 'fadeOut',
-			}
-        toastr.options.progressBar = true,
-        toastr.options.positionClass = "toast-bottom-center";
-        toastr.info('COMMING SOON')
 
-    })
-
-</script>
     
-    <script data-cfasync="false" src="{{asset('web/js/cloudflare-static-email-decode.min.js')}}"></script>
+    <!-- <script data-cfasync="false" src="{{asset('web/js/cloudflare-static-email-decode.min.js')}}"></script> -->
     <script src="{{asset('web/js/js-jquery-3.6.0.min.js')}}"></script>
-    <script src="{{asset('web/js/js-modernizr.min.js')}}"></script>
+    <!-- <script src="{{asset('web/js/js-modernizr.min.js')}}"></script> -->
     <script src="{{asset('web/js/js-bootstrap.bundle.min.js')}}"></script>
-    <script src="{{asset('web/js/js-imagesloaded.pkgd.min.js')}}"></script>
-    <script src="{{asset('web/js/js-jquery.magnific-popup.min.js')}}"></script>
-    <script src="{{asset('web/js/js-isotope.pkgd.min.js')}}"></script>
-    <script src="{{asset('web/js/js-jquery.appear.min.js')}}"></script>
-    <script src="{{asset('web/js/js-jquery.easing.min.js')}}"></script>
-    <script src="{{asset('web/js/js-owl.carousel.min.js')}}"></script>
-    <script src="{{asset('web/js/js-counter-up.js')}}"></script>
-    <script src="{{asset('web/js/js-wow.min.js')}}"></script>
-    <script src="{{asset('web/js/js-main.js')}}"></script>
+    <!-- <script src="{{asset('web/js/js-imagesloaded.pkgd.min.js')}}"></script> -->
+    <!-- <script src="{{asset('web/js/js-jquery.magnific-popup.min.js')}}"></script> -->
+    <!-- <script src="{{asset('web/js/js-isotope.pkgd.min.js')}}"></script> -->
+    <!-- <script src="{{asset('web/js/js-jquery.appear.min.js')}}"></script> -->
+    <!-- <script src="{{asset('web/js/js-jquery.easing.min.js')}}"></script> -->
+    <!-- <script src="{{asset('web/js/js-owl.carousel.min.js')}}"></script> -->
+    <!-- <script src="{{asset('web/js/js-counter-up.js')}}"></script> -->
+    <!-- <script src="{{asset('web/js/js-wow.min.js')}}"></script> -->
+    <!-- <script src="{{asset('web/js/js-main.js')}}"></script> -->
+
+    <script>
+      $(document).ready(function(){
+        console.log("hii");
+        $('.mpreloader').hide(1000);
+      });
+    </script>
     
 </body>
 
